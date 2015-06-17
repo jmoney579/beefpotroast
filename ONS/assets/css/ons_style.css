@@ -111,3 +111,12 @@ nav {
 .container.marketing {
     margin-top: 25px;
 }
+.homename, .calname, .statname, .filename, .empname, .servname, .translate{
+	visibility: hidden;
+	    left: 58px;
+    position: absolute;
+    top: 8px;
+	}
+.show{
+	visibility: visible;
+	}
