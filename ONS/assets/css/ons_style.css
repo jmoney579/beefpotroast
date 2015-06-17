@@ -1,0 +1,113 @@
+@CHARSET "US-ASCII";
+
+/********************************************************************************
+*   Office of Newcomers Services                                                *
+*   Designed and Developed by Jacques Walker                                    *
+*   Copyright 2015                                                              *
+********************************************************************************/
+
+/*Imports*/
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
+
+/*New Styles*/
+
+
+/*Style Overrides*/
+body{
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+	}
+header {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    position: absolute;
+    right: 14px;
+    text-transform: uppercase;
+    z-index: 1;
+	line-height: 18px;
+	top: 10px;
+	text-align: right;
+	font-family: Helvetica, Arial, sans-serif;
+}
+header small{	
+	font-size: 15px;
+	font-weight: normal;
+	}
+nav {
+    left: 0px;
+    position: absolute !important;
+	}
+.nav hr{
+	margin: 3px 5px;
+	color: #ccc !important;
+	border-style: inset;
+	}
+.navbar-brand{
+	float: none;
+	padding: 0;
+	}
+.navbar-brand img{
+	width: 48px;
+	padding-bottom: 6px;
+	}
+.navbar-wrapper{
+	margin-top: 0;
+	}
+.navbar-inverse{
+	color: #FFF;
+	background: url('../img/nav_back.png') center center repeat transparent;
+	border-bottom: none;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	}
+.navbar-inverse .navbar-nav  li  a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav  li  a:hover{
+    background-color: #000;
+}
+.dropdown-menu a {
+    color: #000 !important;
+}
+.navbar-nav > li {
+    float: none;
+}
+.navbar-nav li a{
+	padding: 3px 0 3px 11px;
+	margin-bottom: 3px;
+	}
+.navbar-wrapper .navbar {
+    border-radius: 0px;
+}
+.navbar-wrapper .container {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.carousel-caption{
+	width: 100%;
+	text-align: left;
+	background: url('../img/page_title.png') repeat center center transparent;
+	left: 0;
+	padding-left: 25px;
+	bottom: 0;
+	text-shadow: none;
+	font-weight: lighter;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	border-top: 2px solid #dfdfdf;
+	}
+.carousel-caption h1{
+	line-height: 26px;
+	}
+.carousel-caption h1 small{
+	color: #FFF;
+	text-transform: capitalize;
+	}
+.img1{
+	background: url('../../images/congo_refugee.jpg') center center no-repeat transparent;
+	background-size: cover;
+	}
+.container.marketing {
+    margin-top: 25px;
+}
