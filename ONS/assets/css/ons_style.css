@@ -97,6 +97,10 @@ nav {
 .dropdown-toggle, .servname {
     height: 43px;
 }
+.carousel .item {
+    /*height: 100vh;*/
+	height: 540px;
+}
 .carousel-caption{
 	width: 100%;
 	text-align: left;
@@ -152,6 +156,36 @@ nav {
 	font-size: 28px;
     padding: 5px 0;
 	}
+/* CSS for upcoming events */
+.event{
+	clear: both;
+	padding: 20px 0;
+	}
+.col-sm-4 div.event:first-of-type{
+	padding-top: 0;
+	}
+.date {
+    width: 48px;
+	margin-right: 7px;
+	font-size: 18px;
+}
+.event_title{
+	width: 81%;
+	text-transform: uppercase;
+	font-size: 18px;
+	}
+.month{
+	color: #FFF;
+	background-color: #474747;
+	text-align: center;
+	text-transform: uppercase;
+	}
+.day{
+	color: #FFF;
+	background-color: #ed1c24;
+	text-align: center;
+	}
+/* CSS for RSS Reader */
 .fa-rss{
 	color: #ef6500;
 	}
@@ -159,4 +193,29 @@ nav {
     list-style: outside none none;
     margin-left: -39px;
     padding-left: 0;
+	}
+.vdss_shoutout{
+	background-color: #000;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 40px;
+	border-top: 3px solid #2882C8;
+	}
+.vdss_shoutout a{	
+	color: #FFF;
+	display: block;
+    padding-top: 4px;
+	}
+.vdss_shoutout a:hover{
+	color: #CCC;
+	text-decoration: none;
+	}
+.vdss_shoutout img{
+	margin: 2px 8px 5px;
+	}
+footer{
+	height: 200px;
+	background: url('../img/footer.jpg') center top repeat-x transparent;
+	padding-top: 30px;
 	}
