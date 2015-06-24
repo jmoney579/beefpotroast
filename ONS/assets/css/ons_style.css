@@ -22,8 +22,8 @@ header {
     color: #fff;
     font-size: 30px;
     font-weight: bolder;
-    position: absolute;
-    right: 14px;
+    padding-right: 14px;
+    position: relative;
     text-transform: uppercase;
     z-index: 1;
 	line-height: 18px;
@@ -128,6 +128,10 @@ nav {
 	}
 .img1{
 	background: url('../../images/congo_refugee.jpg') center center no-repeat transparent;
+	background-size: cover;
+	}
+.img2{
+	background: url('../../images/eastern_chad_refugee.jpg') center center no-repeat transparent;
 	background-size: cover;
 	}
 .container.marketing {
@@ -286,6 +290,45 @@ footer{
 	background: url('../img/footer.jpg') center top repeat-x transparent;
 	padding-top: 30px;
 	}
+/* Interior Page Mods */
+.interior .carousel-caption h1 small {
+	text-transform: none;
+}
+.interior .carousel .item {
+    /*height: 100vh;*/
+	height: 400px;
+}
+.interior header{	
+	left: 14px;
+	position: absolute;
+	text-align: left;
+}
+.interior nav{
+	top: 60px;
+}
+.interior .navbar-nav > li {
+    float: left;
+}
+.interior .navbar-nav li a {
+    margin-bottom: 0;
+    padding: 14px 7px 14px 9px;
+}
+.interior .navbar-wrapper .navbar .container {
+    width: 375px;
+}
+.interior .navbar-brand > img {
+    display: block;
+    float: left;
+    margin: 4px 4px 0;
+}
+.interior .navbar-inverse {
+    border-bottom: none;
+    border-right: none;
+}
+.interior .homename, .interior .calname, .interior .statname, .interior .filename, .interior .empname, .interior .servname, .interior .translate {
+	left: 0;
+	top: 57px;
+}
 /* Media Queries */
 @media (max-width: 766px){
 	.event:last-of-type{
@@ -301,6 +344,9 @@ footer{
 	}
 	.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{	
 		background-color: #2882c8;
+	}
+	ul.nav li a{
+		padding-left: 25px;
 	}
 	.icon-bar {
 		margin-left: 10px;
