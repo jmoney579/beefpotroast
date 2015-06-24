@@ -8,6 +8,7 @@
 
 /*Imports*/
 @import url(http://fonts.googleapis.com/css?family=Muli:300);
+@import "back_to_top.css";
 
 /*New Styles*/
 
@@ -161,6 +162,9 @@ nav {
 	clear: both;
 	padding: 20px 0;
 	}
+.event a:hover{
+	text-decoration: none;
+	}
 .col-sm-4 div.event:first-of-type{
 	padding-top: 0;
 	}
@@ -213,6 +217,63 @@ nav {
 	}
 .vdss_shoutout img{
 	margin: 2px 8px 5px;
+	}
+.soc_media {
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 340px;
+}
+.soc_media .fa-rss{
+	color: #FFF;
+	font-size: 2.6em;
+	padding-top: 8px;
+	}
+.soc_media .fa-rss:hover{
+	color: #ef6500;
+	}
+.soc_media a{
+	color: #FFF;
+	padding: 0 20px;
+	}
+.soc_media i.fa-facebook{
+	background-color: #9a9a9a;
+	
+	}
+.soc_media a i.fa-facebook:hover{
+	color: #3c5a99;
+	}
+.soc_icon{
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    display: block;
+	float: left;
+	margin: 0 20px;
+	}
+a.facebook {
+    background: transparent url('../../images/facebook.png') no-repeat scroll center center;
+	}
+a.facebook:hover{	
+	background-image: url('../../images/facebook_color.png');
+	}
+a.twitter {
+    background: transparent url('../../images/twitter.png') no-repeat scroll center center;
+	}
+a.twitter:hover{	
+	background-image: url('../../images/twitter_color.png');
+	}
+a.youtube {
+    background: transparent url('../../images/youtube.png') no-repeat scroll center center;
+	}
+a.youtube:hover{	
+	background-image: url('../../images/youtube_color.png');
+	}
+.footer_break{
+	border-top: 1px solid #404040;
+	width: 80%;
 	}
 footer{
 	height: 200px;
