@@ -196,6 +196,9 @@ nav {
 	background-color: #ed1c24;
 	text-align: center;
 	}
+.sorthead{
+	cursor: pointer;
+	}
 /* CSS for RSS Reader */
 .fa-rss{
 	color: #ef6500;
@@ -329,6 +332,12 @@ footer{
 	left: 0;
 	top: 57px;
 }
+.interior .dropdown-toggle {
+    height: 57px;
+}
+.interior .dropdown-menu{
+	top: 91px;
+	}
 /* Media Queries */
 @media (max-width: 766px){
 	.event:last-of-type{
@@ -355,7 +364,6 @@ footer{
 		background-color: #000;
 		clear: both;
 		display: block;
-		margin-right: -13px;
 		margin-top: -10px;
 		padding: 13px 12px;
 		border-bottom: 3px solid #2882c8;
@@ -378,7 +386,6 @@ footer{
 		clear: both;
 		display: block;
 		line-height: 29px;
-		margin-right: -13px;
 		margin-top: -10px;
 		padding: 13px 12px;
 		border-bottom: 3px solid #2882c8;
