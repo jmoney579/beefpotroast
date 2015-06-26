@@ -199,6 +199,15 @@ nav {
 .sorthead{
 	cursor: pointer;
 	}
+.ng_table{
+	border: 2px solid #959595;
+	padding-top: 15px;
+	}
+.input-group-addon {
+    background-color: #006699;
+    border: 1px solid #006699;
+    color: #fff;
+}
 /* CSS for RSS Reader */
 .fa-rss{
 	color: #ef6500;
@@ -317,12 +326,15 @@ footer{
     padding: 14px 7px 14px 9px;
 }
 .interior .navbar-wrapper .navbar .container {
-    width: 375px;
+    width: 372px;
 }
 .interior .navbar-brand > img {
     display: block;
     float: left;
     margin: 4px 4px 0;
+}
+.interior .navbar-wrapper .navbar .container {
+	padding-right: 0;
 }
 .interior .navbar-inverse {
     border-bottom: none;
@@ -338,10 +350,16 @@ footer{
 .interior .dropdown-menu{
 	top: 91px;
 	}
+.interior .trans > a > i {
+    padding: 0 5px;
+}
 /* Media Queries */
 @media (max-width: 766px){
 	.event:last-of-type{
 		margin-bottom: 40px;
+	}
+	.interior nav{
+		top: 0;
 	}
 	.navbar-toggle{
 		float: none;
@@ -368,6 +386,9 @@ footer{
 		padding: 13px 12px;
 		border-bottom: 3px solid #2882c8;
 		width: 100%;
+	}
+	.interior header{
+		left: 0;
 	}
 	header small{	
 		display: block;
