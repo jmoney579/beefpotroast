@@ -37,10 +37,10 @@
   
 	// create the list of agencies 
 		$scope.agency = [
-			{ name: 'Arlington Office', address: '80 North Glebe Road Arlington, VA 22203', phone: '(703) 841-6507' },
-			{ name: 'Richmond Office', address: '3314 N. Parham Road, Suite B Richmond, VA 23294', phone: '(804) 658-5279' },
-			{ name: 'Fredericksburg Office', address: '325 Wallace Street Fredericksburg, VA 22405', phone: '(540) 899-6507' },
-			{ name: 'Harrisonburg Office', address: '250 East Elizabeth Street, Suite 109 Harrisonburg, VA 22802', phone: '(540) 433-7942' }
+			{ name: 'Arlington Office', address: '80 North Glebe Road Arlington, VA 22203', contact: 'Joe Brown', phone: '(703) 841-6507' },
+			{ name: 'Richmond Office', address: '3314 N. Parham Road, Suite B Richmond, VA 23294', contact: 'Jim Taylor', phone: '(804) 658-5279' },
+			{ name: 'Fredericksburg Office', address: '325 Wallace Street Fredericksburg, VA 22405', contact: 'Rose Williams', phone: '(540) 899-6507' },
+			{ name: 'Harrisonburg Office', address: '250 East Elizabeth Street, Suite 109 Harrisonburg, VA 22802', contact: 'Stacey James', phone: '(540) 433-7942' }
 		];
   
 	});
@@ -205,6 +205,13 @@
             <span ng-show="sortType == 'address' && sortReverse" class="fa fa-caret-up"></span>
           </a>
         </td>
+		<td>
+          <a class="sorthead" ng-click="sortType = 'contact'; sortReverse = !sortReverse">
+          Primary Contact
+            <span ng-show="sortType == 'contact' && !sortReverse" class="fa fa-caret-down"></span>
+            <span ng-show="sortType == 'contact' && sortReverse" class="fa fa-caret-up"></span>
+          </a>
+        </td>
         <td>
           <a class="sorthead" ng-click="sortType = 'phone'; sortReverse = !sortReverse">
           Phone Number
@@ -219,6 +226,7 @@
       <tr ng-repeat="roll in agency | orderBy:sortType:sortReverse | filter:searchAgency">
         <td>{{ roll.name }}</td>
         <td>{{ roll.address }}</td>
+		<td>{{ roll.contact }}</td>
         <td>{{ roll.phone }}</td>
       </tr>
     </tbody>
