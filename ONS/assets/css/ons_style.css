@@ -104,7 +104,7 @@ nav {
 }
 .carousel .item {
     /*height: 100vh;*/
-	height: 540px;
+	height: 563px;
 }
 .carousel-caption{
 	width: 100%;
@@ -139,7 +139,7 @@ nav {
     margin-top: 25px;
 }
 /* CSS for nav popouts */
-.homename, .aboutname, .servname, .agencyname, .calname, .statname, .termname, .contactname,  .translate{
+.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname,  .translate{
     background: transparent url("../img/popout.png") repeat scroll center center;
     color: #fff;
     height: 35px;
@@ -345,7 +345,7 @@ footer{
     padding: 14px 7px 14px 9px;
 }
 .interior .navbar-wrapper .navbar .container {
-    width: 470px;
+    width: 500px;
 }
 .interior .navbar-brand > img {
     display: block;
@@ -360,7 +360,7 @@ footer{
     border-right: none;
 }
 
-.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate{
+.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate{
 	left: 0;
 	top: 57px;
 }
@@ -456,7 +456,7 @@ footer{
 	.navbar-wrapper {
 		top: 68px;
 	}
-	.homename, .calname, .statname, .filename, .empname, .servname, .translate, .show {
+	.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname, .translate, .show {
 		display: none !important;
 	}
 }

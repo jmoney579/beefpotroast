@@ -31,6 +31,14 @@
 					$('.agencyname').removeClass("show");
 				}
 			);
+			$('.resource').hover(
+				function(){
+					$('.resourcename').addClass("show");
+				},
+				function(){
+					$('.resourcename').removeClass("show");
+				}
+			);
 			$('.cal').hover(
 				function(){
 					$('.calname').addClass("show");
