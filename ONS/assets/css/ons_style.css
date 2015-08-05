@@ -23,7 +23,7 @@ header {
     font-size: 30px;
     font-weight: bolder;
     padding-right: 14px;
-    position: relative;
+    position: absolute;
     text-transform: uppercase;
     z-index: 1;
 	line-height: 18px;
@@ -31,6 +31,7 @@ header {
 	text-align: right;
 	font-family: Helvetica, Arial, sans-serif;
 	min-width: 375px;
+	right: 0px;
 }
 header small{	
 	font-size: 15px;
@@ -138,7 +139,7 @@ nav {
     margin-top: 25px;
 }
 /* CSS for nav popouts */
-.homename, .calname, .statname, .filename, .empname, .servname, .translate{
+.homename, .aboutname, .servname, .agencyname, .calname, .statname, .termname, .contactname,  .translate{
     background: transparent url("../img/popout.png") repeat scroll center center;
     color: #fff;
     height: 35px;
@@ -154,6 +155,12 @@ nav {
 	}
 .show{
 	opacity: 1;
+	}
+.tall{
+	height: 43px;
+	}
+.long{
+	width: 230px;
 	}
 /* End CSS for nav popouts */
 .home_head{
@@ -224,6 +231,7 @@ nav {
 	font-size: 20px;
 	margin-top: 40px;
 	border-top: 3px solid #2882C8;
+	padding-bottom: 2px;
 	}
 .vdss_shoutout a{	
 	color: #FFF;
@@ -236,7 +244,13 @@ nav {
 	}
 .vdss_shoutout img{
 	margin: 2px 8px 5px;
+	width: 59px;
 	}
+.vdss_shoutout .col-md-11 > p {
+    font-size: 15px;
+    font-style: italic;
+    text-transform: none;
+}
 .soc_media {
     clear: both;
     display: block;
@@ -294,6 +308,11 @@ a.youtube:hover{
 	border-top: 1px solid #404040;
 	width: 80%;
 	}
+.vdss_break{
+	width: 97%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	}
 footer p{
 	text-align: center;
 	}
@@ -326,7 +345,7 @@ footer{
     padding: 14px 7px 14px 9px;
 }
 .interior .navbar-wrapper .navbar .container {
-    width: 372px;
+    width: 470px;
 }
 .interior .navbar-brand > img {
     display: block;
@@ -340,7 +359,8 @@ footer{
     border-bottom: none;
     border-right: none;
 }
-.interior .homename, .interior .calname, .interior .statname, .interior .filename, .interior .empname, .interior .servname, .interior .translate {
+
+.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate{
 	left: 0;
 	top: 57px;
 }
@@ -354,7 +374,12 @@ footer{
     padding: 0 5px;
 }
 /* Media Queries */
-@media (max-width: 766px){
+@media (max-width: 991px){
+	.vdss_break{	
+		display: none;
+		}
+}
+@media (max-width: 767px){
 	.event:last-of-type{
 		margin-bottom: 40px;
 	}
@@ -363,6 +388,12 @@ footer{
 	}
 	.interior .navbar-brand > img {
 		margin: 4px 9px 0;
+	}
+	.navbar-brand img {
+		margin-left: 15px;
+	}
+	.navbar-nav {
+		margin: 7.5px -15px 7.5px 2px;
 	}
 	.navbar-toggle{
 		float: none;
@@ -394,6 +425,12 @@ footer{
 	.interior .navbar-wrapper .navbar .container {
 		width: 41px;
 	}
+	.navbar-nav .open .dropdown-menu {
+    background-color: #fff;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+	color: #ccc;
+	}
 	ul.nav li a{
 		padding-left: 25px;
 	}
@@ -423,7 +460,7 @@ footer{
 		display: none !important;
 	}
 }
-@media (max-width: 540px){
+@media (max-width: 550px){
 	header{
 		background-color: #000;
 		clear: both;
@@ -440,11 +477,11 @@ footer{
 	.navbar-wrapper {
     top: 108px;
 	}
-	.vdss_shoutout {
+	/*.vdss_shoutout {
 		padding-bottom: 24px;
 		line-height: 3px;
 		text-align: right;
-	}
+	}*/
 	.carousel-caption h1 {
 		line-height: 30px;
 	}

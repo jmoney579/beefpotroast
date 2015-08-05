@@ -55,22 +55,35 @@
 			<a class="navbar-brand" href="/index.html" title="Office of Newcomers Services"><img src="images/ons_logo.png" alt="Office of Newcomers Services Logo"/></a>
               <ul class="nav navbar-nav">
                 <li class="active home"><a href="#"><i class="fa fa-home fa-2x "></i><div class="homename">Home</div></a></li>
-                <li class="cal"><a href="#about"><i class="fa fa-calendar fa-2x"></i><div class="calname">Events</div></a></li>
-                <li class="stat"><a href="#contact"><i class="fa fa-bar-chart fa-2x"></i><div class="statname">Statistics</div></a></li>
-				<li class="file"><a href="#contact"><i class="fa fa-file-o fa-2x"></i><div class="filename">White Papers</div></a></li>
-                <li class="dropdown serv">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-group fa-2x"></i><span class="caret"></span><div class="servname">Services</div></a></a>
+				<li class="about"><a href="#"><i class="fa fa-info-circle fa-2x "></i><div class="aboutname">About</div></a></li>
+				<li class="dropdown serv">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-group fa-2x"></i><span class="caret"></span><div class="servname tall">Services</div></a></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#">Refugee Employment Services</a></li>
+                    <li><a href="#">Refugee Cash & Medical Assistance</a></li>
+                    <li><a href="#">Medical Screening</a></li>
+                    <li><a href="#">Repatriation Program</a></li>
+                    <li><a href="#">Unaccompanied Refugee Minors</a></li>
+					<li><a href="#">Special Projects</a></li>
                   </ul>
                 </li>
-				<li class="emp"><a href="agency/index.html"><i class="fa fa-thumbs-up fa-2x"></i><div class="empname">Resettlement Agencies</div></a></a></li>
+				<li class="agency"><a href="agency/index.html"><i class="fa fa-building fa-2x"></i><div class="agencyname long">Virginia Resettlement Agencies</div></a></a></li>                
+				<li class="cal"><a href="#about"><i class="fa fa-calendar fa-2x"></i><div class="calname">Training & Events</div></a></li>
+                <li class="dropdown stat">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-bar-chart fa-2x"></i><span class="caret"></span><div class="statname tall">Research & Statistics</div></a>
+				   <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Annual Reports</a></li>
+                    <li><a href="#">Virginia Refugee Arrival Map</a></li>
+                    <li><a href="#">Statistics</a></li>
+                    <li><a href="#">White Papers</a></li>
+                    <li><a href="#">Other Reports</a>
+						<ul><li><a href="#">Special Projects</a></li></ul>
+					</li>
+                  </ul>				
+				</li>
+				<li class="term"><a href="#contact"><i class="fa fa-file-o fa-2x"></i><div class="termname">Glossary or Terms</div></a></li>
+				<li class="contact"><a href="#contact"><i class="fa fa-phone fa-2x"></i><div class="contactname">Contact Information</div></a></li>
+				
 				<hr/>
 				<li class="trans"><a href="#contact"><i class="fa fa-google fa-2x"></i><div class="translate">
 				<div id="google_translate_element"></div>
@@ -152,11 +165,7 @@
       <div class="row">
         <div class="col-sm-4">
           <h2 class="home_head">About the Program</h2>
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-			<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
-			<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</p>
-			<p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
-			<p>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</p>
+			<p>The goal of Virginia's Refugee Resettlement Program is to help refugees and their families gain economic self-sufficiency and social integration into their communities. The Virginia Department of Social Services' Office of Newcomer Services (ONS) is responsible for administering the Virginia's Refugee Resettlement Program.</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-sm-4">
           <h2 class="home_head">Upcoming Events</h2>
@@ -192,12 +201,18 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 	</article>
-	<div class="col-md-12 vdss_shoutout"><a href="http://www.dss.virginia.gov"><img src="images/vdss_logo_thumb.png" alt="VDSS Logo"/>Virginia Department of Social Services</a></div>
+	<div class="col-md-12 vdss_shoutout">
+		<div class="col-md-1 pull-left"><a href="http://www.dss.virginia.gov"><img src="images/vdss_logo_thumb.png" alt="VDSS Logo"/></a></div>
+		<div class="col-md-11"><a href="http://www.dss.virginia.gov">Virginia Department of Social Services</a>
+			<hr class=" pull-left footer_break vdss_break">
+			<p>People helping people triumph over poverty, abuse and neglect to shape strong futures for themselves, their families and communities</p>
+		</div>
+	</div>
       <!-- FOOTER -->
       <footer class="col-md-12">
 		<div class="soc_media">
 			<a href="#" title="ONS Facebook Page" class="soc_icon facebook">ONS Facebook</a>
-			<a href="#" title="ONS Facebook Page" class="soc_icon twitter">ONS Twitter</a>
+			<a href="#" title="ONS Twitter Page" class="soc_icon twitter">ONS Twitter</a>
 			<a href="#" title="ONS YouTube Page" class="soc_icon youtube">ONS YouTube</a>
 			<a href="#" title="ONS RSS Page"><i class="fa fa-3x fa-rss"></i></a>
 		</div>

@@ -7,6 +7,30 @@
 					$('.homename').removeClass("show");
 				}
 			);
+			$('.about').hover(
+				function(){
+					$('.aboutname').addClass("show");
+				},
+				function(){
+					$('.aboutname').removeClass("show");
+				}
+			);
+			$('.serv').hover(
+				function(){
+					$('.servname').addClass("show");
+				},
+				function(){
+					$('.servname').removeClass("show");
+				}
+			);
+			$('.agency').hover(
+				function(){
+					$('.agencyname').addClass("show");
+				},
+				function(){
+					$('.agencyname').removeClass("show");
+				}
+			);
 			$('.cal').hover(
 				function(){
 					$('.calname').addClass("show");
@@ -23,31 +47,24 @@
 					$('.statname').removeClass("show");
 				}
 			);
-			$('.file').hover(
+			$('.term').hover(
 				function(){
-					$('.filename').addClass("show");
+					$('.termname').addClass("show");
 				},
 				function(){
-					$('.filename').removeClass("show");
+					$('.termname').removeClass("show");
 				}
 			);
-				$('.emp').hover(
+			$('.contact').hover(
 				function(){
-					$('.empname').addClass("show");
+					$('.contactname').addClass("show");
 				},
 				function(){
-					$('.empname').removeClass("show");
+					$('.contactname').removeClass("show");
 				}
 			);
-				$('.serv').hover(
-				function(){
-					$('.servname').addClass("show");
-				},
-				function(){
-					$('.servname').removeClass("show");
-				}
-			);
-				$('.trans').hover(
+
+			$('.trans').hover(
 				function(){
 					$('.translate').addClass("show");
 				},
