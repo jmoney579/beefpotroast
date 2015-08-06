@@ -121,11 +121,22 @@ nav {
 	border-top: 2px solid #dfdfdf;
 	}
 .carousel-caption h1{
-	line-height: 26px;
+	line-height: 29px;
 	}
 .carousel-caption h1 small{
 	color: #FFF;
 	text-transform: capitalize;
+	}
+.quicklinks{
+	margin-top: 20px;
+	}
+.quicklinks a{
+	color: #fbd950;
+	padding-right: 16px;
+	}
+.quicklinks a:hover{
+	color: #CCC;
+	text-decoration: none;
 	}
 .img1{
 	background: url('../../images/congo_refugee.jpg') center center no-repeat transparent;
