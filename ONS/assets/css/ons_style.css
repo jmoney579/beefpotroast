@@ -41,6 +41,13 @@ nav {
     left: 0px;
     position: absolute !important;
 	}
+table thead td{
+	background-color: #337ab7;
+	color: #FFF;
+	}
+table thead tr{
+	border: 2px solid #337ab7;
+	}
 .nav hr{
 	margin: 3px 5px;
 	color: #ccc !important;
@@ -146,6 +153,10 @@ nav {
 	background: url('../../images/eastern_chad_refugee.jpg') center center no-repeat transparent;
 	background-size: cover;
 	}
+.img3{
+	background: url('../../images/handshake.jpg') center center no-repeat transparent;
+	background-size: cover;
+	}
 .container.marketing {
     margin-top: 25px;
 }
@@ -216,6 +227,11 @@ nav {
 	}
 .sorthead{
 	cursor: pointer;
+	color: #FFF;
+	}
+a:hover.sorthead{
+	color: #CCC;
+	text-decoration: none;
 	}
 .ng_table{
 	border: 2px solid #959595;
@@ -480,13 +496,16 @@ footer{
 		margin-top: -10px;
 		padding: 13px 12px;
 		border-bottom: 3px solid #2882c8;
+		font-size: 21px;
+		padding-top: 0px;
 	}
 	header small{	
 		display: block;
 		line-height: 21px;
+		font-size: 59%;
 	}
 	.navbar-wrapper {
-    top: 108px;
+    top: 66px;
 	}
 	/*.vdss_shoutout {
 		padding-bottom: 24px;
@@ -495,6 +514,7 @@ footer{
 	}*/
 	.carousel-caption h1 {
 		line-height: 30px;
+		font-size: 31px;
 	}
 }
 @media (max-width: 499px){
