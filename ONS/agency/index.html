@@ -89,7 +89,7 @@
                   </ul>
                 </li>
 				<li class="agency"><a href="agency/index.html"><i class="fa fa-building fa-2x"></i><div class="agencyname long">Virginia Resettlement Agencies</div></a></a></li>                
-				<li class="resource"><a href="#about"><i class="fa fa-book fa-2x"></i><div class="resourcename">National Resources</div></a></li>
+				<li class="resource"><a href="http://www.acf.hhs.gov/programs/orr/resource-library"><i class="fa fa-book fa-2x"></i><div class="resourcename">National Resources</div></a></li>
 				<li class="cal"><a href="#about"><i class="fa fa-calendar fa-2x"></i><div class="calname">Training & Events</div></a></li>
                 <li class="dropdown stat">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-bar-chart fa-2x"></i><span class="caret"></span><div class="statname">Research & Statistics</div></a>
@@ -188,73 +188,67 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-sm-12">
-          <h2 class="home_head">National Agencies</h2>
+          <h2 class="home_head">Virginia Refugee Resettlement Service Providers</h2>
+			<div class="ng_table container" ng-app="sortApp" ng-controller="mainController">
+				  <form>
+					<div class="form-group">
+					  <div class="input-group">
+						<div class="input-group-addon"><i class="fa fa-search"></i></div>
+						<input type="text" class="form-control" placeholder="Search Resettlement Service Providers" ng-model="searchAgency">
+					  </div>      
+					</div>
+				  </form>
+				  
+				  <table class="table table-bordered table-striped">
+					
+					<thead>
+					  <tr>
+						<td>
+						  <a class="sorthead" ng-click="sortType = 'name'; sortReverse = !sortReverse">
+							Agency Name
+							<span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
+							<span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
+						  </a>
+						</td>
+						<td>
+						  <a class="sorthead" ng-click="sortType = 'address'; sortReverse = !sortReverse">
+						  Agency Address 
+							<span ng-show="sortType == 'address' && !sortReverse" class="fa fa-caret-down"></span>
+							<span ng-show="sortType == 'address' && sortReverse" class="fa fa-caret-up"></span>
+						  </a>
+						</td>
+						<td>
+						  <a class="sorthead" ng-click="sortType = 'contact'; sortReverse = !sortReverse">
+						  Primary Contact
+							<span ng-show="sortType == 'contact' && !sortReverse" class="fa fa-caret-down"></span>
+							<span ng-show="sortType == 'contact' && sortReverse" class="fa fa-caret-up"></span>
+						  </a>
+						</td>
+						<td>
+						  <a class="sorthead" ng-click="sortType = 'phone'; sortReverse = !sortReverse">
+						  Phone Number
+							<span ng-show="sortType == 'phone' && !sortReverse" class="fa fa-caret-down"></span>
+							<span ng-show="sortType == 'phone' && sortReverse" class="fa fa-caret-up"></span>
+						  </a>
+						</td>
+					  </tr>
+					</thead>
+					
+					<tbody>
+					  <tr ng-repeat="roll in agency | orderBy:sortType:sortReverse | filter:searchAgency">
+						<td>{{ roll.name }}</td>
+						<td>{{ roll.address }}</td>
+						<td>{{ roll.contact }}</td>
+						<td>{{ roll.phone }}</td>
+					  </tr>
+					</tbody>
+					
+				  </table>
+				  
+			</div>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque <a href="#" title="A test link">aliquet nibh nec</a> urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
 			<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.</p>
 			<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
-        
-
-<div class="ng_table container" ng-app="sortApp" ng-controller="mainController">
-  
-  <form>
-    <div class="form-group">
-      <div class="input-group">
-        <div class="input-group-addon"><i class="fa fa-search"></i></div>
-        <input type="text" class="form-control" placeholder="Search Resettlement Service Providers" ng-model="searchAgency">
-      </div>      
-    </div>
-  </form>
-  
-  <table class="table table-bordered table-striped">
-    
-    <thead>
-      <tr>
-        <td>
-          <a class="sorthead" ng-click="sortType = 'name'; sortReverse = !sortReverse">
-            Agency Name
-            <span ng-show="sortType == 'name' && !sortReverse" class="fa fa-caret-down"></span>
-            <span ng-show="sortType == 'name' && sortReverse" class="fa fa-caret-up"></span>
-          </a>
-        </td>
-        <td>
-          <a class="sorthead" ng-click="sortType = 'address'; sortReverse = !sortReverse">
-          Agency Address 
-            <span ng-show="sortType == 'address' && !sortReverse" class="fa fa-caret-down"></span>
-            <span ng-show="sortType == 'address' && sortReverse" class="fa fa-caret-up"></span>
-          </a>
-        </td>
-		<td>
-          <a class="sorthead" ng-click="sortType = 'contact'; sortReverse = !sortReverse">
-          Primary Contact
-            <span ng-show="sortType == 'contact' && !sortReverse" class="fa fa-caret-down"></span>
-            <span ng-show="sortType == 'contact' && sortReverse" class="fa fa-caret-up"></span>
-          </a>
-        </td>
-        <td>
-          <a class="sorthead" ng-click="sortType = 'phone'; sortReverse = !sortReverse">
-          Phone Number
-            <span ng-show="sortType == 'phone' && !sortReverse" class="fa fa-caret-down"></span>
-            <span ng-show="sortType == 'phone' && sortReverse" class="fa fa-caret-up"></span>
-          </a>
-        </td>
-      </tr>
-    </thead>
-    
-    <tbody>
-      <tr ng-repeat="roll in agency | orderBy:sortType:sortReverse | filter:searchAgency">
-        <td>{{ roll.name }}</td>
-        <td>{{ roll.address }}</td>
-		<td>{{ roll.contact }}</td>
-        <td>{{ roll.phone }}</td>
-      </tr>
-    </tbody>
-    
-  </table>
-  
-</div>
-
-
-		
 		</div>
       </div><!-- /.row -->
 	</article>
