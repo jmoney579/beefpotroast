@@ -59,7 +59,7 @@
 				<li class="dropdown serv">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-group fa-2x"></i><span class="caret"></span><div class="servname tall">Services</div></a></a>
                   <ul class="dropdown-menu" role="menu">
-					<li><a href="services/index.html">General Services</a></li>
+					<li><a href="services/index.html">Refugee Services</a></li>
                     <li><a href="#">Refugee Employment Services</a></li>
                     <li><a href="#">Refugee Cash & Medical Assistance</a></li>
                     <li><a href="#">Medical Screening</a></li>
@@ -124,7 +124,7 @@
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
 					<div class="col-sm-5 pull-left quicklinks">Are you looking for...<br/>
 						<hr class="vdss_break pull-left"/>
-						<small><a href="#">Refugee Services</a> <a href="services/index.html">General Services</a> <a href="events/index.html">Upcoming Events</a></small>
+						<small><a href="services/index.html">Refugee Services</a> <a href="about/index.html">General Information</a> <a href="events/index.html">Upcoming Events</a></small>
 					</div>
 			</div>
           </div>
@@ -175,34 +175,35 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-sm-4">
           <h2 class="home_head">Upcoming Events</h2>
-		  <div class="event">
+		  <!--<div class="event">
           <div class="date pull-left"><div class="month">May</div><div class="day">17</div></div>
 		  <div class="event_title pull-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
 		  </div>
-		  <!----->
+
 		  <div class="event">
 		  <div class="date pull-left"><div class="month">May</div><div class="day">29</div></div>
 		  <div class="event_title pull-left"><a href="#">Aliquam tincidunt mauris eu risus.</a></div>
 		  </div>
-		  <!----->
+
 		  <div class="event">
 		  <div class="date pull-left"><div class="month">Jun</div><div class="day">6</div></div>
 		  <div class="event_title pull-left">Vestibulum auctor dapibus neque.</div>
 		  </div>
-		  <!----->
+
 		  <div class="event">
 		  <div class="date pull-left"><div class="month">Jun</div><div class="day">22</div></div>
 		  <div class="event_title pull-left"><a href="#">Cras ornare tristique elit.</a></div>
 		  </div>
-		  <!----->
+
 		  <div class="event">
 		  <div class="date pull-left"><div class="month">Jul</div><div class="day">4</div></div>
 		  <div class="event_title pull-left"><a herf="#">Nunc dignissim risus id metus.</a></div>
-		  </div>
+		  </div>-->
+		  <div id="cal_rss"></div>
 		  <!----->
         </div><!-- /.col-lg-4 -->
         <div class="col-sm-4">
-          <h2 class="home_head">News<a href="http://feeds.reuters.com/reuters/oddlyEnoughNews"><i class="fa fa-rss pull-right"></i></a></h2>
+          <h2 class="home_head">News<a href="https://app.meltwater.com/gyda/outputs/55cb990dfd3333787c8b1407/rendering?apiKey=5564686c96a6ab67c5ad434f"><i class="fa fa-rss pull-right"></i></a></h2>
           <div id="rss"></div>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
@@ -220,7 +221,7 @@
 			<a href="#" title="ONS Facebook Page" class="soc_icon facebook">ONS Facebook</a>
 			<a href="#" title="ONS Twitter Page" class="soc_icon twitter">ONS Twitter</a>
 			<a href="#" title="ONS YouTube Page" class="soc_icon youtube">ONS YouTube</a>
-			<a href="#" title="ONS RSS Page"><i class="fa fa-3x fa-rss"></i></a>
+			<a href="https://app.meltwater.com/gyda/outputs/55cb990dfd3333787c8b1407/rendering?apiKey=5564686c96a6ab67c5ad434f" title="ONS RSS Page"><i class="fa fa-3x fa-rss"></i></a>
 		</div>
 		<hr class="footer_break"/>
         <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
@@ -242,14 +243,25 @@
 	<script src="assets/js/backtotop.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function () {
-		$('#rss').rssfeed('http://rss.cnn.com/rss/cnn_topstories.rss',{
+		$('#rss').rssfeed('https://app.meltwater.com/gyda/outputs/55cb990dfd3333787c8b1407/rendering?apiKey=5564686c96a6ab67c5ad434f',{
 		limit: 4,
-		media: 'true',
-		linktarget: '_blank'
+		media: true,
+		linktarget: '_blank',
+		header: false
 		});
 	});
 	</script>
-
+		<script type="text/javascript">
+	$(document).ready(function () {
+		$('#cal_rss').rssfeed('https://www.google.com/calendar/feeds/qtda0al0jbrb5iqmffrbfq2dto%40group.calendar.google.com/public/basic?singleEvents=True&orderBy=startTime',{
+		limit: 4,
+		linktarget: '_blank',
+		dateformat: '<div ss class="date pull-left"><div class="month">MMMM</div><div class="day">dd</div></div>',
+		content: false,
+		header: false
+		});
+	});
+	</script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.js" type="text/javascript"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->

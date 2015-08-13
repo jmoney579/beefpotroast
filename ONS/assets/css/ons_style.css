@@ -208,8 +208,16 @@ table thead tr{
     width: 48px;
 	margin-right: 7px;
 	font-size: 18px;
+	margin-bottom: 9px;
 }
-.event_title{
+#cal_rss .rssRow.odd > h4, #cal_rss .rssRow.even > h4 {
+    left: 74px;
+    position: absolute;
+}
+#cal_rss .rssBody li{
+	clear: both;
+	}
+.event_title, #cal_rss h4{
 	width: 81%;
 	text-transform: uppercase;
 	font-size: 18px;
