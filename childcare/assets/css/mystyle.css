@@ -1,0 +1,44 @@
+.main_content{
+	max-width: 1500px;
+	margin: 0 auto;
+	/*background-color: #f0f0f0;*/
+	}
+.jumbotron{
+	background: url('../../images/header_image2.png') no-repeat center center transparent;
+	background-size: cover;
+	height: 715px;
+	padding-top: 9px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	z-index: 1;
+	}
+.jumbotron h1{
+	color: #FFF;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 45px;
+	}
+.tagline{
+	position: relative;
+	top: -73px;
+	z-index: -1;
+	}
+.tagline h2{
+	color: #5abb4a;
+	text-align: center;
+	font-size: 57px;
+	}
+.subtagline{
+	background: url('../img/callout.png') repeat-y center center transparent;
+	text-align: center;
+	margin-top: -60px;
+	color: #FFF;
+	margin-bottom: 13px;
+	}
+.subtagline p{
+	margin: 2px 0px;
+	font-size: 15px;
+	}
+.marketing img{
+	height: 180px;
+	}
