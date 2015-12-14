@@ -234,9 +234,53 @@ footer {
 	text-align: center;
 	padding: 3px;
 	}
+.fac_search input[type="submit"] {
+	background: #f8b407;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #000;
+    cursor: pointer;
+    padding: 4px 22px;
+	}
+.fac_search input[type="submit"]:hover{
+	    background: #ff7000 none repeat scroll 0 0;
+		color: #FFF;
+		}
 #searchdata span {
     font-size: 13px;
 	}
+/* Back to Top CSS */
+.cd-top {
+    background: url("../img/scroll_to_top.png") no-repeat scroll center 50% transparent;
+    bottom: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    height: 80px;
+    opacity: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 10px;
+    text-indent: 100%;
+    transition: opacity 0.3s ease 0s, visibility 0s ease 0.3s;
+    visibility: hidden;
+    white-space: nowrap;
+    width: 80px;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    transition: opacity 0.3s ease 0s, visibility 0s ease 0s;
+}
+.cd-top.cd-is-visible {
+    opacity: 0.8;
+    visibility: visible;
+    z-index: 1;
+}
+.cd-top.cd-fade-out {
+    opacity: 0.5;
+}
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
 @media (max-width: 991px){
 	.licensed{
 		margin-top: 370px
@@ -247,4 +291,7 @@ footer {
 		float: left;
 		width: 50%;
 	}
+	.cd-top{
+		background-size: 75%;
+		}
 }
