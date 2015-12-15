@@ -204,6 +204,7 @@ footer {
 	min-height: 358px;
 	background-color: #2f2f2f;
 	color: #FFF;
+	overflow: auto;
 }
 .copyright{
 	color: #FFF;
@@ -243,12 +244,41 @@ footer {
     padding: 4px 22px;
 	}
 .fac_search input[type="submit"]:hover{
-	    background: #ff7000 none repeat scroll 0 0;
+	    background: #e1a000 none repeat scroll 0 0;
 		color: #FFF;
 		}
+.fac_search h3{
+	margin-top: 3px;
+	color: #FFF;
+	}
 #searchdata span {
     font-size: 13px;
 	}
+.ppc_footer h4{	
+	margin-top: 13px;
+	}
+.ppc_footer ul{
+	list-style-type: none;
+	padding-left: 0px;
+	font-size: 12px;
+	}
+.ppc_footer li {
+    line-height: 12px;
+    margin: 10px 0;
+}
+.parents_footer ul, .parents_footer ul a{
+	color: #44cacb;
+	}
+.providers_footer ul, .providers_footer ul a{
+	color: #5abb4a;
+	}
+.community_footer ul, .community_footer ul a{
+	color: #f7b40e;
+	}
+.parents_footer ul a:hover, .providers_footer ul a:hover, .community_footer ul a:hover{
+	text-decoration: none;
+	color: #ccc;
+	}  
 /* Back to Top CSS */
 .cd-top {
     background: url("../img/scroll_to_top.png") no-repeat scroll center 50% transparent;
