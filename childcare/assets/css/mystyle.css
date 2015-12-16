@@ -105,7 +105,7 @@ body{
     display: block;
     float: none;
     margin: -91px auto;
-    z-index: -1;
+    /*z-index: -1;*/
 	text-align: center;
 }
 .c_icons .col-sm-2 {
@@ -211,6 +211,7 @@ footer {
 	font-size: 9px;
 	background-color: #242424;
 	text-align: center;
+	padding-top: 4px;
 	}
 .fac_search{
 	max-width: 444px;
@@ -311,9 +312,17 @@ footer {
     background-color: #e86256;
     opacity: 1;
 }
+@media (max-width: 1200px){
+	.poster_text p{
+		width: 280px;
+		}
+	}
 @media (max-width: 991px){
 	.licensed{
 		margin-top: 370px
+	}
+	.poster_text p{
+		width: 255px;
 	}
 }
 @media (max-width: 767px){
@@ -323,5 +332,12 @@ footer {
 	}
 	.cd-top{
 		background-size: 75%;
-		}
+	}
+	/*.poster_text {
+		left: -116px;
+		position: relative;
+	}
+	.poster_text p{
+		width: 302px;
+	}*/
 }
