@@ -10,6 +10,9 @@ body{
 	font-family: "texgyreheros","Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: #f0f0f0;
 	}
+body.internal{
+	background-color: #FFF;
+	}
 .main_content{
 	max-width: 1500px;
 	margin: 0 auto;
@@ -30,6 +33,34 @@ body{
 	margin-top: 10px;
 	font-size: 45px;
 	}
+.parent_header{
+	background-image: none;
+	background-color: #f0f0f0;
+	height: auto;
+	margin-top: 51px;
+	}
+.parent_billboard{
+	background: url('../img/parent_billboard.png') no-repeat left center transparent;
+	height: 440px;
+	clear: both;
+	margin-top: -49px !important;
+	}
+.billboard_text {
+    background-color: #5abb4a;
+    bottom: -292px;
+    color: #fff;
+    font-size: 20px;
+    height: 136px;
+    position: relative;
+}
+.sub_parent{
+	color: #44cacb;
+	font-weight: bolder;
+	}
+.sub_parent p{
+	font-weight: bold;
+	}
+
 .row{
 	margin-left: 0px;
 	margin-right: 0px;
@@ -123,6 +154,59 @@ body{
 .row.checklist {
     min-height: 500px;
 }
+.ecd_strip{
+	background: url('../img/child_foam.png') no-repeat center center #f0f0f0;
+	text-align: left;
+	min-height: 365px !important;
+	
+	}
+.ecd_strip h4, .ecd_strip h2{
+	margin: 0;
+	}
+.blocks{
+	background: url('../img/child_redshirt.png') no-repeat left center transparent;
+	min-height: 359px;
+	}
+.blocks_item{
+	height: 160px;
+	width: 160px;
+	text-align: center;
+	color: #FFF;
+	background-color: #000;
+	float: left;
+	margin: 9px;
+	padding: 8px;
+	font-size: 20px;
+	font-weight: bold;
+	}
+div:nth-of-type(2).blocks_item{
+	background-color: #f7b40e;
+	}
+div:nth-of-type(3).blocks_item{
+	background-color: #f54b4b;
+	}
+div:nth-of-type(4).blocks_item{
+	background-color: #f54b4b;
+	}
+div:nth-of-type(5).blocks_item{
+	background-color: #44cacb;
+	}
+div:nth-of-type(6).blocks_item{
+	background-color: #b33a8a;
+	}
+.blocks_intro{
+	height: 140;
+	width: 200px;
+	color: #CCC;
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0
+	}
+.blocks .lead{
+	font-weight: bold;
+	font-size: 25px;
+	}
 .licensed {
     background: transparent url("../../images/family_poster.png") no-repeat scroll center center;
     color: #f7b40e;
@@ -279,7 +363,30 @@ footer {
 .parents_footer ul a:hover, .providers_footer ul a:hover, .community_footer ul a:hover{
 	text-decoration: none;
 	color: #ccc;
-	}  
+	} 
+.center{
+	margin: 0 auto;
+	display: block;
+	float: none;
+	}	
+/* Bootstrap Overides */
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li:nth-of-type(2) > a{
+	color: #44cacb;
+	}
+.navbar-default .navbar-nav > li:nth-of-type(3) > a{
+	color: #5abb4a;
+	}
+.navbar-default .navbar-nav > li:nth-of-type(4) > a{
+	color: #f7b40e;
+	}
+.navbar-default {
+    background-color: #242424;
+    border-color: #e7e7e7;
+    opacity: 0.9;
+}
 /* Back to Top CSS */
 .cd-top {
     background: url("../img/scroll_to_top.png") no-repeat scroll center 50% transparent;

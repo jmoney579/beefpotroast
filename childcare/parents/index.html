@@ -7,21 +7,21 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-	<link href="assets/img/favicon.png" type="image/png" rel="icon" />
+	<link href="../assets/img/favicon.png" type="image/png" rel="icon" />
 
     <title>ChildCareVA</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css//ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="../assets/css//ie10-viewport-bug-workaround.css" rel="stylesheet">
 	<!-- Pure CSS -->
 	<link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet">
 	
     <!-- Custom styles for this template -->
-    <link href="assets/css/jumbotron-narrow.css" rel="stylesheet">
-    <link href="assets/css/mystyle.css" rel="stylesheet">
+    <link href="../assets/css/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../assets/css/mystyle.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,18 +33,47 @@
 	
   </head>
 
-  <body>
+  <body class="internal">
+  <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">ChildCareVA</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="index.html">Parents</a></li>
+            <li><a href="../providers/index.html">Providers</a></li>
+			<li><a href="../community/index.html">Community</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
   <div class="main_content">
-     <div class="jumbotron col_sm_12">
-		<h1>Safe and quality child care is the standard in Virginia</h1>
+     <div class="jumbotron parent_header col_sm_12">
+	 <div class="row">
+		<div class="col-md-10"><img class="img-responsive center" src="../images/parents3.png" alt="parents_icon"/></div>
+		<div class="col-md-9 parent_billboard pull-left"><div class="col-xs-5 billboard_text pull-right">When looking for a safe and quality child care center, here are a few things you should look for:</div></div>
+	</div>	
+		<div class="row">
+		<div class="col-xs-4 sub_parent text-right">
+			<p>Is the program licensed?</p>
+			<p>Does the staff treat the children kindly?</p>
+			<p>Does the staff understand the children's needs?</p>
+		</div>
+		<div class="col-md-2 child_point"><img src="../images/child_pointing.png" alt="child pointing"/></div>
+		<div class="col-md-3 sub_parent">
+			<p>How are parent encouraged to be involved?</p>
+			<p>What are the health and safety practices?</p>
+		</div>
+		</div>
      </div>
-	 <div class="tagline col_sm_12">
-		<h2>Smart beginnings never end</h2>
-	 </div>
-	 <div class="subtagline col_sm_12">
-		<p>We have all of the solutions for providers who are looking to get licensed and for parents who are looking for the best providers. </p>
-		<p>Be sure to look for the "stamp of approval" which indicates whether or not a provider is licensed.</p>
-	</div>
     <div class="container">
       <!--<div class="header clearfix">
         <nav>
@@ -56,120 +85,48 @@
         </nav>
         <h3 class="text-muted">Project name</h3>
       </div>-->
-      <div class="row marketing">
-        <div class="col-sm-4 parents">
-		<a href="parents/index.html"><img class="img-responsive" src="images/parents2.png" alt="icon of family with parents typed beneath"/></a>
-          <ul>
-			  <li><a href="#">Why Quality Matters</a></li>
-			  <li><a href="#">Benefits  of Licensed Child Care</a></li>
-			  <li><a href="#">Child Care &amp; Early Learning Options</a></li> 
-			  <li><a href="#">Finding Child Care</a></li>
-			  <li><a href="#">Paying for Child Care</a></li>
-			  <li><a href="#">Child Growth &amp; Development</a></li>
-			  <li><a href="#">Health &amp; Safety</a></li>
-			  <li><a href="#">Early Intervention &amp; Special Needs</a></li>
-			  <li><a href="#">Resources</a></li>
-			  <li><a href="#">Other Assistance</a></li>
-		  </ul>
-        </div>
-
-        <div class="col-sm-4 providers">
- 		<a href="providers/index.html"><img class="img-responsive" src="images/providers2.png" alt="icon of teacher and students with providers typed beneath"/></a>     
-          <ul>
-			  <li><a href="#">Child Care as&nbsp; Business/Profession</a></li>
-			  <li><a href="#">New Provider Requirements</a></li>
-			  <li><a href="#">Become a Licensed Provider</a></li> 
-			  <li><a href="#">Virginia Quality</a></li>
-			  <li><a href="#">Become a Subsidy Provider</a></li>
-			  <li><a href="#">Training &amp;  Professional Development</a></li>
-			  <li><a href="#">IMPACT Registry</a></li>
-			  <li><a href="#">Health &amp; Safety</a></li>
-			  <li><a href="#">Emergency Preparedness</a></li>
-			  <li><a href="#">Resources</a></li>
-		  </ul>
-        </div>
-		
-		<div class="col-sm-4 community">
-		<a href="parents/index.html"><img class="img-responsive"src="images/community.png" alt="icon of large group with community typed beneath"/></a>
-          <ul>
-			  <li><a href="#">Trending Now</a></li>
-			  <li><a href="#">Child Care in Virginia</a></li>
-				<li><a href="#">How Child Care Supports  Business/Community</a></li>
-				<li><a href="#">Virginia Fact Sheets</a></li>
-				<li><a href="#">Partnerships,  Collaboration &amp; Program Improvement</a></li>
-				<li><a href="#">Publications and Reports</a></li>
-				<li><a href="#">Research &amp;  Statistics</a></li>
-				<li><a href="#">CCDBG State Plan</a></li>
-				<li><a href="#">File a Complaint</a></li>
-		  </ul>
+      <div class="row">
+        <div class="col-sm-12 parents">
+			<h2>Why Quality Matters</h2>
+			<p>All parents want to support their child’s health, happiness and development. Choosing quality child care is an excellent way to do this! A quality child care program promotes a safe, fun environment where children can PLAY, LEARN and LAUGH! </p>
+			<h3>Benefits of Quality Child Care</h3>
+            <ul>
+              <li>Impacts  how children learn, think, develop and behave</li>
+              <li>Promotes  social and emotional skills</li>
+              <li>Encourages  curiosity and love of learning</li>
+              <li>Prepares  children for school</li>
+              <li>Strengthens  math and reading skills</li>
+            </ul>
+            <p>To  learn more about choosing quality child care in Virginia, visiting programs,  making observations and asking the right questions, read this <a href="http://www.dss.virginia.gov/files/division/cc/guidance_parents/choosing_qcc/Eng_-_choosing-quality-childcare_brochure_small.pdf">brochure</a>. </p>
+            <h3>Indicators  of Quality Child Care</h3>
+			<h4>Health and Safety </h4>
+			<p>A quality child care program puts health and safety first. The  environment is organized, clean and safe (inside and out), toys and equipment  are monitored and cleaned daily, and safe health practices, such as hand  washing, are consistently followed. A high quality program also promotes  nutrition and exercise to support healthy development.</p>
+          <h4>Relationships and Interactions</h4>
+          <p>Skillful adults provide warm, responsive relationships that foster  confidence as they respond to children&rsquo;s needs consistently. Adults engage in  culturally and linguistically appropriate conversations with the children, and  are respectful and supportive of each child and their family.</p>
+          <h4>Staff Qualifications and Training</h4>
+          <p>Knowledgeable adults structure the environment to provide maximum  opportunities for children to learn.   Teachers who are better prepared are more likely to engage in positive  interactions, plan developmentally appropriate activities, and use feedback to  develop strong relationships.</p>
+          <h4>Low Ratios and Group Size</h4>
+          <p>The number of children a staff member is responsible for can be  described as a ratio. A 3:1 ratio means there are 3 children per caregiver.  Group size refers to the total number of children per class, program or home.  Generally speaking, the fewer the children in relation to caregivers, the  greater the supervision.</p>
+          <h4>Play and Learning</h4>
+          <p>The curriculum is age appropriate,  supported by a variety of toys and materials, and promotes learning and  development in all areas. There is a written plan that outlines the educational  goals, activities, materials, assessment, and daily schedule.<strong></strong></p>
         </div>
       </div>
-	<div class="row checklist">
-		<h2>5 must-have checklist items</h2>
-		<h4>When choosing the very best care for you child, we recommend you use these checklists to inform your decision</h4>
 	</div>
-	<div class="col-sm-7 c_icons">
-		<div class="col-sm-2 interview pull-left"><a href="#"><img src="images/interview.png" alt="Sample Interview Questions icon"/>Sample Interview Questions</a></div>
-		<div class="col-sm-2 safety pull-left"><a href="#"><img src="images/safety.png" alt="Safety Checklist icon"/>Safety Checklist</a></div>
-		<div class="col-sm-2 qualit pull-left"><a href="#"><img src="images/quality.png" alt="Quality Care Checklist icon"/>Quality Care Checklist</a></div>
-		<div class="col-sm-2 emergency pull-left"><a href="#"><img src="images/emergency.png" alt="Emergency Preparedness Checklist icon"/>Emergency Preparedness Checklist</a></div>
-		<div class="col-sm-2 accessibility pull-left"><a href="#"><img src="images/accessibility.png" alt="Special Needs Checklist icon"/>Special Needs Checklist</a></div>
+		<div class="row checklist ecd_strip">
+	<div class="col-md-8 center">
+		<h2>Early Childhood Development</h2>
+		<h4>All parents want to support their child’s health, happiness and development. Choosing quality child care is an excellent way to do this!</h4>
 	</div>
-	<div class="col-sm-7 licensed">
-		<div class="col-sm-8 poster_text">
-		<h4>Is your provider licensed?</h4>
-		<p>To find out if your child care provider is licensed search for their facility name here.</p>
-		</div>
-	</div>
-	<div class="row provider">
-		<div class="col-md-7 provider">
-		<div class="col-sm-4">
-		<h4>How do I become a provider?</h4>
-		<p>There are a few steps you need to take in order to become a licensed child care provider. Click here to find out all of the details.</p>
-		</div>
-		<div class="col-md-3">
-			<img src="images/child_blocks.png" alt="Woman and child playing with building blocks"/>
-		</div>
-		</div>
-	</div>
-	</div>
-	<div class="row org">
-		<div class="col-md-7">
-				<div class="col-sm-2"><a href="#"><img src="images/ecnc.jpg" alt="Early Childhood National Centers"/></a></div>
-				<div class="col-sm-2"><a href="#"><img src="images/aap.jpg" alt="American Academy of Pediatrics"/></a></div>
-				<div class="col-sm-2"><a href="#"><img src="images/cacfp.jpg" alt="Child & Adult Care Food Program"/></a></div>
-				<div class="col-sm-2"><a href="#"><img src="images/tax_credit.jpg" alt="Child Care Tax Credit"/></a></div>	
-		</div>
-		<div class="col-md-7">
-				<div class="col-sm-2"><a href="#"><img src="images/sbsd.jpg" alt="Department of Small Business and Supplier Diversity"/></a></div>
-				<div class="col-sm-2"><a href="#"><img src="images/211.jpg" alt="Virginia 211"/></a></div>
-				<div class="col-sm-2"><a href="#"><img src="images/cpsc.jpg" alt="Consumer Product Safety Commision"/></a></div>
-				<div class="col-sm-2 all_orgs"><a href="#">See all organizations and programs</a></div>			
-		</div>
 	</div>
 	<div class="container">
-		<div class="row calendar">
-			<div class="col-md-9">
-				<div class="col-md-5">
-					<span class="day">6</span><span class="month"> November</span></br>
-					<p class="title">Child Care and Development Fund Plan</p>
-					<p>The Virginia Department of Social Services is seeking comments on the draft Child Care and Development Fund (CCDF) Plan for FY2016 - FFY 2018. 
-					The draft plan is available online at <a href="http://www.dss.virginia.gov/about/state_plans/cc.cgi">http://www.dss.virginia.gov/about/state_plans/cc.cgi</a>
-					for review and comment from Oct. 1 until Nov. 6.</p>
-				</div>
-				<div class="col-md-5">
-					<img src="images/calendar.jpg" alt="Calendar of events"/>
-				</div>
-				<div class="col-md-5">
-					<img src="images/family_class.png" alt="Student raising his hands and teacher answering"/>
-				</div>
-				<div class="col-md-5">
-					<span class="day">6</span><span class="month"> November</span></br>
-					<p class="title">Child Care and Development Fund Plan</p>
-					<p>The Virginia Department of Social Services is seeking comments on the draft Child Care and Development Fund (CCDF) Plan for FY2016 - FFY 2018. 
-					The draft plan is available online at <a href="http://www.dss.virginia.gov/about/state_plans/cc.cgi">http://www.dss.virginia.gov/about/state_plans/cc.cgi</a>
-					for review and comment from Oct. 1 until Nov. 6.</p>
-				</div>
+		<div class="row blocks">
+			<div class="col-md-9 pull-right">
+				<div class="blocks_item blocks_intro">When looking for a child care provider, <span class="lead">ask these questions</span><br/> about the activities<br/> that occur:</div>
+				<div class="blocks_item">Is there dedicated outside time and indoor time?</div>
+				<div class="blocks_item">Is there adequate supervision<br/> at all times?</div>
+				<div class="blocks_item">Do the<br/> children have pretend play, music and art time?</div>
+				<div class="blocks_item">Is there a routine but flexible schedule?</div>
+				<div class="blocks_item">Are the<br/> meals and snacks nutritious?</div>				
 			</div>
 		</div>
 	</div>
@@ -437,9 +394,9 @@
 
     </div> <!-- /container -->
 	<a class="cd-top" href="#">Top</a>
-	<script type="text/javascript" src="assets/js/back_to_top.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/back_to_top.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
