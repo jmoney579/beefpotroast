@@ -33,7 +33,7 @@ body.internal{
 	margin-top: 10px;
 	font-size: 45px;
 	}
-.parent_header{
+.parent_header, .provider_header, .community_header{
 	background-image: none;
 	background-color: #f0f0f0;
 	height: auto;
@@ -44,6 +44,27 @@ body.internal{
 	height: 440px;
 	clear: both;
 	margin-top: -49px !important;
+	}
+.provider_billboard {
+    background: transparent url("../img/provider_billboard.png") no-repeat scroll center 40px;
+    clear: both;
+    height: 565px;
+    margin-top: 16px !important;
+}
+.provider_title {
+    color: #5abb4a;
+    font-size: 57px;
+    font-weight: bold;
+}
+.community_title {
+    color: #f7b40e;
+    font-size: 100px;
+    font-weight: bold;
+}
+.provider_text{
+	color: #f7b40e;
+	font-size: 25px;
+	font-weight: bold;
 	}
 .billboard_text {
     background-color: #5abb4a;
@@ -112,6 +133,13 @@ body.internal{
     list-style-type: none;
     margin: 0;
     padding: 8px 9px 5px 37px;
+    position: relative;
+}
+.parents ul ul li, .providers ul ul li, .community ul ul li  {
+    background: transparent url("../img/gray_bullet.png") no-repeat scroll 7px 9px;
+    list-style-type: none;
+    margin: 0;
+    padding: 6px 9px 5px 30px;
     position: relative;
 }
 .checklist{
@@ -369,8 +397,17 @@ footer {
 	display: block;
 	float: none;
 	}	
+.parents h4{
+	color: #3bb1b2;
+	}
+.providers h4{
+	color: #5abb4a;
+	}
+.community h4{
+	color: #f7b40e;
+	}
 /* Bootstrap Overides */
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
 .navbar-default .navbar-nav > li:nth-of-type(2) > a{
