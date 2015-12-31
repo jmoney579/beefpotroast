@@ -58,8 +58,10 @@ body.internal{
 }
 .community_title {
     color: #f7b40e;
-    font-size: 100px;
+    font-size: 85px;
     font-weight: bold;
+    padding-top: 27px;
+	text-align: center;
 }
 .provider_text{
 	color: #f7b40e;
@@ -468,6 +470,9 @@ footer {
 	.poster_text p{
 		width: 255px;
 	}
+	.community_title{
+		padding-top: 0px;
+	}
 }
 @media (max-width: 767px){
 	.org .col-md-7{
@@ -484,4 +489,14 @@ footer {
 	.poster_text p{
 		width: 302px;
 	}*/
+}
+@media (max-width: 496px) {
+	.community_title{
+		font-size: 70px;
+	}
+}
+@media (max-width: 400px) {
+	.community_title{
+		font-size: 60px;
+	}
 }
