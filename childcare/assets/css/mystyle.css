@@ -451,6 +451,9 @@ hr.cc_diamond{
 .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover{
 	color: #c1c0c0;
 	}
+.dropdown-menu li a:focus, .dropdown-menu li a:hover{
+	color: #262626 !important;
+	}
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
@@ -543,6 +546,12 @@ hr.cc_diamond{
 	}
 	.cd-top{
 		background-size: 75%;
+	}
+	.quicklinks {
+		float: none !important;
+		position: relative !important;
+		right: 0;
+		background-color: #FFF;
 	}
 	/*.poster_text {
 		left: -116px;
