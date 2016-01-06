@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
+/* @import url(https://fonts.googleapis.com/css?family=Gochi+Hand); */
+
 @font-face {
     font-family: 'texgyreheros';
 		src: url('../fonts/texgyreheros-regular-webfont.eot');
@@ -6,6 +9,7 @@
          url('../fonts/texgyreheros-regular-webfont.ttf') format('truetype'),
          url('../fonts/texgyreheros-regular-webfont.svg#texgyreherosregular') format('svg');
 }
+
 body{
 	font-family: "texgyreheros","Helvetica Neue",Helvetica,Arial,sans-serif;
 	background-color: #f0f0f0;
@@ -17,39 +21,43 @@ body.internal{
 	max-width: 1500px;
 	margin: 0 auto;
 	}
-	
+.jumbo_tag{
+	background-color: #FFF;
+	z-index: 0;
+	height: 619px;
+	}
 .jumbotron{
-	background: url('../../images/header_image2.png') no-repeat center center transparent;
-	background-size: cover;
-	height: 715px;
+	background: url('../../images/header_image3.png') no-repeat center 0px transparent;
+	height: 630px;
 	padding-top: 9px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	z-index: 1;
 	}
-.jumbotron h1{
-	color: #FFF;
-	text-align: center;
-	margin-top: 10px;
-	font-size: 45px;
-	}
+.jumbotron h1 {
+    color: #fff;
+    font-size: 45px;
+    margin-top: 6px;
+    text-align: center;
+}
 .parent_header, .provider_header, .community_header{
 	background-image: none;
 	background-color: #f0f0f0;
 	height: auto;
 	margin-top: 51px;
 	}
-.parent_billboard{
-	background: url('../img/parent_billboard.png') no-repeat left center transparent;
-	height: 440px;
-	clear: both;
-	margin-top: -49px !important;
-	}
+.parent_billboard {
+    background: transparent url("../img/parent_billboard.png") no-repeat scroll left center / 572px 332px;
+    clear: both;
+    height: 440px;
+    margin-top: -57px !important;
+}
 .provider_billboard {
     background: transparent url("../img/provider_billboard.png") no-repeat scroll center 40px;
     clear: both;
-    height: 565px;
+    height: 407px;
     margin-top: 16px !important;
+	background-size: 781px 410px;
 }
 .provider_title {
     color: #5abb4a;
@@ -70,10 +78,10 @@ body.internal{
 	}
 .billboard_text {
     background-color: #5abb4a;
-    bottom: -292px;
+    bottom: -277px;
     color: #fff;
     font-size: 20px;
-    height: 136px;
+    min-height: 109px;
     position: relative;
 }
 .sub_parent{
@@ -90,22 +98,26 @@ body.internal{
 	}
 .tagline {
     background: #fff none repeat scroll 0 0;
-    min-height: 169px;
-    padding-top: 31px;
+    min-height: 77px;
+    padding-top: 0;
     position: relative;
-    top: -110px;
+    top: -108px;
     z-index: -1;
 }
 .tagline h2{
+	font-family: 'Shadows Into Light Two',"Gochi Hand","Helvetica Neue",Helvetica,Arial,sans-serif;
+	/* font-family: "Gochi Hand","Helvetica Neue",Helvetica,Arial,sans-serif; */
 	color: #5abb4a;
 	text-align: center;
-	font-size: 57px;
+	font-size: 58px;
+	/* font-size: 74px; */
+	font-weight: bold;
 	}
 .subtagline {
     background: transparent url("../img/callout.png") repeat-y scroll center center;
     color: #fff;
     margin-bottom: 13px;
-    margin-top: -118px;
+    margin-top: 0px;
     text-align: center;
 }
 .subtagline p{
@@ -408,7 +420,27 @@ footer {
 .community h4{
 	color: #e2a305;
 	}
+.col-sm-4.parents li, .col-sm-4.providers li, .col-sm-4.community li {
+	font-size: 16px;
+	}
+.parent_icon{
+	height: 122px;
+	}
+.provider_icon{
+	height: 129px;
+	}
+hr.cc_diamond{
+	background-image: url('../img/cc_diamond.jpg'), url('../img/hr_line.png');
+	background-position: center center, center center;
+	background-repeat: no-repeat, repeat-x;
+	border: 0;
+	margin: 1em 0;
+	height: 39px;
+	}
 /* Bootstrap Overides */
+.navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover{
+	color: #c1c0c0;
+	}
 .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
     color: #FFF;
 }
@@ -421,11 +453,26 @@ footer {
 .navbar-default .navbar-nav > li:nth-of-type(4) > a{
 	color: #f7b40e;
 	}
+.navbar-default .navbar-nav > li:nth-of-type(5) > a{
+	color: #FFF;
+	background-color: #b33a8a;
+	}
+.navbar-default .navbar-nav > li.open:nth-of-type(5) > a, .navbar-default .navbar-nav > li:nth-of-type(5) > a:hover{
+	color: #FFF;
+	background-color: #913070;
+	}{
+	color: #FFF;
+	background-color: #913070;
+	}
 .navbar-default {
     background-color: #242424;
     border-color: #e7e7e7;
     opacity: 0.9;
 }
+.quicklinks{
+	 position: fixed !important; 
+	 right: 0;
+	 }
 /* Back to Top CSS */
 .cd-top {
     background: url("../img/scroll_to_top.png") no-repeat scroll center 50% transparent;
