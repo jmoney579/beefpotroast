@@ -1,5 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two);
-/* @import url(https://fonts.googleapis.com/css?family=Gochi+Hand); */
+@font-face {
+    font-family: 'idolwild';
+		src: url('../fonts/idolwild-webfont.eot');
+		src: url('../fonts/idolwild-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/idolwild-webfont.woff') format('woff'),
+         url('../fonts/idolwild-webfont.ttf') format('truetype'),
+         url('../fonts/idolwild-webfont.svg#texgyreherosregular') format('svg');
+}
 
 @font-face {
     font-family: 'texgyreheros';
@@ -37,7 +43,7 @@ body.internal{
 .jumbotron h1 {
     color: #fff;
     font-size: 45px;
-    margin-top: 6px;
+    margin-top: 40px;
     text-align: center;
 }
 .parent_header, .provider_header, .community_header{
@@ -105,11 +111,11 @@ body.internal{
     z-index: -1;
 }
 .tagline h2{
-	font-family: 'Shadows Into Light Two',"Gochi Hand","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "idolwild","Helvetica Neue",Helvetica,Arial,sans-serif;
 	/* font-family: "Gochi Hand","Helvetica Neue",Helvetica,Arial,sans-serif; */
 	color: #5abb4a;
 	text-align: center;
-	font-size: 58px;
+	font-size: 51px;
 	/* font-size: 74px; */
 	font-weight: bold;
 	}
@@ -437,6 +443,10 @@ hr.cc_diamond{
 	margin: 1em 0;
 	height: 39px;
 	}
+.care_logo{
+	width: 443px;
+	margin: -5px auto;
+	}
 /* Bootstrap Overides */
 .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover{
 	color: #c1c0c0;
@@ -468,6 +478,11 @@ hr.cc_diamond{
     background-color: #242424;
     border-color: #e7e7e7;
     opacity: 0.9;
+}
+.navbar-brand > img {
+    display: block;
+    margin-top: -12px;
+    width: 147px;
 }
 .quicklinks{
 	 position: fixed !important; 
