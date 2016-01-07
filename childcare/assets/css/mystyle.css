@@ -33,7 +33,7 @@ body.internal{
 	height: 619px;
 	}
 .jumbotron{
-	background: url('../../images/header_image3.png') no-repeat center 0px transparent;
+	background: url('../../images/header_image4.png') no-repeat center 0px transparent;
 	height: 630px;
 	padding-top: 9px;
 	padding-bottom: 0px;
@@ -53,42 +53,47 @@ body.internal{
 	margin-top: 51px;
 	}
 .parent_billboard {
-    background: transparent url("../img/parent_billboard.png") no-repeat scroll left center / 572px 332px;
+    background: transparent url("../img/parent_billboard2.png") no-repeat scroll left center;
     clear: both;
     height: 440px;
     margin-top: -57px !important;
 }
 .provider_billboard {
-    background: transparent url("../img/provider_billboard.png") no-repeat scroll center 40px;
+    /*background: transparent url("../img/provider_billboard.png") no-repeat scroll center 40px;
     clear: both;
     height: 407px;
     margin-top: 16px !important;
-	background-size: 781px 410px;
+	background-size: 781px 410px;*/
+	max-width: 623px;
 }
 .provider_title {
     color: #5abb4a;
     font-size: 57px;
     font-weight: bold;
+	margin-top: 5px;
 }
 .community_title {
     color: #f7b40e;
     font-size: 85px;
     font-weight: bold;
-    padding-top: 27px;
+	padding-top: 0;
 	text-align: center;
+	margin-top: -36px;
 }
 .provider_text{
 	color: #f7b40e;
-	font-size: 25px;
+	font-size: 31px;
 	font-weight: bold;
 	}
 .billboard_text {
     background-color: #5abb4a;
-    bottom: -277px;
+    top: -86px;
     color: #fff;
     font-size: 20px;
     min-height: 109px;
     position: relative;
+	padding-left: 142px;
+	z-index: -1;
 }
 .sub_parent{
 	color: #44cacb;
@@ -97,7 +102,12 @@ body.internal{
 .sub_parent p{
 	font-weight: bold;
 	}
-
+.sub_parent a{
+	color: #44cacb;
+	}
+.sub_parent a:hover{	
+	color: #337ab7;
+	}
 .row{
 	margin-left: 0px;
 	margin-right: 0px;
@@ -118,6 +128,7 @@ body.internal{
 	font-size: 51px;
 	/* font-size: 74px; */
 	font-weight: bold;
+	margin-left: 79px;
 	}
 .subtagline {
     background: transparent url("../img/callout.png") repeat-y scroll center center;
@@ -128,7 +139,7 @@ body.internal{
 }
 .subtagline p{
 	margin: 2px 0px;
-	font-size: 15px;
+	font-size: 17px;
 	}
 .parents ul li {
     background: transparent url("../img/blue_bullet.png") no-repeat scroll 7px 7px;
@@ -171,13 +182,12 @@ body.internal{
     font-size: 54px;
     font-weight: bold;
     margin: 0 auto;
-    width: 412px;
 }
 .checklist h4 {
     color: #b33a8a;
     font-size: 22px;
     margin: 0 auto;
-    width: 294px;
+    width: 256px;
 }
 .c_icons {
     clear: both;
@@ -187,6 +197,9 @@ body.internal{
     /*z-index: -1;*/
 	text-align: center;
 }
+.c_icons img{
+	width: 84px;
+	}
 .c_icons .col-sm-2 {
     background-color: #fff;
     color: #b33a8a;
@@ -198,6 +211,7 @@ body.internal{
 }
  .c_icons .col-sm-2 a{
 	color: #b33a8a;
+	font-size: 13px;
 	}
 .row.checklist {
     min-height: 500px;
@@ -257,10 +271,26 @@ div:nth-of-type(6).blocks_item{
 	}
 .licensed {
     background: transparent url("../../images/family_poster.png") no-repeat scroll center center;
-    color: #f7b40e;
+    color: #2472d2;
     float: none;
     height: 355px;
     margin: 240px auto 0;
+}
+.child_point{
+	background: url('../img/child_pointing.png') no-repeat center bottom transparent;
+	height: 215px;
+	}
+.child_point2{
+	z-index: 1;
+	height: 300px;
+	}
+.child_point2_img{
+	z-index: 2;}
+.green_box{
+    left: 50px;
+    position: absolute;
+    top: 443px;
+    z-index: 0;
 }
 .licensed h4{
 	font-size: 20px;
@@ -427,7 +457,8 @@ footer {
 	color: #e2a305;
 	}
 .col-sm-4.parents li, .col-sm-4.providers li, .col-sm-4.community li {
-	font-size: 16px;
+	font-size: 19px;
+	padding: 3px 37px;
 	}
 .parent_icon{
 	height: 122px;
