@@ -80,6 +80,12 @@ body.internal{
 	text-align: center;
 	margin-top: -36px;
 }
+.parent_title {
+    color: #44cacb;
+    font-size: 57px;
+    font-weight: bold;
+    margin-top: 5px;
+}
 .provider_text{
 	color: #f7b40e;
 	font-size: 31px;
@@ -198,7 +204,7 @@ body.internal{
 	text-align: center;
 }
 .c_icons img{
-	width: 84px;
+	width: 97px;
 	}
 .c_icons .col-sm-2 {
     background-color: #fff;
@@ -285,7 +291,9 @@ div:nth-of-type(6).blocks_item{
 	height: 300px;
 	}
 .child_point2_img{
-	z-index: 2;}
+	z-index: 2;
+	margin-top: -84px;
+	}
 .green_box{
     left: 50px;
     position: absolute;
@@ -508,6 +516,9 @@ hr.cc_diamond{
 	color: #FFF;
 	background-color: #913070;
 	}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: none;
+}
 .navbar-default {
     background-color: #242424;
     border-color: #e7e7e7;
@@ -578,7 +589,7 @@ hr.cc_diamond{
 	.cd-top{
 		background-size: 75%;
 	}
-	.quicklinks {
+	.quicklinks, .providers_dropdown {
 		float: none !important;
 		position: relative !important;
 		right: 0;
