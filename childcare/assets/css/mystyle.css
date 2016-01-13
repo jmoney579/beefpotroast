@@ -52,6 +52,10 @@ body.internal{
 	height: auto;
 	margin-top: 51px;
 	}
+.topics{
+	position:  relative;
+	top: -61px;
+	}
 .parent_billboard {
     background: transparent url("../img/parent_billboard2.png") no-repeat scroll left center;
     clear: both;
@@ -113,6 +117,7 @@ body.internal{
 	}
 .sub_parent a:hover{	
 	color: #337ab7;
+	text-decoration: none;
 	}
 .row{
 	margin-left: 0px;
@@ -135,17 +140,18 @@ body.internal{
 	/* font-size: 74px; */
 	font-weight: bold;
 	margin-left: 79px;
+	padding-top: 11px;
 	}
 .subtagline {
     background: transparent url("../img/callout.png") repeat-y scroll center center;
     color: #fff;
-    margin-bottom: 13px;
-    margin-top: 0px;
+    margin: 0 auto;
     text-align: center;
 }
 .subtagline p{
-	margin: 2px 0px;
-	font-size: 17px;
+	margin: 0 auto;
+	font-size: 19px;
+	width: 67%;
 	}
 .parents ul li {
     background: transparent url("../img/blue_bullet.png") no-repeat scroll 7px 7px;
@@ -294,6 +300,11 @@ div:nth-of-type(6).blocks_item{
 	z-index: 2;
 	margin-top: -84px;
 	}
+.woman_blocks{
+	background: url('../../images/provider_billboard.png') no-repeat center bottom transparent;
+	height: 207px;
+	background-size: 401px 203px;
+}
 .green_box{
     left: 50px;
     position: absolute;
