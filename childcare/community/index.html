@@ -30,7 +30,6 @@
     <![endif]-->
 	<!-- jQuery Core -->
 		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	
   </head>
 
   <body class="internal">
@@ -55,14 +54,14 @@
                 <a aria-expanded="true" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Quick Links<span class="caret"></span></a>
                 <ul class="dropdown-menu">
 			  <!-- <li><a href="#trending">Trending Now</a></li> -->
-			  <li><a href="#ccv">Child Care in Virginia</a></li>
+			  <li><a id="nav_ccv" href="#">Child Care in Virginia</a></li>
 				<!-- <li><a href="#cc_business">How Child Care Supports  Business/Community</a></li>
 				<li><a href="#fact_sheet">Virginia Fact Sheets</a></li>
 				<li><a href="#partnerships">Partnerships,  Collaboration &amp; Program Improvement</a></li>
 				<li><a href="#publications">Publications and Reports</a></li>
 				<li><a href="#research">Research &amp;  Statistics</a></li>
 				<li><a href="ccdbg">CCDBG State Plan</a></li> -->
-				<li><a href="#complaint">File a Complaint</a></li>
+				<li><a id="nav_complaint" href="#">File a Complaint</a></li>
                 </ul>
              </li>
           </ul>
@@ -89,7 +88,8 @@
       <div class="row">
         <div class="col-sm-12 community">
 			<!-- <h2 id="trending">Trending Now</h2> -->
-			<h2 id="ccv">Child Care in Virginia</h2>
+			<div class="section" id="ccv">
+			<h2>Child Care in Virginia</h2>
 			<p>A child day care program in Virginia refers to a  regularly operating service arrangement for children where, during the absence  of a parent or guardian, a person or organization has agreed to assume  responsibility for the supervision, protection and well-being of a child under  the age of 13 for less than a 24-hour period. </p>
           <h4>Child care options  in Virginia</h4>
           <ol>
@@ -114,7 +114,10 @@
 		  				<hr class="cc_diamond"/>
           <h2 id="ccdbg">CCDBG State Plan</h2> -->
 		  				<hr class="cc_diamond"/>
-          <h2 id="complaint">File a Complaint </h2>
+						<h2 class="text-center"><a id="nav_complaint" href="#">Read More</a></h2>
+			</div>
+			<div class="section" id="complaint">
+          <h2>File a Complaint </h2>
           <p>If you believe a  facility or individual providing care has violated applicable child care   regulations or you suspect abuse or neglect of children in care, you may report those  concerns to the Virginia Department of Social Services.</p>
             <p>If you suspect that  a facility or individual is providing care illegally (the person should have a  license but doesn&rsquo;t), you may report those concerns as well.  The Department of Social Services has the  responsibility to investigate these complaints.</p>
             <p><strong>The  purpose of reporting a complaint is not just to protect a specific child, but  rather to protect all the children in care at that facility.</strong> You do not have to know which specific  standards have been violated; you can provide a description of the situation and  the licensing inspector will determine which, if any, standards or laws have been violated.</p>
@@ -149,6 +152,7 @@
             <!-- <h2 id="resources">Resources</h2> -->
           </div>
           </div>
+		  </div>
         </div>
       </div>
 	</div>
@@ -417,6 +421,7 @@
 	<a class="cd-top" href="#">Top</a>
 	<script type="text/javascript" src="../assets/js/back_to_top.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
+	<script src="../assets/js/nav_page.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
