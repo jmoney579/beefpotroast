@@ -42,8 +42,8 @@ body.internal{
 	}
 .jumbotron h1 {
     color: #fff;
-    font-size: 45px;
-    margin-top: 40px;
+    font-size: 54px;
+    margin-top: 13px;
     text-align: center;
 }
 .parent_header, .provider_header, .community_header{
@@ -286,7 +286,7 @@ div:nth-of-type(6).blocks_item{
     color: #2472d2;
     float: none;
     height: 355px;
-    margin: 240px auto 0;
+    margin: -91px auto 0;
 }
 .child_point{
 	background: url('../img/child_pointing.png') no-repeat center bottom transparent;
@@ -480,7 +480,7 @@ footer {
 	padding: 3px 37px;
 	}
 .parent_icon{
-	height: 122px;
+	height: 139px;
 	}
 .provider_icon{
 	height: 129px;
