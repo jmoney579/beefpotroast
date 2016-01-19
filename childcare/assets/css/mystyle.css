@@ -592,9 +592,9 @@ hr.cc_diamond{
 		}
 	}
 @media (max-width: 991px){
-	.licensed{
+	/*.licensed{
 		margin-top: 370px
-	}
+	}*/
 	.poster_text p{
 		width: 255px;
 	}
