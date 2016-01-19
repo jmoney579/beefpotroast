@@ -394,6 +394,13 @@ footer {
 	text-align: center;
 	padding-top: 4px;
 	}
+.copyright a{
+	color: #FFF;
+	}
+.copyright a:hover{
+	color: #CCC;
+	text-decoration: none;
+	}
 .fac_search{
 	max-width: 444px;
 	margin: 5px 0 10px;
