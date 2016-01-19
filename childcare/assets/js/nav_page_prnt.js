@@ -1,14 +1,14 @@
 /* PageID to Section ID Reference
-	0 = trending
-	1 = ccv
-	2 = cc_business
-	3 = fact_sheet
-	4 = partnerships
-	5 = publications
-	6 = research
-	7 = ccdbg
-	8 = complaint
-	9 = resources
+	0 = quality
+	1 = benefits
+	2 = childcare
+	3 = finding
+	4 = paying
+	5 = growth
+	6 = health
+	7 = intervention
+	8 = resources
+	9 = assistance
 */
 
 $(document).ready(function($){
@@ -22,35 +22,35 @@ $(document).ready(function($){
 		}
 	var pageID = getUrlVars()["pageID"];
 	
-	if(pageID == 0){
+	if(pageID == 0 || pageID == null || pageID == undefined){
 		$(".section").css("display", "none");
-		$("#trending").fadeIn()
-	} else if (pageID == 1 || pageID == null || pageID == undefined){
+		$("#quality").fadeIn()
+	} else if (pageID == 1){
 		$(".section").css("display", "none");
-		$("#ccv").fadeIn();
+		$("#benefits").fadeIn();
 	}else if(pageID == 2){
 		$(".section").css("display", "none");
-		$("#cc_business").fadeIn();
+		$("#childcare").fadeIn();
 	}else if(pageID == 3){
 		$(".section").css("display", "none");
-		$("#fact_sheet").fadeIn();
+		$("#finding").fadeIn();
 	}else if(pageID == 4){
 		$(".section").css("display", "none");
-		$("#partnerships").fadeIn();
+		$("#paying").fadeIn();
 	}else if(pageID == 5){
 		$(".section").css("display", "none");
-		$("#publications").fadeIn();
+		$("#growth").fadeIn();
 	}else if(pageID == 6){
 		$(".section").css("display", "none");
-		$("#research").fadeIn();
+		$("#health").fadeIn();
 	}else if(pageID == 7){
 		$(".section").css("display", "none");
-		$("#ccdbg").fadeIn();
+		$("#intervention").fadeIn();
 	}else if(pageID == 8){
 		$(".section").css("display", "none");
-		$("#complaint").fadeIn();
+		$("#resources").fadeIn();
 	}else if(pageID == 9){
 		$(".section").css("display", "none");
-		$("#resources").fadeIn();
+		$("#assistance").fadeIn();
 	}
 });

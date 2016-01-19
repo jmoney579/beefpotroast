@@ -497,6 +497,9 @@ hr.cc_diamond{
 	width: 443px;
 	margin: -5px auto;
 	}
+.section {
+    margin-bottom: 55px;
+}
 /* Bootstrap Overides */
 .navbar-default .navbar-nav li a:focus, .navbar-default .navbar-nav li a:hover{
 	color: #c1c0c0;

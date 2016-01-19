@@ -1,18 +1,17 @@
 /* PageID to Section ID Reference
-	0 = trending
-	1 = ccv
-	2 = cc_business
-	3 = fact_sheet
-	4 = partnerships
-	5 = publications
-	6 = research
-	7 = ccdbg
-	8 = complaint
-	9 = resources
+	0 = cc_business
+	1 = licensed
+	2 = subsidy
+	3 = vaquality
+	4 = requirements
+	5 = training
+	6 = impact
+	7 = emergency
+	8 = resources
 */
 
 $(document).ready(function($){
-
+	
 	function getUrlVars() {
 		var vars = {};
 		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
@@ -22,34 +21,31 @@ $(document).ready(function($){
 		}
 	var pageID = getUrlVars()["pageID"];
 	
-	if(pageID == 0){
+	if(pageID == 0 || pageID == null || pageID == undefined){
 		$(".section").css("display", "none");
-		$("#trending").fadeIn()
-	} else if (pageID == 1 || pageID == null || pageID == undefined){
+		$("#cc_business").fadeIn()
+	} else if (pageID == 1 ){
 		$(".section").css("display", "none");
-		$("#ccv").fadeIn();
+		$("#licensed").fadeIn();
 	}else if(pageID == 2){
 		$(".section").css("display", "none");
-		$("#cc_business").fadeIn();
+		$("#subsidy").fadeIn();
 	}else if(pageID == 3){
 		$(".section").css("display", "none");
-		$("#fact_sheet").fadeIn();
+		$("#vaquality").fadeIn();
 	}else if(pageID == 4){
 		$(".section").css("display", "none");
-		$("#partnerships").fadeIn();
+		$("#requirements").fadeIn();
 	}else if(pageID == 5){
 		$(".section").css("display", "none");
-		$("#publications").fadeIn();
+		$("#training").fadeIn();
 	}else if(pageID == 6){
 		$(".section").css("display", "none");
-		$("#research").fadeIn();
+		$("#impact").fadeIn();
 	}else if(pageID == 7){
 		$(".section").css("display", "none");
-		$("#ccdbg").fadeIn();
+		$("#emergency").fadeIn();
 	}else if(pageID == 8){
-		$(".section").css("display", "none");
-		$("#complaint").fadeIn();
-	}else if(pageID == 9){
 		$(".section").css("display", "none");
 		$("#resources").fadeIn();
 	}
