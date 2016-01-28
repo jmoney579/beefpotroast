@@ -184,7 +184,14 @@ body.internal{
     padding: 8px 9px 5px 37px;
     position: relative;
 }
-.parents ul ul li, .providers ul ul li, .community ul ul li  {
+.whatsnew ul li {
+    background: transparent url("../img/purple_bullet.png") no-repeat scroll 7px 7px;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 9px 5px 37px;
+    position: relative;
+}
+.parents ul ul li, .providers ul ul li, .community ul ul li, .whatsnew ul ul li  {
     background: transparent url("../img/gray_bullet.png") no-repeat scroll 7px 9px;
     list-style-type: none;
     margin: 0;
@@ -487,6 +494,9 @@ footer {
 	}
 .community h4{
 	color: #e2a305;
+	}
+.whatsnew h4{
+	color: #b33a8a;
 	}
 .col-sm-4.parents li, .col-sm-4.providers li, .col-sm-4.community li {
 	font-size: 19px;
