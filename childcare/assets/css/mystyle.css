@@ -208,14 +208,21 @@ body.internal{
     color: #f7b40e;
     font-size: 54px;
     font-weight: bold;
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 .checklist h4 {
     color: #b33a8a;
-    font-size: 22px;
+    font-size: 27px;
     margin: 0 auto;
-    width: 256px;
+    width: 278px;
 }
+.checklist h4 a{
+	color: #b33a8a;
+	}
+.checklist h4 a:hover{
+	color: #999;
+	text-decoration: none;
+	}
 .c_icons {
     clear: both;
     display: block;
