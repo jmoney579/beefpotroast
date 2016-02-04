@@ -9,7 +9,7 @@
 
 body{
     font-family: "texgyreheros","Helvetica Neue",Helvetica,Arial,sans-serif;
-	background: url('../img/body_back.jpg') no-repeat left center transparent;
+	background: url('../img/body_back.png') no-repeat left top #a22f00;
 	/* background-size: cover;*/
 	height: 100vh;
 	color: #7b7b7b;
@@ -48,6 +48,11 @@ body{
 	line-height: 19px;
 	height: 100px;
 	}
+.active{
+    background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+    color: #fff;
+    text-decoration: none;
+}
 .brand-title {
     font-size: 17px;
     font-weight: lighter;

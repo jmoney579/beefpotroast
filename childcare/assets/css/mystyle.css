@@ -34,11 +34,12 @@ body.internal{
 	}
 .jumbotron{
 	background: url('../../images/header_image4.png') no-repeat center 0px transparent;
-	height: 630px;
+	height: 563px;
 	padding-top: 9px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	z-index: 1;
+	background-size: 1307px;
 	}
 .jumbotron h1 {
     color: #fff;
@@ -334,7 +335,7 @@ div:nth-of-type(6).blocks_item{
     z-index: 0;
 }
 .licensed h4{
-	font-size: 20px;
+	font-size: 23px;
 	}
 .poster_text {
     float: right;
@@ -342,6 +343,7 @@ div:nth-of-type(6).blocks_item{
 }
 .poster_text p{
 	width: 308px;
+	font-size: 17px;
 	}
 .provider {
     color: #5abb4a;
@@ -349,9 +351,11 @@ div:nth-of-type(6).blocks_item{
     margin: 0 auto 16px;
 }
 .provider h4{
-	font-size: 20px;
+	font-size: 22px;
 	}
-	
+.provider p{
+	font-size: 17px;
+	}
 .org{
 	background-color: #5abb4a;
 	padding: 14px;
@@ -527,7 +531,7 @@ hr.cc_diamond{
 	}
 .care_logo{
 	width: 475px;
-	margin: 3px auto;
+	margin: 0px auto;
 	}
 .section {
     margin-bottom: 55px;
