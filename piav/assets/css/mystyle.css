@@ -14,6 +14,15 @@ body{
 	height: 100vh;
 	color: #7b7b7b;
 	}
+.history{
+	background: url('../img/hist_back.jpg') no-repeat left top transparent;
+	}
+.training{
+	background: url('../img/train_back.jpg') no-repeat left center transparent;
+	}
+.contact{
+	background: url('../img/contact_back.jpg') no-repeat left center transparent;
+	}
 .bkgd_shift{
 	background-position: -523px center; */
 	}
@@ -22,6 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 h1{
 	margin-bottom: 20px;
+	color: #e89300;
 	}
 hr{
 	clear: both;
@@ -101,6 +111,15 @@ hr{
 #page-content-wrapper .row{
 	margin-bottom: 30px;
 	}
+#page-content-wrapper ul li {
+    background: transparent url("../img/bullet.png") no-repeat scroll 0 5px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    position: relative;
+}
+
 .res_nav {
     /*left: -95px;*/
     position: absolute;
