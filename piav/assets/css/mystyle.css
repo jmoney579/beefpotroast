@@ -17,14 +17,23 @@ body{
 .bkgd_shift{
 	background-position: -523px center; */
 	}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+		}
+h1{
+	margin-bottom: 20px;
+	}
+hr{
+	clear: both;
+	}
 #page-content-wrapper {
-    width: auto;
     position: absolute;
     padding: 15px;
     height: 100vh;
     background-color: #FFF;
     margin-left: 95px;
 	overflow: auto;
+	width: auto;
 }
 /*.toggled #page-content-wrapper{
 	width: 100%;
@@ -113,6 +122,10 @@ body{
 	}
 .tagline{
 	color: #e89300;
+	}
+.clearfix{
+	float:none;
+	clear:both;
 	}
 .copyright {
     color: #FFF;
