@@ -26,6 +26,10 @@ body{
 .bkgd_shift{
 	background-position: -523px center; */
 	}
+.home{
+	background: url('../img/body_back2.jpg') no-repeat left top transparent;
+	background-size: cover;
+	}
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 		}
@@ -39,7 +43,8 @@ hr{
 .site_title {
     font-size: 27px;
 	color: #FFF;
-    background-color: #2f2f2f;
+    /* background-color: #2f2f2f; */
+	background: url('../img/nav_back.png') repeat center center transparent;
     display: block;
     position: fixed;
     z-index: 9999;
@@ -251,10 +256,10 @@ footer{
 }
 @media (max-width: 684px){
 	.v2 #wrapper{
-		padding-top: 169px;
+		padding-top: 166px;
 	}
 	.v2 .res_nav{
-		top: 169px;
+		top: 166px;
 	}
 }
 @media (max-width: 549px){
@@ -264,10 +269,10 @@ footer{
 	}
 @media (max-width: 515px){
 	.v2 #wrapper{
-		padding-top: 198px;
+		padding-top: 195px;
 	}
 	.v2 .res_nav{
-		top: 198px;
+		top: 195px;
 	}
 }
 @media (max-width: 495px){
@@ -283,17 +288,17 @@ footer{
 	}
 @media (max-width: 452px){
 	.v2 #wrapper{
-		padding-top: 222px;
+		padding-top: 219px;
 	}
 	.v2 .res_nav{
-		top: 222px;
+		top: 219px;
 	}
 }
 @media (max-width: 421px){
 	.v2 #wrapper{
-		padding-top: 361px;
+		padding-top: 357px;
 	}
 	.v2 .res_nav{
-		top: 361px;
+		top: 357px;
 	}
 }
