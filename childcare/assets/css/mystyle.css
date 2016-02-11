@@ -531,7 +531,7 @@ hr.cc_diamond{
 	}
 .care_logo{
 	width: 475px;
-	margin: 0px auto;
+	margin: 10px auto;
 	}
 .section {
     margin-bottom: 55px;
@@ -579,7 +579,7 @@ hr.cc_diamond{
 }
 .navbar-brand > img {
     display: block;
-    margin-top: -4px;
+    margin-top: 0px;
     width: 147px;
 }
 .quicklinks{
