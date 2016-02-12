@@ -122,6 +122,12 @@ body.internal{
 .sub_parent a{
 	color: #44cacb;
 	}
+.provide a{
+    color: #5abb4a;
+}
+.commun a{
+	color: #f7b40e;
+	}
 .sub_parent a:hover{	
 	color: #337ab7;
 	text-decoration: none;
