@@ -217,7 +217,7 @@ body.internal{
     position: relative;
 }
 .checklist{
-	background: url('../../images/baby_blocks.png') no-repeat center center transparent;
+	background: url('../../images/baby_blocks2.png') no-repeat center center transparent;
 	text-align: center;
 	}
 .checklist h2 {
@@ -320,11 +320,11 @@ div:nth-of-type(6).blocks_item{
 	font-size: 25px;
 	}
 .licensed {
-    background: transparent url("../../images/family_poster.png") no-repeat scroll center center;
+    background: transparent url("../../images/family_poster3.png") no-repeat scroll left center;
     color: #2472d2;
     float: none;
     height: 355px;
-    margin: -91px auto 0;
+    margin: -66px auto 0;
 }
 .child_point{
 	background: url('../img/child_pointing.png') no-repeat center bottom transparent;
@@ -354,7 +354,9 @@ div:nth-of-type(6).blocks_item{
 	}
 .poster_text {
     float: right;
-    margin-top: 169px;
+    margin-top: 195px;
+    background: #FFF;
+    height: 139px;
 }
 .poster_text p{
 	width: 308px;
