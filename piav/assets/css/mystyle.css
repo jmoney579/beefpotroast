@@ -1,3 +1,10 @@
+/***********************************************************************************
+*   Public Assistance Investigators of Virginia                                    *
+*   Designed and developed by Jacques Walker                                       *
+*   Utilized: bootstrap framework                                                  *
+*   Contact: jacques [at] jacqueswalker.com                                        *
+*   Copyright 2016                                                                *
+***********************************************************************************/
 @font-face {
     font-family: 'texgyreheros';
 		src: url('../fonts/texgyreheros-regular-webfont.eot');
@@ -62,7 +69,7 @@ hr{
 	font-size: 22px;
 	color: #e89300;
 	margin: 3px;
-	font-style: italics;
+	font-style: italic;
 	}
 .title{
 	margin-top: 27px;
@@ -251,15 +258,15 @@ footer{
 		font-size: 22px;
 		}	
 	.title{	
-		margin-top: 18px;
+		margin-top: 8px;
 		}
 }
 @media (max-width: 684px){
 	.v2 #wrapper{
-		padding-top: 166px;
+		padding-top: 156px;
 	}
 	.v2 .res_nav{
-		top: 166px;
+		top: 156px;
 	}
 }
 @media (max-width: 549px){
@@ -269,10 +276,10 @@ footer{
 	}
 @media (max-width: 515px){
 	.v2 #wrapper{
-		padding-top: 195px;
+		padding-top: 185px;
 	}
 	.v2 .res_nav{
-		top: 195px;
+		top: 185px;
 	}
 }
 @media (max-width: 495px){
@@ -288,17 +295,28 @@ footer{
 	}
 @media (max-width: 452px){
 	.v2 #wrapper{
-		padding-top: 219px;
+		padding-top: 209px;
 	}
 	.v2 .res_nav{
-		top: 219px;
+		top: 209px;
 	}
 }
 @media (max-width: 421px){
 	.v2 #wrapper{
-		padding-top: 357px;
+		padding-top: 286px;
 	}
 	.v2 .res_nav{
-		top: 357px;
+		top: 286px;
 	}
+	.title{
+		text-align: center;
+		width: 100%;
+		}
+	.site_title{
+		text-align: center;
+		}
+	.v2 .site_title img{
+		float: none !important;
+		margin: 8px auto 0;
+		}
 }
