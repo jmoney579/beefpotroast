@@ -409,6 +409,10 @@ footer{
 .interior .trans > a > i {
     padding: 0 5px;
 }
+.clear{
+	clear: both;
+	float: none;
+	}
 /* Media Queries */
 @media (max-width: 991px){
 	.vdss_break{	
