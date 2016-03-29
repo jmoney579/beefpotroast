@@ -167,10 +167,10 @@ table thead tr{
     color: #fff;
     height: 35px;
     left: 43px;
-    padding: 2px 0 2px 13px;
+    padding: 5px 0 2px 13px;
     position: absolute;
     top: 0;
-    width: 180px;
+    min-width: 160px;
 	-webkit-transition: all 500ms ease-out;
 	-moz-transition: all 500ms ease-out;
 	transition: all 500ms ease-out;
@@ -183,7 +183,7 @@ table thead tr{
 	height: 43px;
 	}
 .long{
-	width: 230px;
+	width: 197px;
 	}
 /* End CSS for nav popouts */
 .home_head{
@@ -381,7 +381,7 @@ footer{
     padding: 14px 7px 14px 9px;
 }
 .interior .navbar-wrapper .navbar .container {
-    width: 500px;
+    width: 415px;
 }
 .interior .navbar-brand > img {
     display: block;
