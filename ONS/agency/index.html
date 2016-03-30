@@ -37,13 +37,20 @@
   
 	// create the list of agencies 
 		$scope.agency = [
-			{ name: 'Arlington Office', address: '80 North Glebe Road Arlington, VA 22203', contact: 'Joe Brown', phone: '(703) 841-6507' },
-			{ name: 'Richmond Office', address: '3314 N. Parham Road, Suite B Richmond, VA 23294', contact: 'Jim Taylor', phone: '(804) 658-5279' },
-			{ name: 'Fredericksburg Office', address: '325 Wallace Street Fredericksburg, VA 22405', contact: 'Rose Williams', phone: '(540) 899-6507' },
-			{ name: 'Harrisonburg Office', address: '250 East Elizabeth Street, Suite 109 Harrisonburg, VA 22802', contact: 'Stacey James', phone: '(540) 433-7942' }
+{ name: 'Catholic Charities of the Diocese of Arlington Migration and Refugee Services',address: '80 North Glebe Road, Arlington, VA 22203',phone: '(703) 841-3864 ',url: 'http://www.ccda.net/',contact: 'Belayneh Loppisso' },
+{ name: 'Catholic Charities of the Diocese of Arlington Migration and Refugee Services',address: '325 Wallace Street, Fredericksburg, VA 22401',phone: '(540) 899-6507',url: 'http://www.ccda.net/',contact: 'Laurel Collins' },
+{ name: 'Catholic Charities of the Diocese of Arlington Migration and Refugee Services',address: '9200 Church Street, Suite 304, Manassas, VA 20110',phone: '(571) 364-8010',url: 'http://www.ccda.net/',contact: 'Berhanu Dinssa' },
+{ name: 'International Rescue Committee in Charlottesville ',address: '609 East Market Street, Suite 104, Charlottesville, VA 22902',phone: '(434) 979-7772 x 104',url: 'http://www.rescue.org/charlottesville',contact: 'Barbara Cabell' },
+{ name: 'International Rescue Committee in Charlottesville ',address: '8100 Three Chopt Road, Suite128, Richmond, VA  23229',phone: '(804) 308-9144',url: 'http://www.rescue.org/charlottesville',contact: 'Stephen Allen' },
+{ name: 'Lutheran Social Services of the National Capital Area Refugee Immigration Services',address: '7401 Leesburg Pike, Falls Church, VA 22043',phone: '(703) 698-5026 x133 ',url: 'http://www.lssnca.org/lss/wwd_refugee',contact: 'Razan Osman' },
+{ name: 'Church World Service Immigration and Refugee Program',address: '3314 N. Parham Road, Suite B, Richmond, VA 23294',phone: '(804) 658-5279 ',url: 'http://cwsglobal.org/',contact: 'Kika Husejnovic' },
+{ name: 'Church World Service Immigration and Refugee Program',address: '250 East Elizabeth Street, Suite 109, Harrisonburg, VA 22802',phone: '(540) 433-7942',url: 'http://cwsglobal.org/',contact: 'Jim Hershberger' },
+{ name: 'Commonwealth Catholic Charities Refugee Resettlement Program',address: '1601 Rolling Hills Drive, Richmond, VA 23229',phone: '(804) 545-6290',url: 'http://cccofva.org/',contact: 'Abubaker Abdelrahman' },
+{ name: 'Commonwealth Catholic Charities Refugee Resettlement Program',address: '12284 Warwick Blvd., Suite 1-A, Newport News, VA 23606',phone: '(757) 247-3600 Ext 20',url: 'http://cccofva.org/',contact: 'Amar Bhattarai' },
+{ name: 'Commonwealth Catholic Charities Refugee Resettlement Program',address: '820 Campbell Avenue SW, Roanoke, VA 24016-3536',phone: '(540) 342-7561 x303',url: 'http://cccofva.org/',contact: 'Laura Murphy' },
+{ name: 'Commonwealth Catholic Charities Unaccompanied Refugee Minors Program',address: '1601 Rolling Hills Drive, Richmond, VA 23229',phone: '(804) 545-5910',url: 'http://cccofva.org/',contact: 'Anita Best' }
 		];
-  
-	});
+  	});
 </script>
     <!-- Custom styles for this template -->
     <link href="../assets/css/carousel.css" rel="stylesheet">
@@ -110,7 +117,7 @@
       </ol>-->
 	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
-        <div class="item active img2">
+        <div class="item active img5">
           <!--<img class="first-slide img-responsive" src="images/congo_refugee.jpg" alt="First slide">-->
           <div class="container">
             <div class="carousel-caption">
@@ -225,7 +232,7 @@
 					
 					<tbody>
 					  <tr ng-repeat="roll in agency | orderBy:sortType:sortReverse | filter:searchAgency">
-						<td>{{ roll.name }}</td>
+						<td><a ng-if="roll.url" target="_blank" href="{{roll.url}}">{{ roll.name }}</a><span ng-if="!roll.url">{{ roll.name}}</span></td>
 						<td>{{ roll.address }}</td>
 						<td>{{ roll.contact }}</td>
 						<td>{{ roll.phone }}</td>
