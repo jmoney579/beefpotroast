@@ -49,6 +49,12 @@ table thead td{
 table thead tr{
 	border: 2px solid #337ab7;
 	}
+img.pull-left{
+	margin: 0 15px 15px 0;
+	}
+img.pull-right{
+	margin: 0 0 15px 15px;
+	}
 .nav hr{
 	margin: 3px 5px;
 	color: #ccc !important;
@@ -182,7 +188,7 @@ table thead tr{
     margin-top: 25px;
 }
 /* CSS for nav popouts */
-.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname,  .translate{
+.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname,  .translate, .messagename, .partname{
     background: transparent url("../img/popout.png") repeat scroll center center;
     color: #fff;
     height: 35px;
@@ -401,7 +407,7 @@ footer{
     padding: 14px 7px 14px 9px;
 }
 .interior .navbar-wrapper .navbar .container {
-    width: 415px;
+    width: 490px;
 }
 .interior .navbar-brand > img {
     display: block;
@@ -416,7 +422,7 @@ footer{
     border-right: none;
 }
 
-.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate{
+.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate, .interior .messagename, .interior .partname{
 	left: 0;
 	top: 57px;
 }
@@ -516,7 +522,7 @@ footer{
 	.navbar-wrapper {
 		top: 68px;
 	}
-	.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname, .translate, .show {
+	.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname, .translate, .messagename, .partname, .show {
 		display: none !important;
 	}
 }

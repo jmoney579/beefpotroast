@@ -71,7 +71,22 @@
 					$('.contactname').removeClass("show");
 				}
 			);
-
+			$('.message').hover(
+				function(){
+					$('.messagename').addClass("show");
+				},
+				function(){
+					$('.messagename').removeClass("show");
+				}
+			);
+			$('.partner').hover(
+				function(){
+					$('.partname').addClass("show");
+				},
+				function(){
+					$('.partname').removeClass("show");
+				}
+			);			
 			$('.trans').hover(
 				function(){
 					$('.translate').addClass("show");
