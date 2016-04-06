@@ -55,6 +55,9 @@ img.pull-left{
 img.pull-right{
 	margin: 0 0 15px 15px;
 	}
+a{
+	cursor: pointer;
+	}
 .nav hr{
 	margin: 3px 5px;
 	color: #ccc !important;
@@ -186,6 +189,7 @@ img.pull-right{
 	}	
 .container.marketing {
     margin-top: 25px;
+	min-height: 410px;
 }
 /* CSS for nav popouts */
 .homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname,  .translate, .messagename, .partname{
@@ -319,12 +323,14 @@ a:hover.sorthead{
     float: none;
     margin: 0 auto;
     text-align: center;
-    width: 340px;
+    /* width: 340px; */
+	width: 271px
 }
 .soc_media .fa-rss{
 	color: #FFF;
 	font-size: 2.6em;
 	padding-top: 8px;
+	display: none;
 	}
 .soc_media .fa-rss:hover{
 	color: #ef6500;
