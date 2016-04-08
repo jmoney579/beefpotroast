@@ -461,7 +461,12 @@ footer {
 	}
 .pure-form-stacked input:not([type]), .pure-form select {
     color: #999;
-	}
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin: 4px;
+    height: 40px;
+    padding: 5px;
+}
 .form_title{	
 	background-color: #242424;
 	text-align: center;
