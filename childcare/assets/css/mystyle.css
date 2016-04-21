@@ -608,6 +608,34 @@ hr.cc_diamond{
 	 position: fixed !important; 
 	 right: 0;
 	 }
+.recent_button{
+	margin-top: 16px;
+	}
+.recent_button h3{
+	font-weight: bolder;
+	color: #b33a8a;
+	margin-top: 3px;
+	}
+.recent_button a h3{
+	color: #b33a8a;
+	}
+.recent_button a:hover h3{
+	color: #CCC;
+	text-decoration: initial !important;
+	border-bottom: none !important;
+	}
+.recent_button a:hover, .recent_button a:focus{
+	text-decoration: none !important;
+	border-bottom: none !important;
+	}
+.recent_button img{
+	width: 108px;
+	margin: 0 auto;
+	}
+.new_button{
+	margin-top: 3px;
+	margin-left: 3px;
+}
 /* Back to Top CSS */
 .cd-top {
     background: url("../img/scroll_to_top.png") no-repeat scroll center 50% transparent;
