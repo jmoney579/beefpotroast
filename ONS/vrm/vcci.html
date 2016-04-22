@@ -10,28 +10,30 @@
     <meta name="author" content="">
 
     <title>Office of Newcomers Services</title>
-	<link href="assets/img/favicon.png" type="image/png" rel="icon" />
+	<link href="../assets/img/favicon.png" type="image/png" rel="icon" />
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+	<!-- Angular Script -->
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>-->
+	<!-- Angular Data -->
     <!-- Custom styles for this template -->
-    <link href="assets/css/carousel.css" rel="stylesheet">
-	<link href="assets/css/ons_style.css" rel="stylesheet">
+    <link href="../assets/css/carousel.css" rel="stylesheet">
+	<link href="../assets/css/ons_style.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-  
+  <div class="interior">
 	<header class="pull-right">Office of Newcomer Services<br/>
 	<small>A division of the Virginia Department of Social Services</small>
 	</header>
@@ -51,26 +53,24 @@
               </button>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-			<a class="navbar-brand" href="/index.html" title="Office of Newcomers Services"><img src="images/ons_logo.png" alt="Office of Newcomers Services Logo"/></a>
+			<a class="navbar-brand" href="../index.html" title="Office of Newcomers Services"><img src="../images/ons_logo.png" alt="Office of Newcomers Services Logo"/></a>
               <ul class="nav navbar-nav">
-                <li class="active home"><a href="index.html"><i class="fa fa-home fa-2x "></i><div class="homename">Home</div></a></li>
-				<li class="about"><a href="about/index.html"><i class="fa fa-info-circle fa-2x "></i><div class="aboutname">About US</div></a></li>
-				<li class=" dropdown vrm"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-chain fa-2x"></i><span class="caret"></span><div class="vrmname tall">VA Resettlement Model</div></a>
+                <li class="home"><a href="../index.html"><i class="fa fa-home fa-2x "></i><div class="homename">Home</div></a></li>
+				<li class="about"><a href="../about/index.html"><i class="fa fa-info-circle fa-2x "></i><div class="aboutname">About Us</div></a></li>
+				<li class=" dropdown vrm active"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-chain fa-2x"></i><span class="caret"></span><div class="vrmname tall">VA Resettlement Model</div></a>
                   <ul class="dropdown-menu" role="menu">
-					<li><a href="vrm/index.html">Overview</a></li>
-                    <li><a href="vrm/vcci.html">VCCI</a></li>
+					<li><a href="../vrm/index.html">Overview</a></li>
+                    <li><a href="../vrm/vcci.html">VCCI</a></li>
                   </ul>
                 </li>	
-				<li class="message"><a href="message/index.html"><i class="fa fa-commenting fa-2x "></i><div class="messagename">Coordinator Message</div></a></li>				
-				<li class="serv"><a href="services/index.html"><i class="fa fa-group fa-2x"></i><div class="servname">Benefits & Services</div></a></li>
-				<li class="agency"><a href="agency/index.html"><i class="fa fa-building fa-2x"></i><div class="agencyname">Sevice Providers</div></a></li>
-				<li class="partner"><a href="partners/index.html"><i class="fa fa-slideshare fa-2x "></i><div class="partname">Partners</div></a></li>				                
-				<li class="cal"><a href="stories/index.html"><i class="fa fa-comments-o fa-2x"></i><div class="calname">Sucess Stories</div></a></li>
-                <li class="stat"><a href="facts/index.html"><i class="fa fa-bar-chart fa-2x"></i><div class="statname">Get The Facts</div></a></li>
+				<li class="message"><a href="../message/index.html"><i class="fa fa-commenting fa-2x "></i><div class="messagename">Coordinator Message</div></a></li>				
+				<li class="serv"><a href="../services/index.html"><i class="fa fa-group fa-2x"></i><div class="servname">Benefits & Services</div></a></li>
+				<li class="agency"><a href="../agency/index.html"><i class="fa fa-building fa-2x"></i><div class="agencyname">Service Providers</div></a></a></li> 
+				<li class="partner"><a href="../partners/index.html"><i class="fa fa-slideshare fa-2x "></i><div class="partname">Partners</div></a></li>		
+				<li class="cal"><a href="../stories/index.html"><i class="fa fa-comments-o fa-2x"></i><div class="calname">Success Stories</div></a></li>
+                <li class="stat"><a href="../facts/index.html"><i class="fa fa-bar-chart fa-2x"></i><div class="statname">Get the Facts</div></a></li>
 <!-- 				<li class="term"><a href="#contact"><i class="fa fa-file-o fa-2x"></i><div class="termname">Glossary or Terms</div></a></li> -->
-				<li class="contact"><a href="contact/index.html"><i class="fa fa-phone fa-2x"></i><div class="contactname">Contact Us</div></a></li>
-				
-				<hr/>
+				<li class="contact"><a href="../contact/index.html"><i class="fa fa-phone fa-2x"></i><div class="contactname">Contact Information</div></a></li>
 				<li class="trans"><a href="#"><i class="fa fa-google fa-2x"></i><div class="translate long">
 				<div id="google_translate_element"></div>
 				<script type="text/javascript">
@@ -99,16 +99,18 @@
       </ol>-->
 	 <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
-        <div class="item active img1">
+        <div class="item active img7">
           <!--<img class="first-slide img-responsive" src="images/congo_refugee.jpg" alt="First slide">-->
           <div class="container">
             <div class="carousel-caption">
-              <div class="col-sm-7 pull-left"><h1>Refugee Resettlement<br/><small>A Welcoming Community</small></h1></div>
-					<div class="col-sm-5 pull-left quicklinks">Are you looking for...<br/>
+              <div class="col-sm-7 pull-left"><h1>Virginia Resettlement Model<br/><small>Virginia Commonwealth Consortium Initiative</small></h1></div>
+			  		<div class="col-sm-5 pull-left quicklinks">Are you looking for...<br/>
 						<hr class="vdss_break pull-left"/>
-						<small><a href="services/index.html">Refugee Services</a> <a href="about/index.html">General Information</a> <a href="agency/index.html">Service Providers</a></small>
+						<small><a href="../services/index.html">Refugee Services</a> <a href="../about/index.html">General Information</a> <a href="../agency/index.html">Service Providers</a></small>
 					</div>
-			</div>
+              <!--<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+            </div>
           </div>
         </div>
         <!--<div class="item">
@@ -151,61 +153,51 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-sm-4">
-          <h2 class="home_head">About the Program</h2>
-			<p>Funded by the US Department of Health and Human Services, Administration for Children and Families, Office of Refugee Resettlement (ORR), the Virginia Refugee Resettlement Program provides a continuum of employment, educational, case management, health and financial support services to newly arrived refugees in the Commonwealth.</p>
-        </div><!-- /.col-lg-4 -->
-		<div class="col-sm-4">
-          <h2 class="home_head">Our Mission</h2>
-			<p>The mission of the Office of Newcomer Services is to help refugees and their families obtain employment, economic self-sufficiency and social integration within the shortest possible time after their arrival into the Commonwealth.</p>
-        </div>
-        <div class="col-sm-4">
-          <h2 class="home_head">Upcoming Events</h2>
-		  <!--<div class="event">
-          <div class="date pull-left"><div class="month">May</div><div class="day">17</div></div>
-		  <div class="event_title pull-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
-		  </div>
-
-		  <div class="event">
-		  <div class="date pull-left"><div class="month">May</div><div class="day">29</div></div>
-		  <div class="event_title pull-left"><a href="#">Aliquam tincidunt mauris eu risus.</a></div>
-		  </div>
-
-		  <div class="event">
-		  <div class="date pull-left"><div class="month">Jun</div><div class="day">6</div></div>
-		  <div class="event_title pull-left">Vestibulum auctor dapibus neque.</div>
-		  </div>
-
-		  <div class="event">
-		  <div class="date pull-left"><div class="month">Jun</div><div class="day">22</div></div>
-		  <div class="event_title pull-left"><a href="#">Cras ornare tristique elit.</a></div>
-		  </div>
-
-		  <div class="event">
-		  <div class="date pull-left"><div class="month">Jul</div><div class="day">4</div></div>
-		  <div class="event_title pull-left"><a herf="#">Nunc dignissim risus id metus.</a></div>
-		  </div>-->
-		  <div id="cal_rss"></div>
-		  <!----->
-        <!--</div>
-        <div class="col-sm-4">
-          <h2 class="home_head">News<a href="https://app.meltwater.com/gyda/outputs/55cb990dfd3333787c8b1407/rendering?apiKey=5564686c96a6ab67c5ad434f"><i class="fa fa-rss pull-right"></i></a></h2>
-          <div id="rss"></div>
-        </div>-->
-      </div><!-- /.row -->
-	</article>
-	<div class="col-md-12 vdss_shoutout">
-		<div class="col-md-1 pull-left"><a href="http://www.dss.virginia.gov"><img src="images/vdss_logo_thumb.png" alt="VDSS Logo"/></a></div>
-		<div class="col-md-11"><a href="http://www.dss.virginia.gov">Virginia Department of Social Services</a>
-			<hr class=" pull-left footer_break vdss_break">
-			<p>People helping people triumph over poverty, abuse and neglect to shape strong futures for themselves, their families and communities</p>
+        <div class="col-sm-12">
+          <h2 class="home_head">Eligible Populations</h2>
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<td>Refugee Type</td>
+							<td>Eligibility Determination</td>
+						</tr>
+					</thead>
+					  <TR>
+						<TH>Refugees</TH>
+						<TD>admitted to the United States</TD>
+					  </TR>
+					  <TR>
+						<TH>Asylees</TH>
+						<TD>granted asylum through the U.S. Citizenship and Immigration Services or through an immigration court</TD>
+					  </TR>
+					  <TR>
+						<TH>Cuban or Haitian</TH>
+						<TD>entrants admitted or paroled into the U.S. or who obtain eligible immigration status after arrival in the U.S.</TD>
+					  </TR>
+					  <TR>
+						<TH>Afghans and Iraqis</TH>
+						<TD>given special immigrant visa (SIV)</TD>
+					  </TR>
+					  <TR>
+						<TH>Victims of Severe Human Trafficking</TH>
+						<TD>with a Certification Letter or Minor&rsquo;s Eligibility Letter issued by the federal Office of Refugee Resettlement.</TD>
+					  </TR>
+					  <TR>
+						<TH>Amerasians</TH>
+						<TD>that have an Asian mother and American father and were born after January 1, 1962 and before January 1, 1975.  Spouses, children, parents, or guardians may also be eligible.</TD>
+					  </TR>
+				 </table>
+			
 		</div>
-	</div>
+		</div>
+     </div><!-- /.row -->
+	</article>
+	<div class="col-md-12 vdss_shoutout"><a href="http://www.dss.virginia.gov"><img src="../images/vdss_logo_thumb.png" alt="VDSS Logo"/>Virginia Department of Social Services</a></div>
       <!-- FOOTER -->
       <footer class="col-md-12">
 		<div class="soc_media">
 			<a href="#" title="ONS Facebook Page" class="soc_icon facebook">ONS Facebook</a>
-			<a href="#" title="ONS Twitter Page" class="soc_icon twitter">ONS Twitter</a>
+			<a href="#" title="ONS Facebook Page" class="soc_icon twitter">ONS Twitter</a>
 			<a href="#" title="ONS YouTube Page" class="soc_icon youtube">ONS YouTube</a>
 			<a href="https://app.meltwater.com/gyda/outputs/55cb990dfd3333787c8b1407/rendering?apiKey=5564686c96a6ab67c5ad434f" title="ONS RSS Page"><i class="fa fa-3x fa-rss"></i></a>
 		</div>
@@ -215,42 +207,31 @@
       </footer>
 
     </div><!-- /.container -->
-
+	</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/jquery-1.12.2.min.js" type="text/javascript"></script>
-    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/js/jquery-1.12.2.min.js" type="text/javascript"></script>
+    <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
 	<!-- nav popouts -->
-	<script src="assets/js/nav.js" type="text/javascript"></script>
+	<script src="../assets/js/nav.js" type="text/javascript"></script>
 	<!-- Rss Reader -->
-	<script src="assets/js/jquery.zrssfeed.min.js" type="text/javascript"></script>
-	<script src="assets/js/backtotop.js"></script>
-	<script type="text/javascript">
+	<!--<script src="../assets/js/jquery.zrssfeed.min.js" type="text/javascript"></script>-->
+	<script src="../assets/js/backtotop.js"></script>
+	<!--<script type="text/javascript">
 	$(document).ready(function () {
-		$('#rss').rssfeed('https://app.meltwater.com/gyda/outputs/55cb990dfd3333787c8b1407/rendering?apiKey=5564686c96a6ab67c5ad434f',{
+		$('#rss').rssfeed('http://rss.cnn.com/rss/cnn_topstories.rss',{
 		limit: 4,
-		media: true,
-		linktarget: '_blank',
-		header: false
+		media: 'true',
+		linktarget: '_blank'
 		});
 	});
-	</script>
-		<script type="text/javascript">
-	$(document).ready(function () {
-		$('#cal_rss').rssfeed('https://www.google.com/calendar/feeds/qtda0al0jbrb5iqmffrbfq2dto%40group.calendar.google.com/public/basic?singleEvents=True&orderBy=startTime',{
-		limit: 4,
-		linktarget: '_blank',
-		dateformat: '<div ss class="date pull-left"><div class="month">MMMM</div><div class="day">dd</div></div>',
-		content: false,
-		header: false
-		});
-	});
-	</script>
+	</script>-->
+
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="assets/js/vendor/holder.js" type="text/javascript"></script>
+    <script src="../assets/js/vendor/holder.js" type="text/javascript"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
+    <script src="../assets/js/ie10-viewport-bug-workaround.js" type="text/javascript"></script>
   </body>
 </html>

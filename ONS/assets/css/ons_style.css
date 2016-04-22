@@ -121,7 +121,7 @@ a{
 }
 .carousel .item {
     /*height: 100vh;*/
-	height: 563px;
+	height: 601px;
 }
 .carousel-caption{
 	width: 100%;
@@ -413,7 +413,7 @@ footer{
     padding: 14px 7px 14px 9px;
 }
 .interior .navbar-wrapper .navbar .container {
-    width: 490px;
+    width: 545px;
 }
 .interior .navbar-brand > img {
     display: block;
@@ -428,7 +428,7 @@ footer{
     border-right: none;
 }
 
-.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate, .interior .messagename, .interior .partname, .interior.vrmname{
+.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate, .interior .messagename, .interior .partname, .interior .vrmname{
 	left: 0;
 	top: 57px;
 }
@@ -533,7 +533,7 @@ footer{
 	.navbar-wrapper {
 		top: 68px;
 	}
-	.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname, .translate, .messagename, .partname, .show {
+	.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname, .translate, .messagename, .partname, .vrmname, .show {
 		display: none !important;
 	}
 }
