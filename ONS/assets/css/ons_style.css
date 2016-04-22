@@ -192,7 +192,7 @@ a{
 	min-height: 410px;
 }
 /* CSS for nav popouts */
-.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname,  .translate, .messagename, .partname{
+.homename, .aboutname, .servname, .agencyname, .resourcename, .calname, .statname, .termname, .contactname,  .translate, .messagename, .partname, .vrmname{
     background: transparent url("../img/popout.png") repeat scroll center center;
     color: #fff;
     height: 35px;
@@ -200,7 +200,7 @@ a{
     padding: 5px 0 2px 13px;
     position: absolute;
     top: 0;
-    min-width: 160px;
+    min-width: 191px;
 	-webkit-transition: all 500ms ease-out;
 	-moz-transition: all 500ms ease-out;
 	transition: all 500ms ease-out;
@@ -428,7 +428,7 @@ footer{
     border-right: none;
 }
 
-.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate, .interior .messagename, .interior .partname{
+.interior .homename, .interior .aboutname, .interior .servname, .interior .agencyname, .interior .resourcename, .interior .calname, .interior .statname, .interior .termname, .interior .contactname, .interior .translate, .interior .messagename, .interior .partname, .interior.vrmname{
 	left: 0;
 	top: 57px;
 }
@@ -445,6 +445,11 @@ footer{
 	clear: both;
 	float: none;
 	}
+.contact img {
+    width: 100px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
 /* Media Queries */
 @media (max-width: 991px){
 	.vdss_break{	

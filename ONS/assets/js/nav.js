@@ -86,7 +86,15 @@
 				function(){
 					$('.partname').removeClass("show");
 				}
-			);			
+			);
+			$('.vrm').hover(
+				function(){
+					$('.vrmname').addClass("show");
+				},
+				function(){
+					$('.vrmname').removeClass("show");
+				}
+			);				
 			$('.trans').hover(
 				function(){
 					$('.translate').addClass("show");
