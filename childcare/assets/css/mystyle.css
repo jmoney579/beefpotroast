@@ -618,7 +618,7 @@ hr.cc_diamond{
 	}
 .recent_button a h3{
 	color: #b33a8a;
-	font-size: 15px;
+	font-size: 24px;
 	}
 .recent_button a:hover h3{
 	color: #CCC;
@@ -630,7 +630,7 @@ hr.cc_diamond{
 	border-bottom: none !important;
 	}
 .recent_button img{
-	width: 108px;
+	width: 60px;
 	margin: 0 auto;
 	}
 .new_button{
