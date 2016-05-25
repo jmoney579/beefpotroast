@@ -450,6 +450,14 @@ footer{
     margin-top: 16px;
     margin-bottom: 16px;
 }
+img.story {
+    margin-bottom: 0px;
+    width: 119px;
+    margin-top: 11px;
+}
+.success .home_head{
+	margin-left: 145px;
+	}
 /* Media Queries */
 @media (max-width: 991px){
 	.vdss_break{	
