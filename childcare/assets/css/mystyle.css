@@ -377,13 +377,17 @@ div:nth-of-type(6).blocks_item{
 	background-color: #5abb4a;
 	padding: 14px;
 	}
-.org .col-md-7, .calendar .col-md-9{
+.org .col-md-7, .calendar .col-md-9, .org .col-md-9, .org .col-lg-8, .org .col-sm-12, .org .col-xs-12{
 	float: none;
 	margin: 0 auto;
 	}
+.org .col-md-7, .org .col-md-9, .org .col-lg-8, .org .col-sm-12, .org .col-xs-12{
+	clear: both;
+	}
 .org .col-sm-2{
-	margin: 5px 15px;
+	margin: 5px 3px;
 	height: 129px;
+	width: 129px;
 	}
 .all_orgs {
     background-color: orange;
@@ -637,6 +641,12 @@ hr.cc_diamond{
 	margin-top: 3px;
 	margin-left: 3px;
 }
+.impact{
+	color: #fd5524
+}
+a.impact:hover{
+	color: #949494;
+	}
 /* Back to Top CSS */
 .cd-top {
     background: url("../img/scroll_to_top.png") no-repeat scroll center 50% transparent;
@@ -669,6 +679,11 @@ hr.cc_diamond{
     background-color: #e86256;
     opacity: 1;
 }
+@media (min-width: 1200px){
+	.org .col-md-9{
+		width: 800px;
+		}
+	}
 @media (max-width: 1200px){
 	.poster_text p{
 		width: 280px;
@@ -692,10 +707,12 @@ hr.cc_diamond{
 
 
 @media (max-width: 767px){
-	.org .col-md-7{
+	.org .col-md-7, .org .col-md-9, .col-sm-12{
 		float: left;
 		width: 50%;
+		clear: none;
 	}
+
 	.cd-top{
 		background-size: 75%;
 	}
