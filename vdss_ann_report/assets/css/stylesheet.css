@@ -12,9 +12,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 body{
-	margin: 0;
+	margin: 0 auto;
 	background: url('../img/paper_fibers.png') repeat center center transparent;
     font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
+	max-width: 2285px;
 	}
 header{
 	background-color: #0081c2;
@@ -54,8 +55,8 @@ content{
 	margin: 7px 15px;
 	padding: 0px 15px;
 	display: block;
+	min-height: 300px;
 	}
-
 #commonBanner {
     height: 33px;
     margin: 0 auto;
@@ -78,11 +79,144 @@ content{
     padding-right: 10px;
     padding-top: 8px;
 }
+.metro_holder{
+	margin: 0 auto;
+	width: 1142px;
+	overflow: auto;
+	}
+.metro {
+    width: 550px;
+    float: left;
+    margin-bottom: 30px;
+	margin-left: 20px;
+	overflow: auto;
+}
+.tile{
+	border: 1px solid #FFF;
+	text-transform: uppercase;
+	font-size: 19px;
+	width: 146px;
+	height: 188px;
+	color: #FFF;
+	float: left;
+	margin: 0px 2px 4px 1px;
+	opacity: 0.95;
+	}
+a:hover .tile{
+	opacity: 1;
+	}
+.tile img{
+	margin: 5px auto;
+	display: block;
+	}
+.tile .icon p{
+	display: block;
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 9px;
+	font-family: Arial;
+	margin-left: 4px;
+	}
+.tile .icon{
+	font-size: 60px;
+	font-weight: bold;
+	background-color: #FFF;
+	border-radius: 60px;
+	padding: 5px;
+	width: 87px;
+	margin: 20px auto;
+	}
+.tile p{
+	margin-left: 8px;
+	}
+.tall{
+	height: 382px;
+	}
+.tall .icon{
+	margin-top: 80px;
+	}
+.tall p{
+	text-align: center;
+	}
+.wide1{
+	width: 219px;
+	}
+.wide2{
+	width: 297px;
+	}
+.wide3{
+	width: 321px;
+	}
+.metro .home{
+	height: 382px;
+	width: 219px;
+	text-align: center;
+	font-size: 20px;
+	}
+.metro .home p{
+	margin-left: 0;
+	}
+.metro .home img{
+	margin-top: 66px;
+	}
+.green{
+	background-color: #007236;
+	}
+.orange{
+	background-color: #c74005;
+	}
+.orange .icon{
+	color: #c74005;
+	}
+.red{
+	background-color: #a00000;
+	}
+.red .icon{
+	color: #a00000;
+	}
+.purple{
+	background-color: #662d91;
+	}
+.purple .icon{
+	color: #662d91;
+	}
+.gold{
+	background-color: #a5950b;
+	}
+.gold .icon{
+	color: #a5950b;
+	}
+.pink{
+	background-color: #a50b5e;
+	}
+.pink .icon{
+	color: #a50b5e;
+	}
+.teal{
+	background-color: #2d9091;
+	}
+.teal .icon{
+	color: #2d9091;
+	}
+.dpurple{
+	background-color: #31245b;
+	}
+.dpurple .icon{
+	color: #31245b;
+	}
+.blue{
+	background-color: #3734a0;
+	}
+.blue .icon{
+	color: #3734a0;
+	}
 footer {
-    height: 250px;
+    min-height: 250px;
     background-color: #353535;
 	padding-top: 1px;
-}
+	clear: both;
+	overflow: auto;
+	}
 .vdss_map{
 	display:block;
 	float: left;
@@ -96,7 +230,6 @@ footer {
     position: relative;
     right: 1px;
     text-align: left;
-    width: 77%;
 	}
 .subnav ul {
     list-style-type: none;
@@ -170,3 +303,17 @@ footer .contact_us{
 .socialmedia img:hover{
 	opacity: 1;
 	}
+@media (max-width: 1222px){
+	.metro{
+		float: none;
+		margin: 0 auto;
+		}
+	.metro_holder{
+		width: auto;
+		}
+	}
+@media (max-width: 834px){
+	.subnav{
+		display: none;
+		}
+}
