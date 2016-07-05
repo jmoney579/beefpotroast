@@ -1,0 +1,172 @@
+@charset 'UTF-8';
+/***********************************************************************************
+*   Virginia Department of Social Services Annual Report                           *
+*   Designed by Jacques Walker  				                                   *
+*   Tableau Integration by Shibu Varughese                                         *
+*   Utilized:   *
+*   Contact: jacques [at] jacqueswalker.com                                        *
+*   Copyright 2016                                                                 *
+***********************************************************************************/
+
+/*@import url(http://fonts.googleapis.com/css?family=Muli:300);*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body{
+	margin: 0;
+	background: url('../img/paper_fibers.png') repeat center center transparent;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
+	}
+header{
+	background-color: #0081c2;
+	color: #FFF;
+	overflow: auto;
+	border-image: url('../img/color_stripe.jpg') 30 round;
+	-webkit-border-image: url('../img/color_stripe.jpg') 30 round;
+	}
+header img{
+	width: 100px;
+	float: left;
+	margin: 13px 11px 13px 15px;
+	}
+img.border_bottom{
+	width: 100%;
+	bottom: 0;
+	display: block;
+	height: 4px;
+	}
+header h2{
+	text-transform: uppercase;
+	font-family: "EucrosialUPC",serif,Verdana,serif !important;
+	font-weight: normal;
+	font-size: 32px;
+    margin: 21px 0 5px 0;
+	}
+header h3{
+	text-transform: uppercase;
+	background-color: #00263a;
+	border-top: 2px solid #b3d9ed;
+	border-bottom: 2px solid #b3d9ed;
+	font-size: 33px;
+    font-weight: normal;
+    margin: 3px;
+	}
+content{
+	margin: 7px 15px;
+	padding: 0px 15px;
+	display: block;
+	}
+
+#commonBanner {
+    height: 33px;
+    margin: 0 auto;
+    max-width: 2285px;
+    background-image: none;
+    background-color: #000;
+}
+#commonBanner .virginiaLogo {
+	font-size: 0px;
+	background: rgba(0, 0, 0, 0) url("http://www.dss.virginia.gov/globalimage/facelift/dotgov_logo.png") no-repeat scroll center center;
+	height: 33px;
+}
+#commonBanner .alignLeft {
+    float: left;
+    margin-left: 20px;
+    padding-top: 8px;
+}
+#commonBanner #virginiaSearch {
+    float: right;
+    padding-right: 10px;
+    padding-top: 8px;
+}
+footer {
+    height: 250px;
+    background-color: #353535;
+	padding-top: 1px;
+}
+.vdss_map{
+	display:block;
+	float: left;
+	margin: 11px 11px 5px;
+	}
+.subnav {
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    margin-left: 262px;
+    margin-top: -4px;
+    position: relative;
+    right: 1px;
+    text-align: left;
+    width: 77%;
+	}
+.subnav ul {
+    list-style-type: none;
+    margin-left: 0 !important;
+	margin-bottom: 6px;
+    padding: 0;
+}
+.subnav ul li {
+	margin: 0 25px;
+  	display: inline;
+}
+.subnav ul li a {
+    color: #b1b1b1;
+    text-decoration: none;
+    font-size: 14px;
+}
+.subnav ul li a:hover{
+	color: #CCCCCC;
+}
+footer .contact_us{
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    color: #b1b1b1;
+    float: left;
+    font-size: 17px;
+    margin: 72px 5px 5px;
+    padding: 9px 9px 0 0;
+    text-align: left;
+	}
+
+.cornersnug {
+    float: right;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 13px 19px 5px 0;
+    text-align: right;
+    width: 274px;
+	color: #FFF;
+}
+.cornersnug img{
+	float:left;
+	display: block;
+	}
+.cornersnug.pull-right > img {
+    width: 88px;
+}
+.cornersnug a{
+	color: #b1b1b1;
+	text-decoration: none;
+	}
+.cornersnug a:hover{	
+	color: #CCC;
+	}
+.cornersnug span#vdss_text {
+    color: #fff;
+    float: left;
+    font-size: 17px;
+    text-align: left;
+	margin-top: 5px;
+	margin-bottom: 17px;
+}
+.socialmedia{
+	margin-right: 17px;
+	}
+.socialmedia img{
+	opacity: 0.80;
+	float: right;
+	display: block;
+	margin: 5px;
+	}
+.socialmedia img:hover{
+	opacity: 1;
+	}
