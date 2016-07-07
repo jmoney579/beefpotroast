@@ -3,7 +3,7 @@
 *   Virginia Department of Social Services Annual Report                           *
 *   Designed by Jacques Walker  				                                   *
 *   Tableau Integration by Shibu Varughese                                         *
-*   Utilized:   *
+*   Utilized:                                                                      *
 *   Contact: jacques [at] jacqueswalker.com                                        *
 *   Copyright 2016                                                                 *
 ***********************************************************************************/
@@ -71,10 +71,11 @@ nav ul.icon li {
     list-style-type: none;
     font-family: Arial;
     font-size: 30px;
-    width: 25px;
+    width: 34px;
     margin-left: 0px;
-    padding: 5px 5px 3px 12px;
+    padding: 5px 5px 3px 4px;
     margin: 5px 5px 7px 0px;
+    text-align: center;
 }
 nav ul.icon li:first-of-type {
     list-style-type: none;
@@ -90,17 +91,17 @@ nav .title {
     font-size: 20px !important;
     margin-top: 0px;
 	opacity: .89;
-	position: absolute
+	position: absolute;
+	display: none;
+	z-index: 1;
 }
-nav .title ul.icon li:first-of-type{
-	background-image: none;
-    padding: 6px 5px 12px 11px;
-	}
 nav .title li {
     background-color: transparent !important;
     font-size: 18px !important;
-    width: 283px !important;
-    margin: 2px 3px 14px 0px !important;
+    width: 430px !important;
+    margin: 1px 3px 20px 4px !important;
+    text-align: left !important;
+    padding-top: 5px !important;
 }
 nav .title li a{
 	color: #FFF !important;
@@ -108,6 +109,23 @@ nav .title li a{
 nav .title li a:hover{
 	color: #CCC !important;
 	}
+nav .title ul.icon li:first-of-type{
+	background-image: none;
+    padding: 9px 5px 12px 5px;
+	}
+nav .title ul.icon li:nth-of-type(2) {
+    text-transform: uppercase;
+    font-size: 32px !important;
+    background: url('../img/header_back.png') center center repeat-x transparent;
+    font-weight: normal;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
+    border-radius: 0px;
+    /* padding: 0px; */
+    margin: -9px 3px 12px 1px !important;
+    width: 407px !important;
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
 content{
 	margin: 7px 15px;
 	padding: 0px 15px;
@@ -279,7 +297,7 @@ a:hover .tile{
 	text-decoration: none;
 	}
 .title ul{
-	width: 280px !important;
+	width: 425px !important;
 	color: #FFF !important;
 	padding-left: 0px;
 	margin-right: 8px;
@@ -309,6 +327,16 @@ a:hover .tile{
     font-weight: bold;
     margin-bottom: 3px;
     margin-top: 10px;
+}
+.interior h2 {
+    margin-top: 61px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: normal;
+    background: url('../img/header_back.png') center center repeat-x transparent;
+    color: #FFF;
+    padding: 5px 1px 5px 13px;
+    margin: 62px -30px 0 -15px;
 }
 footer {
     min-height: 250px;
