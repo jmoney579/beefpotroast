@@ -95,13 +95,12 @@ nav .title {
 nav .title ul.icon li:first-of-type{
 	background-image: none;
     padding: 6px 5px 12px 11px;
-}
 	}
 nav .title li {
     background-color: transparent !important;
     font-size: 18px !important;
     width: 283px !important;
-    margin: 4px 3px 14px 0px !important;
+    margin: 2px 3px 14px 0px !important;
 }
 nav .title li a{
 	color: #FFF !important;
