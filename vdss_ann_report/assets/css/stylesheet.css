@@ -98,10 +98,14 @@ nav .title {
 nav .title li {
     background-color: transparent !important;
     font-size: 18px !important;
-    width: 430px !important;
+    width: 411px !important;
     margin: 1px 3px 20px 4px !important;
     text-align: left !important;
     padding-top: 5px !important;
+}
+nav .title li:hover {
+    background: #000 !important;
+    border-radius: 0px;
 }
 nav .title li a{
 	color: #FFF !important;
