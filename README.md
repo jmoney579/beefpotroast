@@ -1,1 +1,1 @@
-# beefpotroast
+The beefpotroast is a repository of micro sites developed for the Virginia Department of Social Services.

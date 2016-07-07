@@ -17,6 +17,7 @@ body{
     font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
 	max-width: 2285px;
 	color: #575757;
+	min-width: 628px;
 	}
 header{
 	background-color: #0081c2;
@@ -52,11 +53,56 @@ header h3{
     font-weight: normal;
     margin: 3px;
 	}
+nav{
+	float: left;
+	background-color: transparent !important;
+	}
+nav ul.icon {
+    margin-left: -30px;
+    float: left;
+    display: block;
+    width: 51px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+}
+nav ul.icon li {
+    list-style-type: none;
+    font-family: Arial;
+    font-size: 30px;
+    width: 25px;
+    margin-left: 0px;
+    padding: 5px 5px 3px 12px;
+    margin: 5px 5px 7px 0px;
+}
+nav .title {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px !important;
+    margin-top: -2px;
+    border-top: 2px solid #FFF;
+}
+nav .title li {
+    background-color: transparent !important;
+    font-size: 18px !important;
+    width: 283px !important;
+    margin: 4px 3px 14px 0px !important;
+}
+nav .title li a{
+	color: #FFF !important;
+	}
+nav .title li a:hover{
+	color: #CCC !important;
+	}
 content{
 	margin: 7px 15px;
 	padding: 0px 15px;
 	display: block;
 	min-height: 300px;
+	}
+content.interior{
+	margin-left: 63px;
 	}
 #commonBanner {
     height: 33px;
@@ -90,7 +136,7 @@ content{
     float: left;
     margin-bottom: 30px;
 	margin-left: 20px;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 .tile{
 	border: 1px solid #FFF;
@@ -118,7 +164,7 @@ a:hover .tile{
 	font-family: Arial;
 	margin-left: 4px;
 	}
-.tile .icon{
+.tile .icon, nav .icon li{
 	font-size: 60px;
 	font-weight: bold;
 	background-color: #FFF;
@@ -163,60 +209,79 @@ a:hover .tile{
 .green{
 	background-color: #007236;
 	}
-.orange{
+.orange, .orange ul{
 	background-color: #c74005;
 	}
-.orange .icon{
+.orange .icon, .orange .icon a{
 	color: #c74005;
+	text-decoration: none;
 	}
-.red{
+.red, .red ul{
 	background-color: #a00000;
 	}
-.red .icon{
+.red .icon, .red .icon a{
 	color: #a00000;
+	text-decoration: none;
 	}
-.purple{
+.purple, .purple ul{
 	background-color: #662d91;
 	}
-.purple .icon{
+.purple .icon, .purple .icon a{
 	color: #662d91;
+	text-decoration: none;
 	}
-.gold{
+.gold, .gold ul{
 	background-color: #a5950b;
 	}
-.gold .icon{
+.gold .icon, .gold .icon a{
 	color: #a5950b;
+	text-decoration: none;
 	}
-.pink{
+.pink, .pink ul{
 	background-color: #a50b5e;
 	}
-.pink .icon{
+.pink .icon, .pink .icon a{
 	color: #a50b5e;
+	text-decoration: none;
 	}
-.teal{
+.teal, .teal ul{
 	background-color: #2d9091;
 	}
-.teal .icon{
+.teal .icon, .teal .icon a{
 	color: #2d9091;
+	text-decoration: none;
 	}
-.dpurple{
+.dpurple, .dpurple ul{
 	background-color: #31245b;
 	}
-.dpurple .icon{
+.dpurple .icon, .dpurple .icon a{
 	color: #31245b;
+	text-decoration: none;
 	}
-.blue{
+.blue, .blie ul{
 	background-color: #3734a0;
 	}
-.blue .icon{
+.blue .icon, .blue .icon a{
 	color: #3734a0;
+	text-decoration: none;
 	}
+.title ul{
+	width: 280px !important;
+	color: #FFF !important;
+	padding-left: 0px;
+	margin-right: 8px;
+	padding-top: 10px;
+	}
+.orange .title ul{
+	background-color: #893714;
+	}	
 .row{
 	padding: 0 15px;
 	overflow: auto;
 	}
+
 .col_md_3 {
-    width: 30%;
+    width: 28%;
     margin: 5px 7px 5px 14px;
     padding: 5px;
     float: left;
