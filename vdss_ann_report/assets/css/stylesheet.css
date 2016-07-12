@@ -342,6 +342,12 @@ a:hover .tile{
     padding: 5px 1px 5px 13px;
     margin: 62px -30px 0 -15px;
 }
+.tableauPlaceholder{
+	display: none !important;
+	}
+.show{
+	display: block !important;
+	}
 footer {
     min-height: 250px;
     background-color: #353535;
