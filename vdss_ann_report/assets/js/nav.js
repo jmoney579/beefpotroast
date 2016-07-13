@@ -22,5 +22,9 @@ $(document).ready(function($){
 		i++;
 		$(this).addClass('divID_'+i);
 	});
+	if(pageID == null){
+		$('.divID_1').addClass('show');
+	}else{
 		$('.divID_'+pageID).addClass('show');
+	}
 });

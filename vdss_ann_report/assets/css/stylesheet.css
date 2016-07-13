@@ -98,7 +98,7 @@ nav .title {
 nav .title li {
     background-color: transparent !important;
     font-size: 18px !important;
-    width: 411px !important;
+    width: 525px !important;
     margin: 1px 3px 20px 4px !important;
     text-align: left !important;
     padding-top: 5px !important;
@@ -126,7 +126,7 @@ nav .title ul.icon li:nth-of-type(2) {
     border-radius: 0px;
     /* padding: 0px; */
     margin: -9px 3px 12px 1px !important;
-    width: 407px !important;
+    width: 520px !important;
     padding-left: 12px;
     padding-bottom: 5px;
 }
@@ -293,7 +293,7 @@ a:hover .tile{
 	color: #31245b;
 	text-decoration: none;
 	}
-.blue, .blie ul{
+.blue, .blue ul{
 	background-color: #3734a0;
 	}
 .blue .icon, .blue .icon a{
@@ -301,7 +301,7 @@ a:hover .tile{
 	text-decoration: none;
 	}
 .title ul{
-	width: 425px !important;
+	width: 538px !important;
 	color: #FFF !important;
 	padding-left: 0px;
 	margin-right: 8px;
@@ -354,6 +354,7 @@ footer {
 	padding-top: 1px;
 	clear: both;
 	overflow: auto;
+	margin-top: 20px;
 	}
 .vdss_map{
 	display:block;
