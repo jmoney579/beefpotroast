@@ -18,7 +18,7 @@ $(document).ready(function($){
 		}
 	var pageID = getUrlVars()["pageID"];
 	var i = 0;
-	$(".tableauPlaceholder").each(function(){
+	$(".page_content").each(function(){
 		i++;
 		$(this).addClass('divID_'+i);
 	});
