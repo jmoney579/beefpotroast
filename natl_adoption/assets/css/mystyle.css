@@ -1,0 +1,166 @@
+@CHARSET "US-ASCII";
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+body, html{
+	height: 100%;
+	}
+body{
+	font-family: "Raleway",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+}
+p{
+	line-height: 23px;
+}
+
+.big-pic{
+	display: block;
+	height: 86vh;
+	background-color: #006699;
+	background: url('../img/main_header.jpg') no-repeat center center transparent;
+	background-size: cover;
+	}
+.welcome {
+    color: #FFF;
+    top: 8%;
+    left: 3%;
+}
+.welcome.pull-right {
+    left: -2%;
+	}
+.welcome h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 3px;
+	border-bottom: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+}
+.welcome p{
+	font-size: 17px;
+	}
+.dark_back{
+	background: url('../img/header_block.png') center center repeat transparent;
+	}
+.dark_text{
+	color: #40403f;
+	}
+.dark_text h1{
+	border-bottom: 1px solid #40403f;
+	border-top: 1px solid #40403f;
+}
+.hashtag {
+    background: url(../img/hash_tag.png) repeat center center transparent;
+    color: #fff;
+    top: 89%;
+    position: absolute;
+    right: 0;
+    font-size: 27px;
+    padding: 10px 18px;
+}
+.big-pic .hashtag{
+	top: 79%;
+	}
+.nav li a{
+	padding: 10px 25px;
+	}
+.navbar {
+    min-height: 91px;
+    box-shadow: 0px 1px 8px #000;
+}
+.navbar-inverse{
+	background-color: #082f43;
+	border-color: transparent;
+	font-size: 21px;
+	}
+.navbar-bottom{
+	border-radius: 0px;
+	}
+.navbar-nav > li > a {
+    padding-bottom: 32px;
+    padding-top: 5vh;
+  	text-transform: uppercase;
+}
+.navbar-toggle{
+	margin-top: 27px;
+	}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
+}
+.navbar-brand{
+	height: 70px;
+	padding-top: 2.3vh;
+}
+.rule{
+	border-right: 1px solid #FFF;
+	/*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;*/
+}
+.rule2{
+	border-right: 1px solid #0a0a0a;
+}
+.row{
+	min-height: 480px;
+	color: #636363;
+	}
+.row h1{
+	text-transform: uppercase;
+	}
+.qoute{
+	margin-top: 20px;
+	}
+.pagecontent{
+	min-height: 600px;
+	}
+.no-top{
+	margin-top: -2px;
+}
+div.col-md-4>img.img-responsive{
+	padding-bottom: 5px;
+}
+.subheader1{
+	min-height: 400px;
+	background: url("../img/subheader1.jpg") left center transparent;
+}
+.subheader2{
+	min-height: 400px;
+	background: url("../img/subheader2.jpg") center center transparent;
+}
+.subheader3{
+	min-height: 400px;
+	background: url("../img/subheader3.jpg") right center transparent;
+}
+.parallax { 
+	position: relative;
+    height: 100%; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subheader h2{
+	font-size: 40px;
+}
+.pageheader{
+	min-height: 400px;
+	background: url("../img/about_bkgd.jpg") no-repeat center top transparent;
+	background-size: cover;
+	border-bottom: 7px solid #CCC;
+	box-shadow: 0 1px 0 #CCC;
+	color: #FFF;
+	margin-top:91px;
+}
+.pageheader h2{
+	font-size: 40px;
+}
+footer{
+	border-top: 2px solid #CCC;
+	min-height: 235px;
+	background-color: #080808;
+	padding-top: 10px;
+	color: #999;
+}
+footer .col-md-4{
+	min-height: 210px;
+}
+footer p{
+	font-size: 13px;
+}
