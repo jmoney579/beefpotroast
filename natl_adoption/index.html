@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="National Adoption Month">
-	<meta name="author" content="Purmosa Consulting">
+	<meta name="author" content="Virginia Department of Social Services">
 	<!--<link href="assets/img/p_fav.jpg" type="image/jpg" rel="icon" />-->
 
     <title>National Adoption Month</title>
@@ -17,6 +17,7 @@
 	<!-- jQuery and UI -->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="assets/js/scroll_effect.js"></script>
     <!-- Custom CSS -->
     <link href="assets/css/mystyle.css" rel="stylesheet">
     <link href="assets/css/backtotop.css" rel="stylesheet">
@@ -27,19 +28,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script>
-   $(document).ready(function(){
-	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() - 78;
-			 if ($(window).scrollTop() > navHeight) {
-				 $('nav').addClass('navbar-fixed-top');
-			 }
-			 else {
-				 $('nav').removeClass('navbar-fixed-top');
-			 }
-		});
-	});
-	</script>
 
 </head>
 
@@ -52,7 +40,7 @@
 			<p>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. </p>
 		</div>
 		<div class="hashtag pull-right">
-			<p>#Adoptthefuture</p>
+			<p><a href="https://twitter.com/hashtag/adoptthefuture">#Adoptthefuture</a></p>
 		</div>
 	</div>
     <nav class="navbar navbar-inverse navbar-bottom" role="navigation">
@@ -114,7 +102,7 @@
 			<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean</p>
 		</div>
 		<div class="hashtag pull-right">
-			<p>#ForeverHome</p>
+			<p><a href="https://twitter.com/hashtag/foreverhome">#ForeverHome</a></p>
 		</div>
 	</div>
 	<div class="container-fluid">
@@ -137,7 +125,7 @@
 			<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean</p>
 		</div>
 		<div class="hashtag pull-right">
-			<p>#WhyWait</p>
+			<p><a href="https://twitter.com/hashtag/whywait">#WhyWait</a></p>
 		</div>
 	</div>
 	<div class="container-fluid">
@@ -159,7 +147,7 @@
 			<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean</p>
 		</div>
 		<div class="hashtag pull-right">
-			<p>#BecomeAParent</p>
+			<p><a href="https://twitter.com/hashtag/becomeaparent">#BecomeAParent</a></p>
 		</div>
 	</div>
 	<div class="container-fluid">
@@ -175,14 +163,33 @@
 	</div>
 </content>
 <footer class="container-fluid">
-		<div class="col-md-4 rule2">
-		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ut rutrum urna.</p>
+		<div class="footer_nav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Menu Link 1</a></li>
+				<li><a href="#">Menu Link 2</a></li>
+				<li><a href="#">Menu Link 3</a></li>
+				<li><a href="#">Menu Link 4</a></li>
+			</ul>
 		</div>
-		<div class="col-md-4 rule2">
+		<div class="col-md-4">
 		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ut rutrum urna.</p>
 		</div>
 		<div class="col-md-4">
 		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ut rutrum urna.</p>
+		</div>
+		<div class="col-md-4">
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ut rutrum urna.</p>
+		</div>
+		<div class="col-md-12 text-right">
+			<div class="col-md-6 pull-right soc_icons">
+				<a href="#"><img src="assets/img/fbook_icon.png" alt="VDSS Facebook"/></a>
+				<a href="#"><img src="assets/img/twitter_icon.png" alt="VDSS Twitter"/></a>
+				<a href="#"><img src="assets/img/youtube_icon.png" alt="VDSS Youtube"/></a>
+				<a href="#"><img src="assets/img/email_icon.png" alt="Email VDSS"/></a>			
+		</div>
+		<div class="col-md-12 text-right">
+			<p>Copyright &copy; 2016 - <a href="#">Virginia Department of Social Services</a></p>
 		</div>
 	</div>
 </footer>
