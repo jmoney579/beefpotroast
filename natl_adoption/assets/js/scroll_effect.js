@@ -5,7 +5,7 @@ $(document).ready(function(){
 		$(this).addClass('div_'+i);
 		});
 	   $(window).bind('scroll', function() {
-	   var navHeight = $( window ).height() - 78;
+	   var navHeight = $( window ).height() - 100;
 			 if ($(window).scrollTop() > navHeight) {
 				 $('nav').addClass('navbar-fixed-top');
 			 }
@@ -43,4 +43,18 @@ $(document).ready(function(){
 			 }*/		 
 		});
 		console.log("Window position is "+ $(window).height());
+		$(function() {
+		  $('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html, body').animate({
+				  scrollTop: target.offset().top - 220
+				}, 1200);
+				return false;
+			  }
+			}
+		  });
+		});
 	});
