@@ -102,7 +102,7 @@ p{
 	padding: 10px 25px;
 	}
 .navbar {
-    min-height: 71px;
+    min-height: 60px;
     box-shadow: 0px 1px 8px #000;
 }
 .navbar-inverse{
@@ -115,7 +115,7 @@ p{
 	}
 .navbar-nav > li > a {
     padding-bottom: 25px;
-    padding-top: 3vh;
+    padding-top: 4vh;
   	text-transform: uppercase;
 }
 .navbar-toggle{
@@ -339,6 +339,10 @@ table.cc_search a:hover{
 	}
 #quicklinks td{
 	font-weight: normal !important;
+	}
+/*----Fancy Boox Overides---*/
+.fancybox-skin{
+	background-color: #082f43;
 	}
 iframe{
 	border: none;
