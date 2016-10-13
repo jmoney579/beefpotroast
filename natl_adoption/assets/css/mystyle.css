@@ -280,6 +280,9 @@ table.tblRace{
 .raceSelect{
 	display: none;
 	}
+.dis_level{
+	display: none;
+	}
 tr.sectBorder, td.sectBorder{
 	border-top: 1px solid #CCC; 
 	border-left: 1px solid #CCC

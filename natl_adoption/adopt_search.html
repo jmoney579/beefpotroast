@@ -66,7 +66,7 @@ function __doPostBack(eventTarget, eventArgument) {
                     <div id="main">
                         <div id="central">
 	
-<table width="100%" height="44">
+<table class="search_table" width="100%" style="min-width: 510px; max-width: 1024px" height="44">
 	<tr>
     	<td colspan="7">		  <label for="ddlGender">Gender:</label>
     	  <select name="ctlSearch$ctl00$ddlGender" id="ddlGender">
@@ -77,8 +77,8 @@ function __doPostBack(eventTarget, eventArgument) {
     	    
     	    </select>
   	  </td>
-    	<td  class="fieldheader" width="292" rowspan="4"><label>&nbsp;</label>
-    	  <label>Racial Composition:</label>
+    	<td  class="fieldheader" width="292" rowspan="4">
+    	  Racial Composition:
     	  <!-- for="rdlstRaceComposition" -->
           <div class="radio">
             <table id="rdlstRaceComposition" class="formTable tblRace" onClick="ShowHide(&#39;rdlstRaceComposition_0&#39;,&#39;#dvRaces&#39;);">
@@ -110,7 +110,7 @@ function __doPostBack(eventTarget, eventArgument) {
 	  </tr>
 	<tr>
     	<td class="minmax" align="right" valign="baseline">Minimum:&nbsp;&nbsp;</td>
-	  <td colspan="2" valign="middle"><div class="smart-slider-wrapper">
+	  <td colspan="2" valign="middle" width="150"><div class="smart-slider-wrapper">
 	    <div class="smart-slider-select">
 	      <select name="ctlSearch$ctl00$minSib" id="minSib">
 	        <option selected="selected" value="1">1</option>
@@ -135,7 +135,7 @@ function __doPostBack(eventTarget, eventArgument) {
 	    &nbsp;<input name="ctlSearch$ctl00$txtMinSib" type="text" id="txtMinSib" size="1">
 	    </span></td>
 	  <td class="minmax" width="109" align="right" valign="middle">Minimum:&nbsp;&nbsp;</td>
-	  <td width="244" valign="middle"><div class="smart-slider-wrapper">
+	  <td width="150"  style="max-width:128px;" valign="middle"><div class="smart-slider-wrapper">
     <div class="smart-slider-label">
 
     </div>
@@ -174,7 +174,7 @@ function __doPostBack(eventTarget, eventArgument) {
 
 	<tr>
        <td class="minmax" align="right" valign="middle">Maximum:&nbsp;&nbsp;</td>
-	  <td colspan="2" valign="middle"><div id="smart-slider2">
+	  <td colspan="2" width="128" valign="middle"><div id="smart-slider2">
 	    <div class="smart-slider-wrapper">
 	      <div class="smart-slider-select">
 	        <select name="ctlSearch$ctl00$maxSib" id="maxSib" style="display: none;">
@@ -232,10 +232,12 @@ function __doPostBack(eventTarget, eventArgument) {
       </select>
     </div>
   </div></td>
-	  <td>    <div class="smart-slider-input">
+	  <td>    
+	  <div class="smart-slider-input">
 	    <label for="txtMaxAge" style="display:none">Minimum age of children</label>
 	    &nbsp;<input name="ctlSearch$ctl00$txtMaxAge" type="text" id="txtMaxAge" size="1">
-	    </div></td>
+	    </div>
+		</td>
 	  </tr>
 	<tr class="raceSelect">
 	  <td class="sectBorder fieldheader" colspan="8">
@@ -265,52 +267,42 @@ function __doPostBack(eventTarget, eventArgument) {
 	<tr>
 		<td colspan="9">&nbsp;&nbsp;</td>
 	</tr>
-	  <td colspan="5" style="border-bottom: 1px solid #CCC;" class="fieldheader">Disability Level</td>
-      <td>&nbsp;</td>
-	  <td>&nbsp;</td>
-      <td>&nbsp;</td>
+	  <td colspan="9" style="border-bottom: 1px solid #CCC;" class="fieldheader"><input id="show_dis_level" type="checkbox" name="show_dis_level" value="show"> Search by Disability Level</td>
+
 	  </tr>
-	<tr>
-	  <td>Physical/Medical&nbsp;&nbsp;&nbsp;</td>
-	  <td>Emotional</td>
-      <td>Behavioral</td>
-      <td>Developmental&nbsp;&nbsp;&nbsp;</td>
-      <td>Learning</td>
-      <td>&nbsp;</td>
-	  <td colspan="2">&nbsp;</td>
-      </tr>
-	<tr>
-	  <td width="113"><select name="ctlSearch$ctl00$rdlstPhysical">
+	
+	<tr class="dis_level">
+	  <td width="113">Physical/Medical&nbsp;&nbsp;<br/><select name="ctlSearch$ctl00$rdlstPhysical">
 	    <option value="18">None</option>
 	    <option value="19">Mild</option>
 	    <option value="20">Moderate</option>
-	    <option value="21" selected>Severe</option>
+	    <option value="21" selected>Any</option>
 	    </select></td>
-	  <td width="107"><select name="ctlSearch$ctl00$rdlstEmotional">
+	  <td width="107">Emotional&nbsp;&nbsp;<br/><select name="ctlSearch$ctl00$rdlstEmotional">
 	    <option value="18">None</option>
 	    <option value="19">Mild</option>
 	    <option value="20">Moderate</option>
-	    <option value="21" selected>Severe</option>
+	    <option value="21" selected>Any</option>
 	    </select></td>
-	  <td width="102"><select name="ctlSearch$ctl00$rdlstBehavioral">
+	  <td width="102">Behavioral&nbsp;&nbsp;<br/><select name="ctlSearch$ctl00$rdlstBehavioral">
 	    <option value="18">None</option>
 	    <option value="19">Mild</option>
 	    <option value="20">Moderate</option>
-	    <option value="21" selected>Severe</option>
+	    <option value="21" selected>Any</option>
 	    </select></td>
-      <td><select name="ctlSearch$ctl00$rdlstMental">
+      <td>Developmental&nbsp;&nbsp;<br/><select name="ctlSearch$ctl00$rdlstMental">
         <option value="18">None</option>
         <option value="19">Mild</option>
         <option value="20">Moderate</option>
-        <option value="21" selected>Severe</option>
+        <option value="21" selected>Any</option>
       </select></td>
-      <td><select name="ctlSearch$ctl00$rdlstLearning">
+      <td colspan="4">Learning<br/><select name="ctlSearch$ctl00$rdlstLearning">
         <option value="18">None</option>
         <option value="19">Mild</option>
         <option value="20">Moderate</option>
-        <option value="21" selected>Severe</option>
+        <option value="21" selected>Any</option>
       </select></td>
-      <td>&nbsp;</td>
+
       </tr>
 	<tr><td colspan="8">&nbsp;</td></tr>
 	<tr>
@@ -411,6 +403,11 @@ function __doPostBack(eventTarget, eventArgument) {
 		$("#rdlstRaceComposition_0").click(function(){
 			$(".raceSelect").hide();
 		});
+	</script>
+	<script>
+		$("#show_dis_level").click(function(){
+			$(".dis_level").toggle();
+		});
 	</script>	
     <!--[if lt IE 9]> <script type="text/javascript">$(document).ready(function () { ShowOldIE(); });</script> <![endif]-->
     <script type="text/javascript" src="assets/adoption_files/PhotoGallerySm.js"></script>
@@ -424,7 +421,76 @@ function __doPostBack(eventTarget, eventArgument) {
 
                     </form>
 
+		<!--Google Analytics Code Begins-->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-16156194-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+		<!-- End Analytics Code-->
+		<!-- Analytics Code to Track Outbound Links -->
+		<script>
+		(function trackOutbounds() {
+			var hitCallbackHandler = function(url,win) {
+				if (win) {
+					window.open(url, win);
+				} else {
+					window.location.href = url;
+				}
+			};
 			
+			var addEvent = function(el, eventName, handler) {
+			
+				if (el.addEventListener) {
+					el.addEventListener(eventName, handler);
+					} else {
+					el.attachEvent('on' + eventName, function(){
+						handler.call(el);
+					});
+				}
+			}
+			
+			if (document.getElementsByTagName) {
+				var el = document.getElementsByTagName('a');
+				var getDomain = document.domain.split('.').reverse()[1] + '.' + document.domain.split('.').reverse()[0];
+				
+				// Look thru each a element
+				for (var i=0; i < el.length;i++) {
+				
+					// Extract it's href attribute
+					var href = (typeof(el[i].getAttribute('href')) == 'string' ) ? el[i].getAttribute('href') : '';
+					
+					// Query the href for the top level domain (xxxxx.com)
+					var myDomain = href.match(getDomain);
+					
+					// If link is outbound and is not to this domain	
+					if ((href.match(/^(https?:|\/\/)/i)  && !myDomain) || href.match(/^mailto\:/i)) {
+					
+						// Add an event to click
+						addEvent(el[i],'click', function(e) {
+							var url = this.getAttribute('href'), win = (typeof(this.getAttribute('target')) == 'string') ? this.getAttribute('target') : '';
+									
+									console.log ("add event", url);
+							// Log even to Analytics, once done, go to the link
+							ga('send', 'event', 'outbound', 'click', url,
+								{'hitCallback': hitCallbackHandler(url,win)},
+								{'nonInteraction': 1}
+							);
+							
+							e.preventDefault();
+						});
+					}
+				}
+			}
+		})();
+
+		</script>
+<!-- End Analytic Outbound Tracking Code -->			
 
 
 
