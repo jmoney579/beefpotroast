@@ -20,7 +20,9 @@ body{
 p{
 	line-height: 23px;
 }
-
+h3.vdss{
+	margin-top: 8px;
+	}
 .big-pic{
 	display: block;
 	height: 88vh;
@@ -350,3 +352,8 @@ table.cc_search a:hover{
 iframe{
 	border: none;
 	}
+@media (max-width: 991px){
+	h3.vdss{
+	margin-top: 20px;
+	}
+}
