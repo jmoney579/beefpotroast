@@ -1,10 +1,11 @@
 
 #feedback {
-      position: relative;
-    right: -222px;
-  bottom: -21px;
-  height: 250px;
-
+    position: absolute;
+    right: 0;
+    /* bottom: -21px; */
+    height: 250px;
+    float: right;
+    top: 102px;
 }
 
 #feedback-form {
