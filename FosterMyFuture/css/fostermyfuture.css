@@ -236,12 +236,14 @@ header {
   -o-background-size: cover;
   text-align: center;
   color: white;
-  height: 500px;
+  height: 550px;
     margin-top: 5%;
 }
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+  margin-left: 13%;
+    margin-top: -10%;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -262,6 +264,8 @@ header .intro-text .intro-heading {
   header .intro-text {
     padding-top: 0px;
     padding-bottom: 200px;
+    margin-left: 13%;
+    margin-top: -10%;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
