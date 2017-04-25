@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <title>Foster My Futuree</title>
+
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
     <!-- Theme CSS -->
     <link href="css/fostermyfuture.css" rel="stylesheet">
 <<<<<<< HEAD
@@ -35,8 +41,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
+
 </head>
+
 <body id="page-top" class="index">
+
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
@@ -46,15 +55,20 @@
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">FosterMyFuture</a>
-            </div>         
-       <!-- Collect the nav links, forms, and other content for toggling -->
+            </div>
+
+
+            <!--Disabling NavMenu until More Content is needed--->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#afterFosterCare">AFTER FOSTER CARE!</a>
+                        <a class="page-scroll" href="#services">AFTER FOSTER CARE!</a>
+
                     </li>
                     <li>
                         <a class="page-scroll" href="#portfolio">YOUTH</a>
@@ -63,8 +77,10 @@
                         <a class="page-scroll" href="#about">PARENTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#shareStory">SHARE YOUR STORY</a>
-                    </li>                
+                        <a class="page-scroll" href="#team">SHARE YOUR STORY</a>
+
+                    </li>
+                
                     <li>
                         <a class="page-scroll" href="#contact">THE FUTURE AWAITS</a>
                     </li>
@@ -74,7 +90,8 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <!-- Header  Contains FOrm Slide out/BGHDR -->
+
+    <!-- Header -->
     <header>
         <div class="container">
 <<<<<<< HEAD
@@ -154,14 +171,20 @@
         <div id="feedback-form" style='display:none;' class="col-xs-4 col-md-4 panel panel-default">
             <form method="POST" action="/feedback" class="form panel-body" role="form">
                 <div class="form-group">
-                    <input class="form-control" name="name" autofocus placeholder="Your Name" type="name" />               
+                    <input class="form-control" name="name" autofocus placeholder="Your Name" type="name" />
+                    
+                    
                 </div>
                    <div class="form-group">
                     <input class="form-control" name="email" autofocus placeholder="Your e-mail" type="email" />
                 </div>
-                 <div class="form-group">
+
+                                <div class="form-group">
                     <input class="form-control" name="number" autofocus placeholder="Your Number" type="number" />
+                    
+                    
                 </div>
+
                 <div class="form-group">
                     <textarea class="form-control" name="body" required placeholder="Tell us a little more about you..." rows="5"></textarea>
                 </div>
@@ -170,38 +193,49 @@
         </div>
         <div id="feedback-tab">The Future Awaits</div>
     </div>
-<!-- BackGround Header with Intoduction Text -->
+
+    <script src="http://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="js/feedback.js"></script>  
+
+
+
 >>>>>>> e8dd95bfd1bd9ffd36fbf5339d7fb8de4b4171d3
             <div class="intro-text">
                 <div class="intro-lead-in">FosterMyFuture</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#afterFosterCare" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
     </header>
-    <!-- After Foster Care! Section -->
-    <section id="afterFosterCare">
-        <div class="container">            
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+
+            
             <div class="row">
                 <div class="col-md-8">
                 <h2>After Foster Care!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
                 </div>
-             <!-- Call to Action Section --> 
-              <!-- Blog Spot Button -->   
                 <div class="col-md-4">
+
                  <div class="row">
                  <div class="col-sm-4" style="float: right;">
-                  <a href="#actionModal1" class="portfolio-link" data-toggle="modal"><span class="fa-stack fa-4x">
+               <a href="#actionModal1" class="portfolio-link" data-toggle="modal"><span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span> </a>
                     </div>
                     </div>
-               <!-- Meet Us Button -->
+
                  <div class="row">
                  <div class="col-sm-4" style="float: right;">
                   <a href="#actionModal2" class="portfolio-link" data-toggle="modal"><span class="fa-stack fa-4x">
@@ -210,8 +244,8 @@
                     </span></a></a></a>
                     </div>
                     </div>
-                <!-- Download FAAZ Material Button -->
-                 <div class="row">
+
+                     <div class="row">
                  <div class="col-sm-4" style="float: right;">
                    <a href="#actionModal3" class="portfolio-link" data-toggle="modal"><span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -219,8 +253,8 @@
                     </span></a></a>
                     </div>
                     </div>
-                <!-- Contact Us Button -->
-                <div class="row">
+
+                     <div class="row">
                  <div class="col-sm-4" style="float: right;">
                     <a href="#actionModal4" class="portfolio-link" data-toggle="modal"><span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -228,23 +262,30 @@
                     </span></a>
                     </div>
                     </div>
-                    </div>         
-                </div>                          
+
+                    </div>
+         
                 </div>
+                          
+                </div>
+           
+
+
     </section>
+
     <!-- Youth Grid Section -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
-        <!-- Youth Header and Intro -->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">YOUTH</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <!-- Youth Ambassadors/Leadership Box and Link to Modal -->
             <div class="row">
-                 <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+                                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -258,7 +299,8 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-                <!-- Youth Resources Box and Link to Modal -->
+
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -273,8 +315,9 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-                <!-- Youth News/Events Box and Link to Modal -->
-                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+                                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -288,7 +331,10 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-                <!-- Youth Transition Planning Box and Link to Modal -->
+
+
+
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -302,26 +348,38 @@
                         <h4>Transition Planning</h4><br>
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
-                </div>                
+                </div>
+
+
+
+
+
+
+                
+                
             </div>
         </div>
     </section>
+
+
+
+
+
 <!--Parents Section-->
-<!-- section id for linking -->
+
   <section id="about" >
-  <!-- div id is for pulling in the youth like boxes from portfolio -->
   <div id="portfolio">
         <div class="container">
-        <!-- Parents Header and Intro -->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">PARENTS</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <!-- Parents Promoting Safe and Stable Families Box and Link to Modal -->
             <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item ">
+
+
+                                <div class="col-md-4 col-sm-6 portfolio-item ">
                     <a href="#portfolioModal5" class="portfolio-link " data-toggle="modal">
                         <div class="portfolio-hover ">
                             <div class="portfolio-hover-content " >
@@ -335,7 +393,8 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-                <!-- Parents Resources Box and Link to Modal -->
+
+
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -350,8 +409,9 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-                <!-- Parents News/Events Box and Link to Modal -->
-                <div class="col-md-4 col-sm-6 portfolio-item">
+
+
+                                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -365,11 +425,32 @@
                         <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                     </div>
                 </div>
-               </div>                
+
+
+
+               </div>
+                
             </div>
         </div>
     </section>
-<!-- Left this Section in from Oringinal Bootstrap Template may be a need to use one day. Just uncomment the section to see what it offers -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- About Section -->
    <!-- <section id="about">
         <div class="container">
@@ -450,18 +531,21 @@
             </div>
         </div>
     </section>-->
-<!--Share Your Story Section -->
-    <section id="shareStory" class="bg-light-gray">
+
+
+
+
+
+    <!--Share Your Story Section -->
+    <section id="team" class="bg-light-gray">
         <div class="container">
-        <!-- Share Your Story Header and Intro -->
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Share Your Story</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
-            <div class="row"> 
-            <!-- Kay Garland's Shared Story and Link to Modal -->
+            <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
@@ -470,7 +554,6 @@
 
                     </div>
                 </div>
-                <!-- Larry Parker's Shared Story and Link to Modal -->
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
@@ -479,7 +562,6 @@
            
                     </div>
                 </div>
-                <!-- Diana Pertersen's Shared Story and Link to Modal -->
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
@@ -489,7 +571,6 @@
                     </div>
                 </div>
             </div>
-            <!-- More Shared Stories and Link to Modal -->
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h4><a href="#storiesModal4" class="portfolio-link" data-toggle="modal">More Stories Here </a></h4>
@@ -498,7 +579,7 @@
             </div>
         </div>
     </section>
-<!-- Left this Section in from Oringinal Bootstrap Template may be a need to use one day. Just uncomment the section to see what it offers -->
+
     <!-- Clients Aside
     <aside class="clients">
         <div class="container">
@@ -571,7 +652,7 @@
             </div>
         </div>
     </section>
-    <!-- Footer Section -->
+
     <footer>
         <div class="container">
             <div class="row">
@@ -599,8 +680,13 @@
             </div>
         </div>
     </footer>
+
+
+
+
     <!-- Hot Topics Call to Action Button Modals -->
     <!-- Use the modals below to showcase details about your future and more! -->
+
   <!--Call to Action  Modal 1 -->
     <div class="portfolio-modal modal fade" id="actionModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -617,9 +703,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>Read Our Blog</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>  
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -634,6 +728,10 @@
             </div>
         </div>
     </div>
+
+
+
+
     <!--Call to Action  Modal 2 -->
     <div class="portfolio-modal modal fade" id="actionModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -650,9 +748,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>Meet Us</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>  
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -667,6 +773,8 @@
             </div>
         </div>
     </div>
+
+
     <!--Call to Action  Modal 3 -->
     <div class="portfolio-modal modal fade" id="actionModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -683,9 +791,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>Download FAAZ Material</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>  
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -700,6 +816,11 @@
             </div>
         </div>
     </div>
+
+
+
+
+
 <!--Call to Action  Modal 4 -->
     <div class="portfolio-modal modal fade" id="actionModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -716,9 +837,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>Contact US</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> 
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -733,8 +862,24 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Youth and Parent  Modals -->
     <!-- Use the modals below to showcase details about your future and more! -->
+
     <!--Youth Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -751,10 +896,18 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>Youth Ambassadors/Leadership Board</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> 
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
-                                <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
+
+
+
+
+
+                                    <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
                                     <li>Materials for trhe Future</li>
@@ -768,6 +921,7 @@
             </div>
         </div>
     </div>
+
     <!-- Youth Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -783,9 +937,17 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                <h2>Transition Planning</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> 
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -800,6 +962,7 @@
             </div>
         </div>
     </div>
+
     <!-- Youth Modal 3 -->
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -816,9 +979,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here-->
                                 <h2>RESOURCES FOR YOUR FUTURE</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -833,6 +1004,7 @@
             </div>
         </div>
     </div> 
+
     <!-- Youth Modal 4-->
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -849,9 +1021,17 @@
                             <div class="modal-body">
                                <!--Details Go Here -->
                                 <h2>NEWS AND EVENTS FOR YOUR FUTURE</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> 
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -866,6 +1046,7 @@
             </div>
         </div>
     </div>  
+
     <!-- Parent Modal 5 -->
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -882,10 +1063,18 @@
                             <div class="modal-body">
                                 <!-- Details Go Here-->
                                  <h2>PROMOTING SAFE AND STABLE FAMILIES</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>  
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
-                            <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
+
+
+
+
+
+                                    <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
                                     <li>Materials for trhe Future</li>
@@ -899,6 +1088,7 @@
             </div>
         </div>
     </div>
+
     <!-- Parent Modal 6 -->
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -915,9 +1105,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>RESOURCES FOR PARENTS</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                          
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -932,7 +1130,8 @@
             </div>
         </div>
     </div>
- <!-- Parent  Modal 7 -->
+
+        <!-- Parent  Modal 7 -->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -949,8 +1148,16 @@
                                 <!-- Project Details Go Here -->
                                 <h2>NEWS AND EVENTS FOR PARENTS</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -965,7 +1172,13 @@
             </div>
         </div>
     </div>
-    <!-- More Stories Modal1 KAY GARLAND -->
+
+
+
+
+
+
+       <!-- More Stories Modal1 KAY GARLAND -->
     <div class="portfolio-modal modal fade" id="storiesModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -981,10 +1194,18 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Kay Garland</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                         
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
-                                 <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
+
+
+
+
+
+                                    <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
                                     <li>Materials for trhe Future</li>
@@ -998,7 +1219,9 @@
             </div>
         </div>
     </div>
-  <!-- More Stories Modal2 Larry Parker-->
+
+
+       <!-- More Stories Modal2 Larry Parker-->
     <div class="portfolio-modal modal fade" id="storiesModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1015,8 +1238,16 @@
                                 <!-- Details Go Here -->
                                 <h2>Larry Parker</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -1031,7 +1262,9 @@
             </div>
         </div>
     </div>
- <!-- More Stories Modal3 Diana Pertersen -->
+
+
+       <!-- More Stories Modal3 Diana Pertersen -->
     <div class="portfolio-modal modal fade" id="storiesModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1047,9 +1280,17 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Diana Pertersen</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>   
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -1064,7 +1305,9 @@
             </div>
         </div>
     </div>
-  <!-- More Stories Modal4 MORE STORIES HERE -->
+
+
+       <!-- More Stories Modal4 MORE STORIES HERE -->
     <div class="portfolio-modal modal fade" id="storiesModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1080,9 +1323,17 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>MORE STORIES HERE</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -1097,6 +1348,12 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
    <!-- Privacy Policy  Modal -->
     <div class="portfolio-modal modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
@@ -1113,9 +1370,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>VDSS Privacy Policy</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                <p>Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+                                Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -1130,7 +1395,11 @@
             </div>
         </div>
     </div>
-   <!--Terms of Use  Modal -->
+
+
+
+
+      <!--Terms of Use  Modal -->
     <div class="portfolio-modal modal fade" id="termsModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -1146,9 +1415,17 @@
                             <div class="modal-body">
                                 <!-- Details Go Here -->
                                 <h2>VDSS Terms of Use</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>                            
+                                
+
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum nunc et dictum condimentum. Donec eget ipsum quis sapien accumsan laoreet at vitae magna. Cras sed mollis felis. Nulla pretium, neque sit amet bibendum tempus, metus nibh tempus lorem, et laoreet est diam id leo. Phasellus dapibus neque vel tellus ornare condimentum. Fusce non rutrum odio. Proin non tellus mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
                                 Cras sagittis justo id egestas placerat. Vestibulum hendrerit sapien ut nunc volutpat elementum. In lacinia orci velit. Duis semper lectus ante, in iaculis ipsum aliquet ac. Integer vel ipsum eget odio efficitur sodales id vel risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tellus mauris, dignissim in vehicula eu, porta non augue. Praesent eu posuere turpis, vel tempus magna. Suspendisse scelerisque sem lobortis fringilla porta.</p>
+
+
+
+
+
                                     <strong>Cras sagittis justo id egestas placerat?</strong>Suspendisse scelerisque sem lobortis fringilla  <a href="#">FosterMyFuture</a>, dignissim in vehicula eu, porta non augue <a href="#c">here</a>.</p>
                                 <ul class="list-inline">
                                     <li>Porta non augue</li>
@@ -1163,16 +1440,25 @@
             </div>
         </div>
     </div>
+
+
+
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+
 </body>
+
 </html>
