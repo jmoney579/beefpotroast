@@ -17,3 +17,9 @@ $(function() {
 	});
 });
 
+/*---JS for submission message ----*/
+$("#feedback-form form").submit(function() {
+		$("#feedback-form form").hide();
+		$(".submit_complete").fadeIn("slow");
+		$("feedback-form").hide().delay(1200);
+});

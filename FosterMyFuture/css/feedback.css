@@ -3,7 +3,7 @@
     position: absolute;
     right: 0;
     /* bottom: -21px; */
-    height: 250px;
+    min-height: 250px;
     float: right;
     top: 102px;
 }
@@ -69,8 +69,55 @@
 	display: none;
 	margin-top: 100px;
 	color: #5f55c1;
+	text-align: center;
 	}
 	
 .submit_complete p{
 	font-size: 23px;
 	}
+#contact #feedback{
+	position: relative;
+	float: none;
+	top: 0px;
+	}
+
+#contact #feedback-form{
+	width: 100%;
+	border: none;
+	box-shadow: none;
+	height: auto;
+	}
+
+#contact #feedback-form	input#ss-submit {
+    /* text-align: center; */
+    margin: 0 auto;
+    display: block;
+}
+#contact #feedback-form.panel{
+	background-color: transparent !important;
+	}
+#contact  h3.section-subheading.text-muted{
+	margin-bottom: 22px;
+	}
+.fa_ginormous{
+	font-size: 12em;
+	}
+#contact #feedback-form .submit_complete p{
+	font-size: 6px;
+	}
+#contact .submit_complete {
+    width: 52%;
+    margin: 0 auto;
+	color: #FFF;
+}
+#contact .form-control{
+	color: #5F55C1;
+	}
+section#contact .form-group input.form-control::placeholder {
+    color: #9c99be;
+	opacity: .7;
+}
+section#contact .form-group textarea.form-control::placeholder {
+    color: #9c99be;
+	opacity: .7;
+}
