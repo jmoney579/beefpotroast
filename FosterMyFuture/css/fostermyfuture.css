@@ -10,6 +10,9 @@ body {
 .text-muted {
   color: #777777;
 }
+.text-loud {
+  color: #ffffff;
+}
 .text-primary {
   color: #fed136;
 }
@@ -770,7 +773,7 @@ body {
 
 .left-align{ text-align: left; }
 .caption-bg{
-  background:rgba(0, 0, 0, 0.25); 
+  background:rgba(0, 0, 0, 0.65); 
 
 
 }
