@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>HP Wizard</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../assets/bootstrap/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+	<link href="../../assets/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<style>
+		.message{
+			width: 60%;
+			margin: 15% auto 0;
+			}
+		.skip{
+			margin-top: 10px;
+			display: block;
+			}
+		.help-text{
+			margin-bottom: 3px;
+			background-color: #CCC;
+			}
+		.screenshot{
+			margin-top: 3%;
+			margin-bottom: 3%;
+			}
+		.review{
+			background-color: #d8d8d8;
+			position: absolute;
+			top: 200px;
+			}
+	</style>
+</head>
+<body>
+	<div class="row message text-center">
+		<div class="col-md-12 help-text welcome" style="display:none">
+			<h2>Welcome to Fusion</h2>
+			<h4>This wizard will walk you through the new features of our intranet.</h4>
+			<a class="btn btn-warning welcome-next">Next</a><br/>
+			<a href="#" class="skip">Skip</a><br/>
+		</div>
+		<div class="col-md-12 help-text broadcast" style="display:none;">		
+			<div class="col-md-4 screenshot">
+				<img src="images/tout_broadcasts.png" class="img img-responsive" alt="Screenshot of touts and broadcast section on homepage" />
+			</div>
+			<div class="col-md-8">
+				<h2>Touts and Broadcasts</h2>
+				<p>Touts or VDSS News articles are now located at the top of the homepage and broadcasts beneath.  All users now have the ability to <a href="#">submit touts to Public Affairs</a> for review and posting.  You can do so by hovering over the touts links in the main navigation and then selecting Tout Requests.</p>
+				<a class="btn btn-warning broadcast-next">Next</a><br/>
+				<a href="#" class="skip">Skip the rest</a><br/>
+			</div>
+		</div>
+		<div class="col-md-12 help-text navigation" style="display:none;">		
+			<div class="col-md-5 screenshot" style="margin-top: 9%;">
+				<img src="images/mega_nav.jpg" class="img img-responsive" alt="Screenshot of touts and broadcast section on homepage" />
+			</div>
+			<div class="col-md-7">
+				<h2>Navigation</h2>
+				<p>Navigation throughout Fusion utilizes a meganav style presentation.  This style of navigation is horizontal in nature and allows for the display of links to all pages when visiting a division's section of the site.  If you click on one of the links to a division under the division's dropdown, you will be presented with that division's section which will display their the pages grouped by category.  To return to the full list of divisions, click the back button.</p>
+				<a class="btn btn-warning nav-next">Next</a><br/>
+				<a href="#" class="skip">Skip the rest</a><br/>
+			</div>
+		</div>
+		<div class="col-md-12 help-text search" style="display:none;">		
+			<div class="col-md-5 screenshot" style="margin-top: 9%;">
+				<img src="images/search.jpg" class="img img-responsive" alt="Screenshot of MegaNav" />
+			</div>
+			<div class="col-md-7">
+				<h2>Search</h2>
+				<p>The search features in Fusion have been dramatically improved.  Searching now occurs on the fly, as you type, and includes not only the content within a page, but also files and the content within them.  The display has been streamlined and categorized to allow for easier access to the requested content.</p>
+				<a class="btn btn-warning finish">Finish</a><br/>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-1 review">
+		<a href="#" class="reviewlink">Revisit Site Wizard</a>
+</body>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../assets/bootstrap/bootstrap.js"></script>
+	<!-- Cookie Creator Script -->
+	<script>
+/*!
+ * JavaScript Cookie v2.1.4
+ * https://github.com/js-cookie/js-cookie
+ *
+ * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Released under the MIT license
+ */
+;(function (factory) {
+	var registeredInModuleLoader = false;
+	if (typeof define === 'function' && define.amd) {
+		define(factory);
+		registeredInModuleLoader = true;
+	}
+	if (typeof exports === 'object') {
+		module.exports = factory();
+		registeredInModuleLoader = true;
+	}
+	if (!registeredInModuleLoader) {
+		var OldCookies = window.Cookies;
+		var api = window.Cookies = factory();
+		api.noConflict = function () {
+			window.Cookies = OldCookies;
+			return api;
+		};
+	}
+}(function () {
+	function extend () {
+		var i = 0;
+		var result = {};
+		for (; i < arguments.length; i++) {
+			var attributes = arguments[ i ];
+			for (var key in attributes) {
+				result[key] = attributes[key];
+			}
+		}
+		return result;
+	}
+
+	function init (converter) {
+		function api (key, value, attributes) {
+			var result;
+			if (typeof document === 'undefined') {
+				return;
+			}
+
+			// Write
+
+			if (arguments.length > 1) {
+				attributes = extend({
+					path: '/'
+				}, api.defaults, attributes);
+
+				if (typeof attributes.expires === 'number') {
+					var expires = new Date();
+					expires.setMilliseconds(expires.getMilliseconds() + attributes.expires * 864e+5);
+					attributes.expires = expires;
+				}
+
+				// We're using "expires" because "max-age" is not supported by IE
+				attributes.expires = attributes.expires ? attributes.expires.toUTCString() : '';
+
+				try {
+					result = JSON.stringify(value);
+					if (/^[\{\[]/.test(result)) {
+						value = result;
+					}
+				} catch (e) {}
+
+				if (!converter.write) {
+					value = encodeURIComponent(String(value))
+						.replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g, decodeURIComponent);
+				} else {
+					value = converter.write(value, key);
+				}
+
+				key = encodeURIComponent(String(key));
+				key = key.replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent);
+				key = key.replace(/[\(\)]/g, escape);
+
+				var stringifiedAttributes = '';
+
+				for (var attributeName in attributes) {
+					if (!attributes[attributeName]) {
+						continue;
+					}
+					stringifiedAttributes += '; ' + attributeName;
+					if (attributes[attributeName] === true) {
+						continue;
+					}
+					stringifiedAttributes += '=' + attributes[attributeName];
+				}
+				return (document.cookie = key + '=' + value + stringifiedAttributes);
+			}
+
+			// Read
+
+			if (!key) {
+				result = {};
+			}
+
+			// To prevent the for loop in the first place assign an empty array
+			// in case there are no cookies at all. Also prevents odd result when
+			// calling "get()"
+			var cookies = document.cookie ? document.cookie.split('; ') : [];
+			var rdecode = /(%[0-9A-Z]{2})+/g;
+			var i = 0;
+
+			for (; i < cookies.length; i++) {
+				var parts = cookies[i].split('=');
+				var cookie = parts.slice(1).join('=');
+
+				if (cookie.charAt(0) === '"') {
+					cookie = cookie.slice(1, -1);
+				}
+
+				try {
+					var name = parts[0].replace(rdecode, decodeURIComponent);
+					cookie = converter.read ?
+						converter.read(cookie, name) : converter(cookie, name) ||
+						cookie.replace(rdecode, decodeURIComponent);
+
+					if (this.json) {
+						try {
+							cookie = JSON.parse(cookie);
+						} catch (e) {}
+					}
+
+					if (key === name) {
+						result = cookie;
+						break;
+					}
+
+					if (!key) {
+						result[name] = cookie;
+					}
+				} catch (e) {}
+			}
+
+			return result;
+		}
+
+		api.set = api;
+		api.get = function (key) {
+			return api.call(api, key);
+		};
+		api.getJSON = function () {
+			return api.apply({
+				json: true
+			}, [].slice.call(arguments));
+		};
+		api.defaults = {};
+
+		api.remove = function (key, attributes) {
+			api(key, '', extend(attributes, {
+				expires: -1
+			}));
+		};
+
+		api.withConverter = init;
+
+		return api;
+	}
+
+	return init(function () {});
+}));
+</script>
+    <!-- Wizard Script -->
+    <script>
+	if (Cookies.get('wizardsnack') == 'cookie eaten'){
+		$(".welcome").hide();
+		$(".review").fadeIn();
+	}else{
+			$(".review").hide();
+			$(".welcome").fadeIn('slow');
+			$(".welcome-next").click(function(){
+			$(".welcome").fadeOut('slow', function(){
+			$(".broadcast").fadeIn();	
+			});
+		});
+		$(".broadcast-next").click(function(){
+			$(".broadcast").fadeOut('slow', function(){
+			$(".navigation").fadeIn();
+			});			
+		});
+		$(".nav-next").click(function(){
+			$(".navigation").fadeOut('slow', function(){
+			$(".search").fadeIn();
+			});
+		});
+		$(".finish").click(function(){
+			$(".search").fadeOut();	
+			Cookies.set('wizardsnack', 'cookie eaten', { expires: 7});
+			$(".review").fadeIn();			
+		});
+		$(".skip").click(function(){
+			$(".message").fadeOut();
+			Cookies.set('wizardsnack', 'cookie eaten', { expires: 7});
+			$(".review").fadeIn();
+		});	
+	}	
+		$(".reviewlink").click( function(){
+			Cookies.remove('wizardsnack');
+			location.reload();
+		});
+    </script>
+	
+
+</html>

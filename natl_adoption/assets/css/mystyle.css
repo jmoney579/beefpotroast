@@ -1,7 +1,7 @@
 /***********************************************************************************
 *   Virginia Department of Social Services - National Adoption Month               *
 *   Designed by Jacques Walker       				                               *
-*   Utilized: bootstrap framework		     								       *
+*   Utilized: bootstrap framework and Fancybox plugin		     				   *
 *   Contact: jacques [at] jacqueswalker.com                                        *
 *   Copyright 2016                                                                 *
 ***********************************************************************************/
@@ -17,6 +17,12 @@ body{
 	font-family: "Raleway",Helvetica,Arial,sans-serif;
 	font-size: 16px;
 }
+a{
+	color: #FF6A5C;
+	}
+a:hover{
+	text-decoration: none;
+	}
 p{
 	line-height: 23px;
 }
@@ -27,7 +33,7 @@ h3.vdss{
 	display: block;
 	height: 88vh;
 	background-color: #006699;
-	background: url('../img/main_header.jpg') no-repeat center center transparent;
+	background: url('../img/2017main_header.jpg') no-repeat center center transparent;
 	background-size: cover;
 	}
 .welcome {
@@ -67,7 +73,7 @@ h3.vdss{
     right: 0;
     font-size: 27px;
     padding: 10px 18px;
-	min-width: 258px;
+	min-width: 234px;
 	/*z-index: 9999;*/
 }
 .hashtag a{
@@ -88,22 +94,22 @@ h3.vdss{
 	}
 .fixed_top4{
 	position: fixed;
-	z-index: 9999;
+	z-index: 9998;
 	top: 162px !important;
 	}
 .fixed_top3{
 	position: fixed;
-	z-index: 9999;
+	z-index: 9998;
 	top: 108px !important;
 	}
 .fixed_top2{
 	position: fixed;
-	z-index: 9999;
+	z-index: 9998;
 	top: 54px !important;
 	}
 .fixed_top{
 	position: fixed;
-	z-index: 9999;
+	z-index: 9998;
 	top: 0 !important;
 	}
 .big-pic .hashtag{
@@ -117,7 +123,7 @@ h3.vdss{
     box-shadow: 0px 1px 8px #000;
 }
 .navbar-inverse{
-	background-color: #082f43;
+	background-color: #056571;
 	border-color: transparent;
 	font-size: 21px;
 	}
@@ -139,10 +145,17 @@ h3.vdss{
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
 	background-color: transparent;
 }
+.navbar-inverse .navbar-nav>li>a {
+    color: #c9c9c9;
+}
 .navbar-brand{
 	height: 70px;
 	padding-top: 2.3vh;
 }
+.tagline{
+	color: yellow;
+	padding-top: 26px;
+	}
 .ad_search{
 	background-color: #041f2d;
 	}
@@ -156,6 +169,7 @@ h3.vdss{
 .row{
 	min-height: 480px;
 	color: #636363;
+	padding-bottom: 12px;
 	}
 .row h1{
 	text-transform: uppercase;
@@ -172,17 +186,20 @@ h3.vdss{
 div.col-md-4>img.img-responsive{
 	padding-bottom: 5px;
 }
+.container img, .container-fluid img{
+	margin: 1px 10px 5px 0px;
+	}
 .subheader1{
 	min-height: 400px;
-	background: url("../img/subheader1.jpg") left center transparent;
+	background: url("../img/2017subheader1b.jpg") left center transparent;
 }
 .subheader2{
 	min-height: 400px;
-	background: url("../img/subheader2.jpg") center center transparent;
+	background: url("../img/2017subheader2.jpg") top center transparent;
 }
 .subheader3{
 	min-height: 400px;
-	background: url("../img/subheader3.jpg") right center transparent;
+	background: url("../img/2017subheader3a.jpg") right center transparent;
 }
 .parallax { 
 	position: relative;
@@ -206,12 +223,12 @@ div.col-md-4>img.img-responsive{
 .pageheader h2{
 	font-size: 40px;
 }
-footer{
-	border-top: 2px solid #CCC;
-	min-height: 235px;
-	background-color: #082f43;
-	padding-top: 10px;
-	color: #999;
+footer {
+    /* border-top: 2px solid; */
+    min-height: 235px;
+    background-color: #056571;
+    padding-top: 10px;
+    color: #FFF;
 }
 footer .col-md-4{
 	min-height: 210px;
@@ -219,10 +236,16 @@ footer .col-md-4{
 footer p{
 	font-size: 13px;
 }
+footer a {
+    color: #06d1ea;
+}
+footer a:hover{
+	color: #bbbbbb;
+	}
 .footer_nav {
     text-transform: uppercase;
     font-size: 17px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #043e45;
     box-shadow: 0px 1px 0px 0px rgba(255,255,255,.1);
     text-align: right;
     margin-bottom: 10px;
@@ -251,6 +274,11 @@ footer p{
 ol.ui-slider-scale.ui-helper-reset {
     display: none;
 }
+.childsearch iframe{
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	margin: 10px 0px;
+	}
 .screenReaderContext{
 	display: none;
 	}
@@ -355,9 +383,36 @@ table.cc_search a:hover{
 #quicklinks td{
 	font-weight: normal !important;
 	}
+.youtube_holder{
+	max-width: 700px;
+	}
+.youtube_embed {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin: 0 auto;
+}
+.youtube_embed iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.vid_holder{
+	max-width: 556px;
+	margin-right: 8px;
+	border: 1px solid #CCC;
+	margin-bottom: 12px;
+	padding: 5px;
+	}
 /*----Fancy Boox Overides---*/
 .fancybox-skin{
 	background-color: #082f43;
+	}
+.fancybox-overlay{
+	z-index: 9999;
 	}
 iframe{
 	border: none;
