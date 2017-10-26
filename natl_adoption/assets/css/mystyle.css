@@ -10,6 +10,10 @@
 
 
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@font-face {
+	font-family: Allura;
+	src: url('../fonts/allura-regular.ttf');
+	}
 body, html{
 	height: 100%;
 	}
@@ -18,7 +22,7 @@ body{
 	font-size: 16px;
 }
 a{
-	color: #FF6A5C;
+	color: #68ad6b;
 	}
 a:hover{
 	text-decoration: none;
@@ -54,6 +58,9 @@ h3.vdss{
 }
 .welcome p{
 	font-size: 17px;
+	}
+.welcome a{
+	color: #a0d6a4;
 	}
 .dark_back{
 	background: url('../img/header_block.png') center center repeat transparent;
@@ -116,14 +123,14 @@ h3.vdss{
 	top: 74%;
 	}
 .nav li a{
-	padding: 10px 25px;
+	padding: 10px 10px;
 	}
 .navbar {
     min-height: 60px;
     box-shadow: 0px 1px 8px #000;
 }
 .navbar-inverse{
-	background-color: #056571;
+	background-color: #1968b3;
 	border-color: transparent;
 	font-size: 21px;
 	}
@@ -152,10 +159,13 @@ h3.vdss{
 	height: 70px;
 	padding-top: 2.3vh;
 }
-.tagline{
-	color: yellow;
-	padding-top: 26px;
-	}
+.tagline {
+    color: yellow;
+    padding-top: 23px;
+    font-family: Allura;
+    font-size: 32px;
+    margin-right: 3px;
+}
 .ad_search{
 	background-color: #041f2d;
 	}
@@ -226,7 +236,7 @@ div.col-md-4>img.img-responsive{
 footer {
     /* border-top: 2px solid; */
     min-height: 235px;
-    background-color: #056571;
+    background-color: #1968b3;
     padding-top: 10px;
     color: #FFF;
 }
@@ -237,7 +247,7 @@ footer p{
 	font-size: 13px;
 }
 footer a {
-    color: #06d1ea;
+    color: #84c3ff;
 }
 footer a:hover{
 	color: #bbbbbb;
