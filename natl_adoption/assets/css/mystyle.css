@@ -457,23 +457,28 @@ button.accordion {
 	font-weight: 600;
 }
 button.accordion.crisis{
-	color: #0A7138
+	color: #0A7138;
 	}
 button.accordion.studies{
 	color: #0288D1
 	}
 button.accordion.respite{
-	color: #880E4F
+	color: #880E4F;
 	}
 button.accordion.parent{
+	color: #F9A825;
 	}
 button.accordion.counseling{
+	color: #FF5252;
 	}
 button.accordion.competency{
+	color: #673AB7;
 	}
 button.accordion.support_grp{
+	color: #AFB42B;
 	}
 button.accordion.case{
+	color: #C2185B;
 	}
 button.accordion.active, button.accordion:hover {
     background-color: #ccc;
