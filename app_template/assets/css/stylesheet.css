@@ -1,0 +1,99 @@
+/***********************************************************************************
+*   Virginia Department of Social Services                                         *
+*   Designed by Jacques Walker                                                     *
+*	Developed by Sandeep Bhalerao                                                  *
+*   Utilized: Bootstrap framework                                                  *
+*   Contact: webdev [at] dss.virginia.gov                                          *
+*   Copyright 2018                                                                 *
+***********************************************************************************/
+
+body{
+ font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+h2{
+	color: #0857a2;
+	text-transform: uppercase; 
+	}
+
+
+.state-header {
+    background-color: #000;
+    color: #FFF;
+    min-height: 35px;
+    padding-top: 4px;
+	}
+.state-header a{
+	color: #FFF;
+	text-decoration: none;
+	}
+.state-header a:hover{
+	color: #CCC;
+	text-decoration: none;
+	}
+.header-logo {
+    margin: 2px 6px 7px 0;
+}
+.bg-primary{
+	background: url('../img/big-header-pure.jpg') center center no-repeat #007bff !important;
+	background-size: cover;
+	min-height: 270px;
+	}
+.pull-up{
+	margin-top: -56px;
+	}
+
+nav#mainNav {
+    margin-top: 40px;
+	color: #FFF;
+}
+nav a{
+	color: #FFF;
+	}
+nav#mainNav a:hover{
+	border-bottom: 2px solid #FFF;
+	color: #FFF;
+	margin-top: -2px;
+	}
+	
+header {
+	  padding: 57px 0 0px;
+	}
+.app-title {
+    background: url(../img/poly-shield.png) left bottom no-repeat transparent;
+    background-size: 500px;
+    min-height: 213px;
+    max-width: 800px;
+	text-transform: uppercase;
+}
+.app-title .app-logo{
+	float: left;
+	margin-top: -25px;
+	margin-right: 10px;
+	margin-bottom: 61px;
+	}
+
+.app-title h1 {
+    font-size: 58px;
+    font-weight: normal;
+	margin-bottom: 0px;
+}
+
+.app-title p.lead {
+    font-size: 22px;
+    line-height: 23px;
+}
+
+section {
+  padding: 30px 0;
+  min-height: 500px;
+}
+
+
+@media (min-width: 992px){
+	header {
+		padding: 57px 0 0px;
+	}
+}
+
+
