@@ -39,17 +39,20 @@
       <div class="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
+		                  <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -69,13 +72,30 @@
         <div class="row">
           <div class="col-lg-12 mx-auto">
             <h2>About this page</h2>
-            <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+            <p class="lead">This page template was created by the <a href="mailto:webdev@dss.virginia.gov">Public Affairs Web Team</a> for use by the Division of Information Systems for internal and publicly facing sites.  The design conforms to established VDSS branding standards and policies.  This template features:</p>
             <ul>
-              <li>Clickable nav links that smooth scroll to page sections</li>
-              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+              <li>Full compliance to Section 508 and WCAG 2.0 A code utilizing the Bootstrap Version 4 framework</li>
+              <li>Responsive behavior for use on mobile devices</li>
+              <li>Comments within the code describing it's purpose and providing structural guidance to encourage continued accessibility compliance</li>
             </ul>
+			
+			<!-- The sample form below displays the recommended structure for the various classes used for display and Section 508 -->
+			<form action="#" method="post">
+				  <label class="required" for="First">First Name:</label> <!-- A span with a class of label can also be used for display purposes, but will fail Section 508 -->
+				  <input id="First" type="text" placeholder="First Name" required><br>
+				  <label class="required" for="Last">Last Name:</label>
+				  <input id="Last" type="text" name="lastname" placeholder="Last Name" required><br>		  
+				  <fieldset name="position types">
+					<legend><label for="position">Position Type</label></legend>
+				    <input type="radio" id="position" name="position" value="Full" checked> Full-Time<br/>
+					<input type="radio" id="position"name="position" value="Part"> Part-Time<br/>
+					<input type="radio" id="position"name="position" value="other"> Other<br/>
+				  </fieldset>
+					<label for="comment">Comments</label>
+					<textarea id="comment"></textarea>
+				  <input type="submit" value="Submit">
+			</form>
+			
           </div>
         </div>
       </div>
@@ -84,18 +104,28 @@
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-      </div>
+				<div class="vdss-banner col-md-12">
+					<div class="col-md-8 float-left">
+						<img class="logo float-left" src="assets/img/vdss-logo-blue.png" alt="VDSS Logo"><h3 class="vdss-title"><a href="https://dss.virginia.gov">Virginia Department of Social Services</a></h3>
+					</div>
+					<div class="col-md-3 float-right soc-icons text-right">
+						<a class="facebook" href="https://www.facebook.com/VDSSGOV"><img src="assets/img/facebook.png" onmouseover="this.src='assets/img/facebook-color.png'" onmouseout="this.src='assets/img/facebook.png'" alt="Facebook Icon"></a>
+						<a class="twitter" href="https://twitter.com/VDSS"><img src="assets/img/twitter.png" onmouseover="this.src='assets/img/twitter-color.png'" onmouseout="this.src='assets/img/twitter.png'" alt="Twitter Icon"></a>	
+						<a class="youtube" href="http://www.youtube.com/user/virginiadss"><img src="assets/img/youtube.png" onmouseover="this.src='assets/img/youtube-color.png'" onmouseout="this.src='assets/img/youtube.png'" alt="Youtube Icon"></a>						
+					</div>
+				</div>
+		<div class="col-md-12 copyright float-left">
+			<p class="text-left text-white">&copy; 2018 - Virginia Department of Social Services - <em><a href="http://www.dss.virginia.gov/about/webpolicy.cgi">Privacy Policy</a></em></p>
+		</div>
       <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="assets/js/jquery/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Custom JavaScript for this theme -->
-    <script src="assets/js/scrolling-nav.js"></script>
+
 
   </body>
 

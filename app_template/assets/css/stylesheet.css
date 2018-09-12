@@ -15,7 +15,9 @@ h2{
 	color: #0857a2;
 	text-transform: uppercase; 
 	}
-
+a:hover{
+	text-decoration: none;
+	}
 
 .state-header {
     background-color: #000;
@@ -35,7 +37,7 @@ h2{
     margin: 2px 6px 7px 0;
 }
 .bg-primary{
-	background: url('../img/big-header-pure.jpg') center center no-repeat #007bff !important;
+	background: url('../img/big-header-pure.jpg') center center no-repeat #004fa4 !important;
 	background-size: cover;
 	min-height: 270px;
 	}
@@ -55,6 +57,13 @@ nav#mainNav a:hover{
 	color: #FFF;
 	margin-top: -2px;
 	}
+.navbar-toggler-icon {
+    width: 51px;
+    height: 40px;
+    float: right;
+    border: 1px solid #FFF;
+    border-radius: 7px;
+}
 	
 header {
 	  padding: 57px 0 0px;
@@ -89,6 +98,131 @@ section {
   min-height: 500px;
 }
 
+/* Form Styling Changes */
+ input {
+    padding-left: 7px;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #CCC;
+    min-width: 250px;
+	margin-bottom: 5px;
+}
+button {
+    background-color: #006699;
+    color: #FFF;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+	cursor: pointer;
+}
+button:hover {
+    background-color: #3a3a;
+}
+label, .label, legend{
+	display: block;
+	margin-bottom: 0px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+	margin-top: 5px;
+	}
+label.required:after, .label.required:after{
+    display: inline-block;
+    margin-top: -2px;
+    margin-left: 9px;
+    padding: 1px 9px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: rgba(0,0,0,0.03);
+    content: 'Required';
+    font-weight: normal;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    color: #777;
+}
+ input[type=submit], input[type=reset], button#submit{
+    background: #757370;
+    background: -moz-linear-gradient(top, #42403F 0%, #757370 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#42403F), color-stop(100%,#757370));
+    background: -webkit-linear-gradient(top, #42403F 0%,#757370 100%);
+    background: linear-gradient(top, #42403F 0%,#757370 100%);
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.6), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+    color: #efefef !important;
+    text-shadow: 0px -1px 0px #185B93;
+	height: 51px;
+    width: 82px;
+    border: none;
+    font-weight: bold;
+	display: block;
+	margin-top: 7px;
+	}
+input[type=submit]:hover, input[type=reset]:hover, button#submit:hover{
+	   background: #42403F;
+    background: -moz-linear-gradient(top, #42403F 100%, #757370 0%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(100%,#42403F), color-stop(0%,#757370));
+    background: -webkit-linear-gradient(top, #42403F 100%,#757370 0%);
+    background: linear-gradient(top, #42403F 100%,#757370 0%);
+	}
+input[type=submit]:active, input[type=reset]:active, button#submit:active{
+    background: #1f66be;
+    background: -moz-linear-gradient(top, #1f66be 0%, #3085e0 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1f66be), color-stop(100%,#3085e0));
+    background: -webkit-linear-gradient(top, #1f66be 0%,#3085e0 100%);
+    background: linear-gradient(top, #1f66be 0%,#3085e0 100%);
+    -webkit-box-shadow: inset 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+}
+textarea{
+	min-height: 126px;
+	min-width: 300px;
+	}
+	
+footer {
+    background: url(../img/poly-shield.png) -59px center no-repeat #353535;
+    min-height: 172px;
+    margin-top: 30px;
+    background-size: contain;
+}
+.vdss-banner{
+	background-color: #242424;
+	width: 100%;
+	height: 50px;
+	margin-top: -30px;
+	}
+.vdss-banner .logo{
+    margin-top: -60px;
+    width: 120px;
+}
+.vdss-title, .vdss-title a {
+    color: #FFF;
+    font-size: 23px;
+    padding-top: 7px;
+    margin-left: -60px;
+	font-weight: normal;
+}
+.vdss-title a:hover{
+	color: #68b8fe;
+	text-decoration: none;
+	}
+.soc-icons{
+	padding-top: 10px;
+	}
+.soc-icons a {
+    margin: 0 11px;
+}
+.copyright{
+	font-size: 11px;
+	}
+.copyright a{
+	color: #d2d2d2;
+	text-decoration: none;
+	}
+.copyright a:hover{
+	color: #ccc;
+	}
 
 @media (min-width: 992px){
 	header {
