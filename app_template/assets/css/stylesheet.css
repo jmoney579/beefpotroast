@@ -1,20 +1,34 @@
 /***********************************************************************************
 *   Virginia Department of Social Services                                         *
 *   Designed by Jacques Walker                                                     *
-*	Developed by Sandeep Bhalerao                                                  *
+*	Developed by Sandeep Bhalerao,                                                 *
 *   Utilized: Bootstrap framework                                                  *
 *   Contact: webdev [at] dss.virginia.gov                                          *
 *   Copyright 2018                                                                 *
 ***********************************************************************************/
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'Selawk';
+  src: url('../fonts/selawk.ttf') format('ttf');
+  src: url('../fonts/selawk.eot') format('eot');  
+}
+
 
 body{
- font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+ font-family: "Segoe UI","OpenSans","Selawk","Helvetica Neue",Arial,sans-serif;
 }
 
 h2{
 	color: #0857a2;
 	text-transform: uppercase; 
 	}
+h3{
+	color: #0857a2;
+	}
+
 a:hover{
 	text-decoration: none;
 	}
@@ -42,12 +56,17 @@ a:hover{
 	min-height: 270px;
 	}
 .pull-up{
-	margin-top: -56px;
+	margin-top: -62px;
 	}
-
+.navbar {
+    padding: 0px;
+    margin-bottom: 22px;
+}
 nav#mainNav {
     margin-top: 40px;
 	color: #FFF;
+	text-align: right;
+	min-height: 40px;
 }
 nav a{
 	color: #FFF;
@@ -57,12 +76,24 @@ nav#mainNav a:hover{
 	color: #FFF;
 	margin-top: -2px;
 	}
+.navbar-toggler {
+    left: 93%;
+    position: relative;
+	border-radius: 0px;
+	}
 .navbar-toggler-icon {
-    width: 51px;
-    height: 40px;
+    width: 47px;
+    height: 38px;
     float: right;
-    border: 1px solid #FFF;
-    border-radius: 7px;
+
+}
+.navbar-toggler .icon-bar {
+    display: block;
+    width: 39px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #FFF;
+    margin: 7px auto;
 }
 	
 header {
@@ -74,6 +105,7 @@ header {
     min-height: 213px;
     max-width: 800px;
 	text-transform: uppercase;
+	position: absolute;
 }
 .app-title .app-logo{
 	float: left;
@@ -102,7 +134,7 @@ section {
  input {
     padding-left: 7px;
 }
-input[type="text"] {
+input[type="text"], input[type="number"], input[type="password"] {
     border: none;
     border-bottom: 1px solid #CCC;
     min-width: 250px;
@@ -199,7 +231,7 @@ footer {
 .vdss-title, .vdss-title a {
     color: #FFF;
     font-size: 23px;
-    padding-top: 7px;
+    padding-top: 9px;
     margin-left: -60px;
 	font-weight: normal;
 }
@@ -215,6 +247,7 @@ footer {
 }
 .copyright{
 	font-size: 11px;
+	margin-top: 60px;
 	}
 .copyright a{
 	color: #d2d2d2;
@@ -224,10 +257,141 @@ footer {
 	color: #ccc;
 	}
 
-@media (min-width: 992px){
-	header {
-		padding: 57px 0 0px;
-	}
+/* Media Queries below are to aid in mobile compatibility */
+
+@media (max-width: 991px){
+	nav#mainNav a:hover{
+		border-bottom: none;
+		color: #7bc45c;
+		}
+	nav#mainNav{
+		background-color: #333;
+		}
+	.pull-up{
+		margin-top: -68px;
+		}
 }
 
+@media (max-width: 779px){
+	.soc-icons a {
+		margin: 0 2px;
+	}
+	.vdss-title, .vdss-title a {
+		font-size: 21px;
+		padding-top: 11px;
+		}
+}
+@media (max-width: 655px){
+	.app-title .app-logo{
+		margin-bottom: 102px;
+	}
+	.COV{
+		max-width: 15%;
+		}
+	.COV span{
+		display: none;
+		}
+	.vdss{
+		max-width: 83%;
+		}
+	.bg-primary{
+		min-height: 280px;
+		}
+}
+@media (max-width: 636px){
+	.vdss-title, .vdss-title a {
+		font-size: 20px;
+		padding-top: 11px;
+	}	
+}
+@media (max-width: 615px){
+	.navbar-toggler{
+		left: 81%;
+	}
+	.navbar-nav{
+		margin-right: 50px;
+	}
+	.vdss-title, .vdss-title a {
+		font-size: 18px;
+		padding-top: 15px;
+		margin-left: -57px;
+	}
+	.soc-icons{
+		padding-top: 12px;
+	}
+	.soc-icons img {
+		height: 19px;
+	}
+}
+@media (max-width: 575px){
+	.soc-icons.text-right {
+		/* float: left !important; */
+		text-align: left !important;
+		margin-top: -30px;
+		padding-left: 293px;
+	}
+	.vdss-banner{
+		height: 78px;
+		}
+	.copyright {
+		margin-top: 44px;
+		}
+}
 
+@media (max-width: 537px){
+	.app-title .app-logo{
+		margin-bottom: -2px;
+		margin-top: 0px;
+		}
+	.app-title{
+		float: none !important;
+		padding-bottom: 15px;
+		position: inherit;
+		}
+}
+@CHARSET "US-ASCII";
+
+/*--- Back to Top Arrow Styling ---*/
+.cd-top {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  position: fixed;
+  bottom: 55px;
+  right: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../img/cd-top-arrow.svg) no-repeat center 50% #006699;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: .8;
+  z-index: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media (max-width: 991px){
+	.cd-top{
+		height: 40px;
+		width: 40px;
+	}
+}
