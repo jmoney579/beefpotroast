@@ -27,23 +27,92 @@
  border-bottom: 1px solid #DDD;
  margin-top: 35px;
  }
+ .navbar-nav {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar-nav a{
+	color: #777;
+	}
+.navbar-nav a:hover{
+	color: #2d95bf;
+	}
+.search-bar {
+    margin-top: 36px;
+    background-color: #f0c419;
+    padding: 12px;
+	display: none;
+}
 .carousel-item {
     height: 75vh;
 	}
 .carousel-inner{
 	overflow: visible
 	}
+/* .carousel-shading{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    background-color: RGB(0,0,0,0.4);
+    bottom: 0px;
+    z-index: 1;
+} */
+.carousel-shading {
+    width: 50%;
+    height: 58px;
+    position: absolute;
+    background-color: RGB(0,0,0,0.4);
+    bottom: 88px;
+    z-index: -1;
+    margin-left: -57px;
+}
 .carousel-caption {
     position: absolute;
-    bottom: -42px;
+    bottom: -88px;
     left: 4%;
     color: #006699;
     text-align: left;
-    border-left: 5px solid #999;
     padding-left: 7px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
-.carousel-caption h1{
-	margin-bottom: 0px;
+.carousel-caption h1 {
+    margin-bottom: 0px;
+    border-left: 5px solid #DDD;
+    padding-left: 6px;
+    padding-bottom: 15px;
+	color: #FFF;
+}
+.carousel-caption p {
+    margin-left: 14px;
+    margin-top: -17px;
+}
+.push-down{
+	margin-top: 90px;
 	}
+.card-title.callout {
+    margin-top: -61px;
+    color: #FFF;
+    background-color: RGB(0,0,0,0.3);
+    width: 27%;
+    padding: 6px 3px 6px 7px;
+    margin-left: -9px;
+}
+.ff-supports h4.card-header{
+	background-color: #955BA5;
+	color: #FFF;
+	}
+.ff-upholds h4.card-header{
+	background-color: #4EBA6F;
+	color: #FFF;
+	}
+.ff-invests h4.card-header{
+	background-color: #F1712A;
+	color: #FFF;
+	}
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0.8rem;
+		padding-left: .8rem;
+	}
+}
