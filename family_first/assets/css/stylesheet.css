@@ -34,9 +34,17 @@
 .navbar-nav a{
 	color: #777;
 	}
+	
 .navbar-nav a:hover{
 	color: #2d95bf;
 	}
+	
+.navbar-brand img.img {
+    border: 1px solid #eee;
+    margin-right: 8px;
+    padding: 2px;
+}
+
 .search-bar {
     margin-top: 36px;
     background-color: #f0c419;
@@ -121,6 +129,45 @@
 	background-color: #F1712A;
 	color: #FFF;
 	}
+.ribbon {
+    border-top: 3px solid #777;
+    border-bottom: 3px solid #777;
+    min-height: 270px;
+    padding-top: 39px;
+    margin: 15px 0;
+    width: 100%;
+    background-color: #8c232d;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.i_am h2 {
+    padding-top: 63px;
+	font-size: 60px;
+}
+.ribbon a{
+	color: #FFF;
+	}
+.ribbon a:hover{
+	font-weight: 500;
+	text-decoration: none;
+	}
+	
+footer{
+    padding-top: 73px;
+}
+.contact-info{
+	background-color: #b5b5b5;
+	overflow: auto;
+	}
+.contact-info .brand{
+	 border-right: 2px solid #c5c5c5;
+	 background-color: #c7c7c7;
+	}	
+.contact-info p{	
+	margin-top: 18px;
+	}
+	
 	
 @media (min-width: 1346px){
 	.carousel-caption{
