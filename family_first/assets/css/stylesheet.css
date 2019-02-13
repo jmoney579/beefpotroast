@@ -6,6 +6,10 @@
 *   Copyright 2019                                                                 *
 ***********************************************************************************/
 
+.comment{
+	color: green;
+	}
+
 a {
 	color: #955BA5;
 }
@@ -18,9 +22,15 @@ h2 {
     border-top: 1px solid RGB(0,0,0,0.1);
     padding-top: 5px;
 }
+header{
+	margin-top: 40px;
+	}
+.nm_font{
+	font-weight: normal;
+	}
 
 .state-header {
-    background-color: #000;
+    background-color: #212121;
     color: #FFF;
     min-height: 35px;
     padding-top: 3px;
@@ -61,6 +71,11 @@ h2 {
     margin-right: 8px;
     padding: 2px;
 }
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ccc;
+	}
 a.navbar-brand{
 	color: #0056b3;
 }
@@ -91,11 +106,18 @@ a:hover.navbar-brand{
 .form-group{
 	margin-left: 10%;
 	}
-.carousel-item {
+.hp .carousel-item {
     height: 79vh;
+	width: 100%;
+	margin-top: -40px;
+	}
+.carousel-item{
+	height: 50vh;
+	width: 75%;
 	}
 .carousel-inner{
-	overflow: visible
+	overflow: visible;
+	background-color: #006699;
 	}
 /* .carousel-shading{
     width: 100%;
@@ -105,7 +127,7 @@ a:hover.navbar-brand{
     bottom: 0px;
     z-index: 1;
 } */
-.carousel-shading {
+.hp .carousel-shading {
     width: 50%;
     height: 58px;
     position: absolute;
@@ -114,7 +136,7 @@ a:hover.navbar-brand{
     z-index: -1;
     margin-left: -57px;
 }
-.carousel-caption {
+.hp .carousel-caption {
     position: absolute;
     bottom: -105px;
     left: 6%;
@@ -123,15 +145,30 @@ a:hover.navbar-brand{
     padding-left: 7px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	width: initial;
 }
-.carousel-caption h1 {
+
+.carousel-caption {
+    width: 22%;
+    color: #FFF;
+    left: initial;
+    right: 1%;
+	bottom: 25%;
+}
+.carousel-caption h2{
+    border-bottom: 1px solid RGB(255,255,255,0.2);
+	margin-top: 0;
+	padding-bottom: 5px;
+	border-top: none;
+}
+.hp .carousel-caption h1 {
     margin-bottom: 0px;
     border-left: 5px solid #DDD;
     padding-left: 6px;
     padding-bottom: 15px;
 	color: #FFF;
 }
-.carousel-caption p {
+.hp .carousel-caption p {
     margin-left: 14px;
     margin-top: -17px;
 	font-size: 20px;
@@ -242,6 +279,14 @@ a:hover.navbar-brand{
 	text-decoration: none;
 	}
 	
+.strategy .col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 19.666667%;
+    max-width: 19.666667%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+	
 footer{
     padding-top: 73px;
 }
@@ -288,39 +333,53 @@ footer{
 .copyright{
 	font-size: 12px;
 }
+@media(min-width: 1457px){
+	.hp .carousel-caption{
+		bottom: -77px;
+		}
+	.hp .carousel-shading{
+		bottom: 77px;
+		}
+	}
 	
-@media (min-width: 1346px){
-	.carousel-caption{
+@media (max-width: 1346px){
+	.hp .carousel-caption{
 		bottom: -108px;
 		}
-	.carousel-shading{
+	.hp .carousel-shading{
 		bottom: 108px;
 		}	
 }	
 
 @media (max-width: 1136px){
-	.carousel-caption{
-		bottom: -136px;
+	.hp .carousel-caption{
+		bottom: -103px;
 		}
-	.carousel-shading{
-		bottom: 136px;
+	.hp .carousel-shading{
+		bottom: 103px;
 		}	
 }
 	
-@media (min-width: 992px){
+@media (max-width: 992px){
 	.navbar-expand-lg .navbar-nav .nav-link {
 		padding-right: 0.8rem;
 		padding-left: .8rem;
 	}
+	.hp .carousel-caption{
+		bottom: -133px;
+		}
+	.hp .carousel-shading{
+		bottom: 133px;
+		}
 }
 @media (max-width: 884px){
-	.carousel-caption{
+	.hp .carousel-caption{
 		bottom: -124px;
 		}
-	.carousel-caption p{
+	.hp .carousel-caption p{
 		font-size: 18px;
 		}
-	.carousel-shading{
+	.hp .carousel-shading{
 		bottom: 124px;
 		}	
 }

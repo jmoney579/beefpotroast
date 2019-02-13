@@ -20,93 +20,11 @@
 
   </head>
 
-  <body>
-  
-	<!-- Standard VDSS & Commonwealth of Virginia Header -->
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 fixed-top state-header">
-				<div class="vdss col-md-6 col-sm-7 float-left text-left">
-					<a class="nav-brand" href="http://dss.virginia.gov"><img class="header-logo" src="assets/img/vdss-logo-white.png" alt="Virginia Department of Social Services Logo">Virginia Department of Social Services</a>
-				</div>
-				<div class="COV col-md-5 col-sm-5 float-right text-right">
-					<a class="nav-brand" href="http://virginia.gov"><img class="header-logo" src="assets/img/cov-logo.png" alt="Commonwealth of Virginia Logo"><span>Commonwealth of Virginia</span></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End VDSS & Commonwealth of Virginia Header Area -->
-	
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img class="img" src="http://placehold.it/30x30" alt="placeholder">Family First Virginia</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Prevention Services</a>
-            </li>
-			<li class="nav-item">
-              <a class="nav-link" href="#">Foster Care</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">What's New</a>
-            </li>
-			<li class="nav-item">
-			  <a class="nav-link search-button" href="#"><i class="fas fa-search"></i></a>
-			</li>
-			<li class="nav-item">
-			  <a class="nav-link translate-button" href="#"><i class="fas fa-globe-europe"></i></a>
-			</li>
-			<!--  <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Portfolio
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-              </div>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
-	
-	<div class="row">
-		<div class="col-lg-12 col-md-12 search-bar">
-			<div class="form-group ">
-				<form action="">
-					<div class="col-md-8 col-sm-8 float-left">
-					<input type="text" class="form-control" id="searchtext" placeholder="Search">
-					</div>
-					<div class="col-md-3 col-sm-3 float-left">
-					<button type="submit" class="btn btn-primary">Search</button>
-					</div>
-				</form>
-			</div>
-		</div>
-		<div class="col-lg-12 col-md-12 translate-bar">
-			<div class="form-group ">
-				<form action="">
-					<div class="col-md-8 col-sm-8 float-left">
-						<div id="google_translate_element"></div>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
+  <body class="hp">
+	<!--VDSS Header include-->
+	<div data-includeHTML="includes/vdss-header.html"></div>		
+	<!--Navigation Include -->
+	<div data-includeHTML="includes/nav.html"></div>	
     <header>
 	
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -176,17 +94,17 @@
 	  
 	  <!-- Features Section -->
       <div class="row call-in">
-        <div class="col-lg-5 action-call">
-          <h2><span style="font-weight: normal;">What makes</span> Families First?</h2>
-          <p>The Family First Prevention Act, adopted in February 2018, underscores the importance of children growing up in families and seeks to avoid the traumatic experience of children being separated from their families and entering foster care. Specifically, federal reimbursement will be available for:</p>
+        <div class="col-lg-6 action-call">
+          <h2><span class="nm_font">What makes</span> Families First?</h2>
+          <p>The Family First Act underscores the importance of children growing up in families and seeks to avoid the traumatic experience of children being separated from their families and entering foster care.  Specifically, funding <span class="comment">(reimbursement needed?)</span> is available for trauma informed, evidence-based, foster care prevention services within the following categories:</p>
           <ul>
-            <li>trauma-informed mental health services,</li>
-            <li>substance abuse treatment,</li>
-            <li>and in-home parenting skills training to safely maintain in-home family placement. </li>
+            <li>mental health services,</li>
+            <li>substance abuse assessment and treatment, and</li>
+            <li>in-home parenting skills training</li>
           </ul>
-		  <p>Family First aims to improve the well-being of children already in foster care by incentivizing states to reduce placement of children in residential treatment, and instead place children in the least restrictive, most family-like setting appropriate to their individual needs. </p>
+		  <p>Family First aims to improve the well-being of children already in foster care by incentivizing states to reduce placement of children in residential treatment<span class="comment">(what is this?)</span>, and instead place children in the least restrictive, most family-like setting appropriate to their individual needs. </p>
         </div>
-        <div class="col-lg-7 news-reel">
+        <div class="col-lg-6 news-reel">
      <!-- Project One -->
       <div class="row">
 		  <div class="col-md-12">
@@ -200,7 +118,7 @@
         </div>
         <div class="col-md-8">
           <h4><a href="#">News Headline One</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -216,7 +134,7 @@
         </div>
         <div class="col-md-8">
           <h4><a href="#">News Headline Two</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -232,7 +150,7 @@
         </div>
         <div class="col-md-8">
           <h4><a href="#">News Headline Three</a></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit!</p>
         </div>
       </div>
       <!-- /.row -->
@@ -268,7 +186,7 @@
 		
         <div class="col-lg-4 mb-4">
           <div class="card h-100 ff-invests">
-            <h4 class="card-header"><img class="img pillar-icon" src="images/pillar_icon_invests.png" alt="Invest Icon">Invests</h4>
+            <h4 class="card-header"><img class="img pillar-icon" src="images/pillar_icon_invests2.png" alt="Invest Icon">Invests</h4>
             <div class="card-body">
               <p class="card-text">This program is the largest investment in the child welfare system in nearly 40 years.</p>
             </div>
@@ -321,39 +239,39 @@
 	
 	<div class="container">
       <!-- Portfolio Section -->
-      <h2>Portfolio Heading</h2>
+      <h2>Family First <span class="nm_font">Services</span></h2>
 
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/prevention.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project One</a>
+                <a href="#">Prevention Services</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+              <p class="card-text">Target resources and services that prevent foster care placements and help children remain safely in their homes.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/foster_care.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Two</a>
+                <a href="#">Foster Care Services</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">Ensure children maintain family connections needed for healthy development and emotional well-being while finding safe, permanent homes for children as quickly as possible.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/evidence_based.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Project Three</a>
+                <a href="#">Evidence-Based Services</a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+              <p class="card-text">Advance the implementation and sustainability of evidence-based, trauma-informed services that appropriately and effectively improve child safety, ensure permanency, and promote child and family well-being.</p>
             </div>
           </div>
         </div>
@@ -365,35 +283,23 @@
     <!-- /.container -->
 
     <!-- Footer -->
-				<div class="vdss-banner col-md-12">
-					<div class="col-md-8 float-left">
-						<img class="logo float-left" src="assets/img/vdss-logo-white.png" alt="VDSS Logo"><h3 class="vdss-title"><a href="https://dss.virginia.gov">Virginia Department of Social Services</a></h3>
-					</div>
-					<div class="col-md-3 float-right soc-icons text-right">
-						<a class="facebook" href="https://www.facebook.com/VDSSGOV"><img src="assets/img/facebook.png" alt="Facebook Icon"></a>
-						<a class="twitter" href="https://twitter.com/VDSS"><img src="assets/img/twitter.png" alt="Twitter Icon"></a>	
-						<a class="youtube" href="http://www.youtube.com/user/virginiadss"><img src="assets/img/youtube.png" alt="Youtube Icon"></a>						
-					</div>
-				</div>
-    <footer class="bg-dark">
-      <div class="container col-md-12">
-        <p class="text-center text-white copyright">Copyright &copy; 2019 - Virginia Department of Social Services</p>
-      </div>
-	  		<div class="contact-info">
-				<div class="col-md-3 float-left brand">
-					<a class="navbar-brand" href="index.html"><img class="img" src="http://placehold.it/50x50" alt="placeholder">Family First Virginia</a>
-				</div>
-				<div class="col-md-8 float-left">
-					<p>8000 Street Name, City, State Zip Code</p>
-				</div>
-			</div>
-      <!-- /.container -->
-    </footer>
+	<!--VDSS Microsite Branding Banner Include -->
+	<div data-includeHTML="includes/vdss-banner.html"></div>
+	<!--Footer Include -->
+	<div data-includeHTML="includes/footer.html"></div>		
+
 
     <!-- Bootstrap core JavaScript -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/custom.js"></script>	
+	<!-- Includes Script -->
+	<script>
+		$(document).ready(function () {
+			$("div[data-includeHTML]").each(function () {                
+				$(this).load($(this).attr("data-includeHTML"));
+			});
+		});
+	</script>
 		<!-- Google Tranmslate JS -->
 	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	<script type="text/javascript">
